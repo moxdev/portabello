@@ -5411,7 +5411,11 @@
 			}
 		},
 	"esLintSourceType": 0,
+<<<<<<< HEAD
+	"externalServerAddress": "http:\/\/localhost:8888\/portabello\/",
+=======
 	"externalServerAddress": "http:\/\/localhost:8888",
+>>>>>>> master
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
