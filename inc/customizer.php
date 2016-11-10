@@ -133,3 +133,11 @@ function mm4_customize_preview_js() {
 	wp_enqueue_script( 'mm4_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
 add_action( 'customize_preview_init', 'mm4_customize_preview_js' );
+
+/**
+ * SANITIZE WHAT IS ENTERED
+*/
+
+function sanitize_text( $input ) {
+    return wp_kses_post( force_balance_tags( $input ) );
+}

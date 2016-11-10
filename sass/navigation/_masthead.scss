@@ -1,0 +1,37 @@
+// masthead.scss
+
+#masthead {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+    .site-branding {
+        flex: 1;
+
+    }
+
+    #site-navigation {
+        flex: 1;
+
+
+        .masthead-tel {
+            display: none;
+            width: 100%;
+        }
+
+        ul {
+            display: inline-flex;
+        }
+    }
+
+    @media screen and (min-width: 37.5em) {
+        #site-navigation {
+
+            .masthead-tel {
+                display: block;
+            }
+        }
+    }
+}

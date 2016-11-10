@@ -25,6 +25,8 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
+			<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Portabello Apartments logo"></a>
+
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -42,7 +44,14 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'mm4' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			<?php $phone = get_theme_mod('setting_phone');
+			    if ($phone): ?>
+			        <div class="masthead-tel">
+			            <a id="tel-link" href="tel:<?php echo $phone; ?>">Schedule a tour today!&nbsp;<span><?php echo $phone; ?></span></a><span class="resident-button"><button>Resident Corner</button></span>
+			        </div>
+			    <?php endif;
+
+				wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
