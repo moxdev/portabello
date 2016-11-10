@@ -9,6 +9,45 @@
 	],
 "creatorBuild": "25444",
 "files": {
+	"\/*project-notes\/ACF-Shots\/seo1.png": {
+		"ft": 32768,
+		"iS": 146528,
+		"oA": 0,
+		"oAP": "\/*project-notes\/ACF-Shots\/seo1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/ACF-Shots\/seo2.png": {
+		"ft": 32768,
+		"iS": 130990,
+		"oA": 0,
+		"oAP": "\/*project-notes\/ACF-Shots\/seo2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/masthead.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/masthead-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/*project-notes\/variable-list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/*project-notes\/variable-list.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/.cache-require-paths.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -147,6 +186,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/footer.php",
+		"oF": 0
+		},
+	"\/frontpage.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/frontpage.php",
 		"oF": 0
 		},
 	"\/functions.php": {
@@ -2621,6 +2666,30 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/page-amenities-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-amenities-page.php",
+		"oF": 0
+		},
+	"\/page-community-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-community-page.php",
+		"oF": 0
+		},
+	"\/page-contact-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-contact-page.php",
+		"oF": 0
+		},
+	"\/page-floorplans-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-floorplans-page.php",
+		"oF": 0
 		},
 	"\/page.php": {
 		"ft": 8192,
@@ -5411,11 +5480,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-<<<<<<< HEAD
 	"externalServerAddress": "http:\/\/localhost:8888\/portabello\/",
-=======
-	"externalServerAddress": "http:\/\/localhost:8888",
->>>>>>> master
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

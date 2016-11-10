@@ -70,6 +70,20 @@ body:before {
   z-index: -1;
 }
 
+/* line 4, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
+.site-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 20, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/neat/mixins/_clearfix.scss */
+.site-content::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
