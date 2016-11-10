@@ -1,11 +1,11 @@
-@import "bourbon";
-@import "neat-helpers";
+@import "bourbon/bourbon";
+@import "neat/neat-helpers";
 
 // Change the grid settings
-$column: em(90);
-$gutter: em(10);
+$column: 90px;
+$gutter: 10px;
 $grid-columns: 12;
-$max-width: em(1200);
+$max-width: 1200px;
 
 // Breakpoints for neat span-columns
 $iphone: 320px;
