@@ -1,0 +1,427 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"phon",
+				"phone_number"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"image",
+				"imageMin"
+			],
+			[
+				"browser",
+				"browserSync"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 334.0,
+		"last_filter": "jav",
+		"selected_items":
+		[
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"emoji",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"unf",
+				"Code Folding: Select Unfolded"
+			],
+			[
+				"emo",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Install Package Control"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/gulp",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/gulp/build-files",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/gulp/build-files/fonts",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/gulp/build-files/images",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/gulp/build-files/images/originals",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/gulp/build-files/js",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/gulp/build-files/sass",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/gulp/tasks"
+	],
+	"file_history":
+	[
+		"/Users/GraphicDesigner/Documents/Logins/Logins-Passwords.md",
+		"/Users/GraphicDesigner/projects/html-email-project/dev/mailchimp.html",
+		"/Users/GraphicDesigner/Sites/htdocs/topaz/wp-content/themes/topaz-house/js/modal.js",
+		"/Users/GraphicDesigner/Sites/htdocs/topaz/creative/modal.css",
+		"/Users/GraphicDesigner/Sites/htdocs/topaz/creative/modal.php",
+		"/Users/GraphicDesigner/Sites/htdocs/topaz/creative/timer.js",
+		"/Users/GraphicDesigner/Sites/htdocs/topaz/wp-content/themes/topaz-house/functions.php",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/shell-snippets/br.sublime-snippet",
+		"/Users/GraphicDesigner/Documents/New Build/cask-install.sh",
+		"/Users/GraphicDesigner/Documents/90 Day Review/trainings.mdown",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/32a570d9-897c-4c83-bb6d-ce1479769bde/home/polingerco/www/swift-thank-you.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/54684f1e-0a5a-48a8-bdee-8fdef1a7ec7b/home/whiteoak/www/montgomery-white-oak-apartments/contact-silver-spring-md-apartments.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/54684f1e-0a5a-48a8-bdee-8fdef1a7ec7b/home/whiteoak/www/index.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/54684f1e-0a5a-48a8-bdee-8fdef1a7ec7b/home/whiteoak/www/contact-us.php",
+		"/Users/GraphicDesigner/Documents/How-To/phone.md",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/0a46ffdf-5b58-4820-97d7-3cfa63c354ad/home/hirschel/www/wp-content/themes/hirsch_electric/functions.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/0a46ffdf-5b58-4820-97d7-3cfa63c354ad/home/hirschel/www/wp-content/themes/hirsch_electric/page-projects.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/0a46ffdf-5b58-4820-97d7-3cfa63c354ad/home/hirschel/www/wp-content/themes/hirsch_electric/single.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/0a46ffdf-5b58-4820-97d7-3cfa63c354ad/home/hirschel/www/wp-content/themes/hirsch_electric/sidebar.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/0a46ffdf-5b58-4820-97d7-3cfa63c354ad/home/hirschel/www/wp-content/themes/hirsch_electric/front-page.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/0a46ffdf-5b58-4820-97d7-3cfa63c354ad/home/hirschel/www/wp-content/themes/hirsch_electric/content-page.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/0a46ffdf-5b58-4820-97d7-3cfa63c354ad/home/hirschel/www/wp-content/themes/hirsch_electric/page.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/0a46ffdf-5b58-4820-97d7-3cfa63c354ad/home/hirschel/www/wp-content/themes/hirsch_electric/footer.php",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/0a46ffdf-5b58-4820-97d7-3cfa63c354ad/home/hirschel/www/wp-content/themes/hirsch_electric/content-frontpage.php",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/thank-you.php",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/index.html",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/_variables.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/styles.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/_property-features.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/thank-you.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/thank-you.html",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/_pre-footer.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/_header.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/_form.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/_footer.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/css/styles.css",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/_fonts.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/_feature-top.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/_document.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/sass/_normalize.scss",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/js/map.js",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/js/google-maps/google-maps-builder-library.js",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/js/google-maps/google-maps-canvas-initializer.js",
+		"/Users/GraphicDesigner/.zshrc",
+		"/Users/GraphicDesigner/Sites/htdocs/swift-email/Swiftlandingpage/dev/js/google-maps/google-maps-options-module.js",
+		"/Users/GraphicDesigner/Desktop/forms.txt",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/.gitignore",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulp/private.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulp/tasks/images.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulp/config.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulp/tasks/private.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/sass/style.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulpfile.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/package.json",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulp/tasks/scripts.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulp/tasks/build.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulp/tasks/reset.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulp/tasks/server.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulp/tasks/styles.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/wp-gulp.sublime-project",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/build-files/js/min/minified.min.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/js/custom.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/sass/_grid-settings.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/style.css",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/sass/variables-site/_colors.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/gulp/tasks/watch.js",
+		"/Users/GraphicDesigner/Sites/htdocs/auto-theme-test/wp-content/themes/auto-theme/header.php",
+		"/Users/GraphicDesigner/Documents/90 Day Review/90 Day Review.md",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/Users/GraphicDesigner/Documents/Sublime-Backup/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/Users/GraphicDesigner/Documents/Sublime-Backup/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/BufferScroll.sublime-settings"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 185.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"superheroAlias",
+			"document.getElementById",
+			"$",
+			"course",
+			"age",
+			"$",
+			"GandhiSans",
+			"fonts",
+			"email",
+			"open_sanssemibold",
+			"h2",
+			"h3",
+			"h1",
+			"fonts",
+			"opensansbold",
+			"baba",
+			"h5",
+			"OpenSans-Bold",
+			"OpenSans",
+			"cta-text",
+			"job",
+			"li class=\"grid-center\"",
+			"p",
+			"h4",
+			"house",
+			"high",
+			"land",
+			"house",
+			"center",
+			"article",
+			"googlenumber",
+			"flex: 1",
+			"social",
+			"span",
+			"'fonts",
+			"689",
+			"301",
+			"5utYZK2ZTUoJ5JhleKZH66C7lPvAajaN",
+			"imageMin",
+			"buildImages",
+			"minimatch",
+			"gutil",
+			"minimatch",
+			"unzip",
+			"concat",
+			"Styles",
+			"sassOptions"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 79.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portabello.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
