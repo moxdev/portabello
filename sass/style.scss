@@ -42,9 +42,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
-@import "bourbon";
+@import "bourbon/bourbon";
 @import "grid-settings";
-@import "neat";
+@import "neat/neat";
 @import "variables-site/variables-site";
 @import "mixins/mixins-master";
 
