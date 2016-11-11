@@ -1,5 +1,20 @@
 
-.front-page-circle-section img {
-    display: inline-block;
-    width: 25%;
+.page-template-frontpage {
+
+    .front-page-circle-section {
+        display: flex;
+        text-align: center;
+        img {
+        flex: 1;
+        // display: inline-block;
+        width: 100px;
+        }
+    }
+
+    // .site-content {
+    //     // background: red;
+    //     background: url('http://localhost:8888/portabello/wp-content/themes/mm4/images/green-background.svg') no-repeat center;
+    //     background-size: cover;
+    //     width: 2000px;
+    // }
 }

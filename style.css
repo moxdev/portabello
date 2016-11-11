@@ -1067,9 +1067,19 @@ object {
 /*--------------------------------------------------------------
 ## Front Page Template
 --------------------------------------------------------------*/
-/* line 2, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/frontpage-template.scss */
-.front-page-circle-section img {
-  display: inline-block;
-  width: 25%;
+/* line 4, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/frontpage-template.scss */
+.page-template-frontpage .front-page-circle-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+/* line 7, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/frontpage-template.scss */
+.page-template-frontpage .front-page-circle-section img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100px;
 }
 /*# sourceMappingURL=style.css.map */
