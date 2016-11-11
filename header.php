@@ -20,12 +20,19 @@
 </head>
 
 <body <?php body_class(); ?>>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mm4' ); ?></a>
 
+	<div class="featured-image">
+		<?php if ( has_post_thumbnail() ) {
+	    	the_post_thumbnail( 'full');
+		} ?>
+	</div>
+
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Portabello Apartments logo"></a>
+			<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portabello-logo.svg" alt="Portabello Apartments logo"></a>
 
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
@@ -53,6 +60,13 @@
 
 				wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
+
 	</header><!-- #masthead -->
+		<div class="front-page-circle-section">
+			<img src="http://localhost:8888/portabello/wp-content/themes/mm4/images/green-circle.svg" alt="">
+			<img src="http://localhost:8888/portabello/wp-content/themes/mm4/images/red-circle.svg" alt="">
+			<img src="http://localhost:8888/portabello/wp-content/themes/mm4/images/orange-circle.svg" alt="">
+		</div>
+
 
 	<div id="content" class="site-content">

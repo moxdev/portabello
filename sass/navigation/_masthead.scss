@@ -3,34 +3,61 @@
 #masthead {
     width: 100%;
     height: 100px;
-    background-color: #fff;
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    background: rgba(243, 240, 230, .50);
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    align-items: center;
     .site-branding {
-        flex: 1;
-
+        // flex: 1;
+        #logo img {
+            width: 150px;
+        }
     }
 
     #site-navigation {
-        flex: 1;
-
-
+        // flex: 1;
+        .menu-toggle {
+            display: block;
+        }
         .masthead-tel {
             display: none;
-            width: 100%;
         }
-
-        ul {
-            display: inline-flex;
+        .menu-primary-container {
+            display: none;
         }
     }
 
-    @media screen and (min-width: 37.5em) {
-        #site-navigation {
+    .featured-image img {
+        width: 100%;
+        // background-size:cover;
+        position: relative;
+        // width: 2545px;
+        height: auto;
+        // top: -223.777px;
+        // left: 0px;
+        z-index: -99999;
+    }
 
+    @media screen and (min-width: 700px) {
+        #site-navigation {
+            text-align: right;
+            .menu-toggle {
+                display: none;
+            }
             .masthead-tel {
+                display: inline-flex;
+                text-align: right;
+            }
+            .menu-primary-container {
                 display: block;
+                text-align: right;
+                ul {
+                    display: inline-flex;
+                }
             }
         }
     }

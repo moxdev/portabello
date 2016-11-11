@@ -3,4 +3,5 @@ $size__site-sidebar: 25%;
 
 .site-content {
     @include outer-container;
+    padding: 0 10px;
 }
