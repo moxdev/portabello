@@ -15,9 +15,11 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'mm4' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'mm4' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'mm4' ), 'mm4', '<a href="https://www.mm4solutions.com/" rel="designer">Millennium Marketing Solutions</a>' ); ?>
+        <?php
+            if ( function_exists( 'mm4_footer_colophon' ) ) {
+                mm4_footer_colophon( );
+            }
+        ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

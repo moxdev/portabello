@@ -1,8 +1,12 @@
-$green: #babc89;
-$orange: #d69e4b;
-$red: #bd6573;
-$green2:#667264;
-$green-backgrd:#F1F2E7;
+// $font__regular: "GandhiSans-Regular";
+// $font__bold: "GandhiSans-Bold";
+// $font__arvo: "Arvo";
+
+$brand__light-green: #babc89;
+$brand__orange: #d69e4b;
+$brand__red: #bd6573;
+$brand__dark_green:#667264;
+$alt__background:#F1F2E7;
 $black:#000000;
 $white:#ffffff;
 
@@ -17,10 +21,12 @@ $color__background-ins: #fff9c0;
 $color__text-screen: #21759b;
 $color__text-input: #666;
 $color__text-input-focus: #111;
+
 $color__link: royalblue;
 $color__link-visited: purple;
 $color__link-hover: midnightblue;
-$color__text-main: #404040;
+$color__text-main: $white;
+$color__footer-text: #616161;
 
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;

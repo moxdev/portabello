@@ -1,0 +1,27 @@
+/*  footer.scss  */
+
+#colophon {
+    text-align: center;
+    padding: 1em .5em 4em;
+    background-color: $white;
+
+    .footer-address-section {
+        font-family: $font__regular;
+        color: $color__footer-text;
+
+        h4 {
+            font-family: $font__bold;
+            margin: 5px 0;
+            font-size: 1.25em;
+        }
+
+    }
+
+    .footer-awards {
+
+    }
+
+    .footer-social {
+
+    }
+}

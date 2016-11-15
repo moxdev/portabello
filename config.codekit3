@@ -2592,6 +2592,22 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/images\/bar-stock.jpg": {
+		"ft": 16384,
+		"iS": 5138591,
+		"oA": 0,
+		"oAP": "\/images\/bar-stock.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/couch-stock.jpg": {
+		"ft": 16384,
+		"iS": 10336274,
+		"oA": 0,
+		"oAP": "\/images\/couch-stock.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/green-background.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2642,6 +2658,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/water-stock.jpg": {
+		"ft": 16384,
+		"iS": 4202574,
+		"oA": 0,
+		"oAP": "\/images\/water-stock.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/inc\/custom-header.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2658,6 +2682,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/extras.php",
+		"oF": 0
+		},
+	"\/inc\/footer-colophon.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/footer-colophon.php",
 		"oF": 0
 		},
 	"\/inc\/jetpack.php": {
@@ -4042,6 +4072,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/neat\/settings\/_visual-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/page-templates\/footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/page-templates\/footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

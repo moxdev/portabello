@@ -47,7 +47,7 @@ function mm4_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary', 'mm4' ),
+		'primary' => esc_html__( 'Primary', 'mm4', 'Menu' ),
 	) );
 
 	/*
@@ -141,3 +141,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Load footer colophon content.
+ */
+require get_template_directory() . '/inc/footer-colophon.php';

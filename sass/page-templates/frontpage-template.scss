@@ -1,5 +1,10 @@
+/* frontpage-template.scss  */
 
 .page-template-frontpage {
+
+    .site-content {
+        background-color: $brand__dark_green;
+    }
 
     .front-page-circle-section {
         display: flex;

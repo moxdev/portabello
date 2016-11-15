@@ -4,4 +4,9 @@ $size__site-sidebar: 25%;
 .site-content {
     @include outer-container;
     padding: 0 10px;
+    color: $color__text-main;
+
+    h1 {
+        text-align: center;
+    }
 }

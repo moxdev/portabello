@@ -50,7 +50,7 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'mm4' ); ?></button>
+			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'mm4' ); ?></button>
 			<?php $phone = get_theme_mod('setting_phone');
 			    if ($phone): ?>
 			        <div class="masthead-tel">
