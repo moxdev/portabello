@@ -23,13 +23,12 @@
             padding: 5px;
         }
 
-        .satifacts-logo {
+        .satisfacts-logo {
             width: 125px;
 
         }
         .grady-management-logo {
             width: 125px;
-
         }
     }
 
@@ -41,6 +40,50 @@
 
             svg {
                 width: 40px;
+            }
+        }
+    }
+
+    @media screen and (min-width: $tablet) {
+        .site-info {
+            display: flex;
+            align-items: center;
+            padding: 1em;
+
+            .footer-address-section {
+                flex: 1;
+                text-align: left;
+            }
+
+            .footer-awards {
+                .satisfacts-logo {
+                    width: 150px;
+                }
+                .grady-management-logo {
+                    width: 175px;
+                }
+            }
+            .footer-social {
+                // text-align: right;
+                // flex: 1;
+            }
+        }
+    }
+
+    @media screen and (min-width: $laptop) {
+        .site-info {
+            .footer-address-section {
+                font-size: $font__size-footer-desktop;
+            }
+
+            .footer-awards {
+                .satisfacts-logo {
+                    width: 200px;
+                }
+                .grady-management-logo {
+                    width: 250px;
+
+                }
             }
         }
     }

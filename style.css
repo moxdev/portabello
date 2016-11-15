@@ -71,7 +71,7 @@ body:before {
 }
 
 /* line 4, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
-.site-content {
+.content-area {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -82,16 +82,23 @@ body:before {
 }
 
 /* line 20, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/neat/mixins/_clearfix.scss */
-.site-content::after {
+.content-area::after {
   clear: both;
   content: "";
   display: block;
 }
 
 /* line 11, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
-.site-content h1 {
+.content-area h1 {
   text-align: center;
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 760px) {
+  /* line 17, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
+  .content-area p {
+    padding: 0 1em;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -712,7 +719,7 @@ a:hover, a:active {
 /* line 3, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead {
   width: 100%;
-  height: 90px;
+  height: auto;
   position: absolute;
   z-index: 99999;
   left: 0;
@@ -723,43 +730,44 @@ a:hover, a:active {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 1.25em;
+  padding: 2em 1.25em;
 }
 
-/* line 16, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+/* line 15, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead .site-branding {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-/* line 19, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+/* line 18, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead .site-branding #logo img {
   width: 175px;
 }
 
-/* line 26, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+/* line 25, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead #site-navigation .menu-toggle {
   display: block;
   color: #ffffff;
   background-color: #bd6573;
+  font-family: "GandhiSans-Regular";
   border: none;
   border-radius: 3px;
   box-shadow: none;
   padding: 10px 15px;
 }
 
-/* line 36, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+/* line 35, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead #site-navigation .masthead-tel {
   display: none;
 }
 
-/* line 39, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+/* line 38, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead #site-navigation .menu-primary-container {
   display: none;
 }
 
-/* line 44, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+/* line 43, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead .featured-image img {
   width: 100%;
   position: relative;
@@ -768,32 +776,19 @@ a:hover, a:active {
   display: block;
 }
 
-@media screen and (min-width: 960px) {
-  /* line 57, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
-  #masthead #site-navigation {
-    text-align: right;
+@media screen and (min-width: 760px) {
+  /* line 3, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead {
+    padding: 2em;
   }
-  /* line 59, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 56, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .site-branding #logo img {
+    width: 225px;
+  }
+  /* line 63, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead #site-navigation .menu-toggle {
-    display: none;
-  }
-  /* line 62, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
-  #masthead #site-navigation .masthead-tel {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    text-align: right;
-  }
-  /* line 66, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
-  #masthead #site-navigation .menu-primary-container {
-    display: block;
-    text-align: right;
-  }
-  /* line 69, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
-  #masthead #site-navigation .menu-primary-container ul {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    padding: 1em;
+    font-size: 1em;
   }
 }
 
@@ -1147,7 +1142,7 @@ object {
 }
 
 /* line 26, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
-#colophon .footer-awards .satifacts-logo {
+#colophon .footer-awards .satisfacts-logo {
   width: 125px;
 }
 
@@ -1156,18 +1151,61 @@ object {
   width: 125px;
 }
 
-/* line 36, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
+/* line 35, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
 #colophon .footer-social {
   padding: 1em;
 }
 
-/* line 39, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
+/* line 38, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
 #colophon .footer-social span {
   padding: 5px;
 }
 
-/* line 42, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
+/* line 41, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
 #colophon .footer-social span svg {
   width: 40px;
+}
+
+@media screen and (min-width: 760px) {
+  /* line 48, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
+  #colophon .site-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1em;
+  }
+  /* line 53, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
+  #colophon .site-info .footer-address-section {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: left;
+  }
+  /* line 59, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
+  #colophon .site-info .footer-awards .satisfacts-logo {
+    width: 150px;
+  }
+  /* line 62, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
+  #colophon .site-info .footer-awards .grady-management-logo {
+    width: 175px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  /* line 75, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
+  #colophon .site-info .footer-address-section {
+    font-size: 1em;
+  }
+  /* line 80, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
+  #colophon .site-info .footer-awards .satisfacts-logo {
+    width: 200px;
+  }
+  /* line 83, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/footer.scss */
+  #colophon .site-info .footer-awards .grady-management-logo {
+    width: 250px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

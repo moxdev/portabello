@@ -32,7 +32,7 @@ function mm4_footer_colophon() {
         </div>
     </div>
     <div class="footer-awards">
-        <span><img class="satifacts-logo" src="<?php echo get_template_directory_uri() . '/images/satisfacts_resident_award_2016.jpg' ?>" alt="satifacts resident 2016 award logo"></span>
+        <span><img class="satisfacts-logo" src="<?php echo get_template_directory_uri() . '/images/satisfacts_resident_award_2016.jpg' ?>" alt="satifacts resident 2016 award logo"></span>
         <span><img class="grady-management-logo" src="<?php echo get_template_directory_uri() . '/images/grady-management-logo.png' ?>" alt="grady management logo exceptional people exceptional communinties"></span>
     </div>
     <div class="footer-social">
