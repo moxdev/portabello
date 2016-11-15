@@ -2608,6 +2608,60 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/equal-housing-opportunity.png": {
+		"ft": 32768,
+		"iS": 3947,
+		"oA": 0,
+		"oAP": "\/images\/equal-housing-opportunity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/equal-housing-opportunity.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/equal-housing-opportunity.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/facebook-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/facebook-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/facebook.png": {
+		"ft": 32768,
+		"iS": 1464,
+		"oA": 0,
+		"oAP": "\/images\/facebook.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/grady-management-logo.png": {
+		"ft": 32768,
+		"iS": 30106,
+		"oA": 0,
+		"oAP": "\/images\/grady-management-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/grady-management.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/grady-management.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/green-background.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2653,6 +2707,24 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/red-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/Satisfacts_resident_award_2016.jpg": {
+		"ft": 16384,
+		"iS": 23237,
+		"oA": 0,
+		"oAP": "\/images\/satisfacts_resident_award_2016.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/satisfacts_resident_award_2016.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/satisfacts_resident_award_2016.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

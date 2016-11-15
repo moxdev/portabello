@@ -5,8 +5,11 @@ $size__site-sidebar: 25%;
     @include outer-container;
     padding: 0 10px;
     color: $color__text-main;
+    font-size: $font__size-mobile;
+    line-height: $font__line-height-body;
 
     h1 {
         text-align: center;
+        margin-bottom: 0;
     }
 }

@@ -62,11 +62,11 @@
 		</nav><!-- #site-navigation -->
 
 	</header><!-- #masthead -->
-		<div class="front-page-circle-section">
+<!-- 		<div class="front-page-circle-section">
 			<img src="http://localhost:8888/portabello/wp-content/themes/mm4/images/green-circle.svg" alt="">
 			<img src="http://localhost:8888/portabello/wp-content/themes/mm4/images/red-circle.svg" alt="">
 			<img src="http://localhost:8888/portabello/wp-content/themes/mm4/images/orange-circle.svg" alt="">
-		</div>
+		</div> -->
 
 
 	<div id="content" class="site-content">

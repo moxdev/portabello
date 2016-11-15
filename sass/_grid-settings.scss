@@ -10,8 +10,8 @@ $max-width: 1200px;
 // Breakpoints for neat span-columns
 $iphone: 320px;
 $mobile: 480px;
-$tablet: 768px;
-$laptop: 992px;
+$tablet: 760px;
+$laptop: 960px;
 $large: 1200px;
 
 // Visual Grid - Set to true to view the grid
@@ -19,3 +19,13 @@ $visual-grid: true;
 $visual-grid-color: #d6d6d6;
 $visual-grid-index: back;
 $visual-grid-opacity: 0.2;
+
+
+
+// @media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+//
+// @media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+//
+// @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+//
+// @media (min-width:1281px) { /* hi-res laptops and desktops */ }

@@ -4,24 +4,44 @@
     text-align: center;
     padding: 1em .5em 4em;
     background-color: $white;
+    display: block;
 
     .footer-address-section {
         font-family: $font__regular;
         color: $color__footer-text;
+        margin-bottom: 1em;
+        font-size: .9em;
 
         h4 {
-            font-family: $font__bold;
             margin: 5px 0;
             font-size: 1.25em;
         }
-
     }
 
     .footer-awards {
+        img {
+            padding: 5px;
+        }
 
+        .satifacts-logo {
+            width: 125px;
+
+        }
+        .grady-management-logo {
+            width: 125px;
+
+        }
     }
 
     .footer-social {
+        padding: 1em;
 
+        span {
+            padding: 5px;
+
+            svg {
+                width: 40px;
+            }
+        }
     }
 }
