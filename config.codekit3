@@ -95,6 +95,18 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/Thumbs.db": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/Thumbs.db",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/Thumbs.db": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/Thumbs.db",
+		"oF": 0
+		},
 	"\/*project-notes\/portabello-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2691,6 +2703,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/originals\/floorplans\/1bed\/tiny-1bed.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/originals\/floorplans\/1bed\/tiny-1bed.zip",
+		"oF": 0
 		},
 	"\/images\/portabello-logo.svg": {
 		"ft": 2097152,
