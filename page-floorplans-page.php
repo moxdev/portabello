@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying the home page.
- * Template Name: Floor-Plans Page
+ * Template Name: Floor Plans Page
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *

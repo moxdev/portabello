@@ -1,0 +1,42 @@
+//  floorplan-listing.scss
+
+.page-template-page-floorplan-listing-page {
+
+    .site-content {
+
+        .floorplan-wrapper {
+            background-color: $alt__background;
+            padding: 2em 0;
+
+            .floorplan-section {
+                text-align: center;
+                margin-bottom: 3em;
+
+                h3 {
+                    color: $brand__dark_green;
+                    font-family: $font__bold;
+                }
+
+                h4 {
+                    color: $black;
+                    font-family: $font__regular;
+                }
+
+                img {
+                    width: 300px;
+                }
+            }
+
+            // .floorplan-wrapper media query
+            @media screen and (min-width: $tablet) {
+
+            }
+
+            // .floorplan-wrapper media query
+            @media screen and (min-width: $laptop) {
+
+            }
+
+        }
+    }
+}
