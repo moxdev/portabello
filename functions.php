@@ -146,3 +146,8 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load footer colophon content.
  */
 require get_template_directory() . '/inc/footer-colophon.php';
+
+/**
+ * Load one bedroom floor plan content.
+ */
+require get_template_directory() . '/inc/one-bedroom-floorplan.php';

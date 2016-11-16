@@ -1,23 +1,43 @@
 $size__site-main: 100%;
 $size__site-sidebar: 25%;
 
-.content-area {
-    @include outer-container;
-    padding: 0 10px;
-    color: $color__text-main;
-    font-size: $font__size-mobile;
-    line-height: $font__line-height-body;
+.site-content {
+    background-image: url(images/green-background.svg);
+    background-size: cover;
+    width: 100%;
+    background-color: $brand__dark_green;
 
-    h1 {
+    .content-area {
+        @include outer-container;
+        padding: 0 10px;
+        color: $color__text-main;
+        font-size: $font__size-mobile;
+        line-height: $font__line-height-body;
         text-align: center;
-        margin-bottom: 0;
-    }
 
-    @media screen and (min-width: $tablet) {
-        p {
-            padding: 0 1em
+        h1 {
+            font-size: $font__size-h1-mobile;
+            margin-bottom: 0;
+        }
+
+        // .content-area media query
+        @media screen and (min-width: $tablet) {
+
+            p {
+                padding: 0 1em;
+            }
+        }
+
+        // .content-area media query
+        @media screen and (min-width: $laptop) {
+
+            h1 {
+                font-size: $font__size-h1-desktop;
+            }
+
+            p {
+                // padding: 0 1em;
+            }
         }
     }
-
-
 }

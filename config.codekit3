@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "25444",
 "files": {
+	"\/*project-notes\/ACF-Shots\/1-bed-custom-field.png": {
+		"ft": 32768,
+		"iS": 145100,
+		"oA": 0,
+		"oAP": "\/*project-notes\/ACF-Shots\/1-bed-custom-field.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/*project-notes\/ACF-Shots\/seo1.png": {
 		"ft": 32768,
 		"iS": 146528,
@@ -94,6 +102,760 @@
 		"oAP": "\/*project-notes\/masthead-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/404.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/404.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/archive.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/archive.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/comments.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/comments.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-condlight-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-condlight-webfont.eot",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-condlight-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-condlight-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-condlight-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-condlight-webfont.ttf",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-condlight-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-condlight-webfont.woff",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-condlight-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-condlight-webfont.woff2",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-extrabold-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-extrabold-webfont.eot",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-extrabold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-extrabold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-extrabold-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-extrabold-webfont.ttf",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-extrabold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-extrabold-webfont.woff",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-extrabold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-extrabold-webfont.woff2",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-regular-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-regular-webfont.eot",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-regular-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-regular-webfont.ttf",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-regular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-regular-webfont.woff",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-regular-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-regular-webfont.woff2",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-semibold-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-semibold-webfont.eot",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-semibold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-semibold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-semibold-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-semibold-webfont.ttf",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-semibold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-semibold-webfont.woff",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/opensans-semibold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/opensans-semibold-webfont.woff2",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-bold-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-bold-webfont.eot",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-bold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-bold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-bold-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-bold-webfont.ttf",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-bold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-bold-webfont.woff",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-bold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-medium-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-medium-webfont.eot",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-medium-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-medium-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-medium-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-medium-webfont.ttf",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-medium-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-medium-webfont.woff",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-medium-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-medium-webfont.woff2",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-regular-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-regular-webfont.eot",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-regular-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-regular-webfont.ttf",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-regular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-regular-webfont.woff",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-regular-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/fonts\/ubuntu-regular-webfont.woff2",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/footer.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/frontpage.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/frontpage.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/functions.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/functions.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/header.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/bkgd-home-gallery-headline.jpg": {
+		"ft": 16384,
+		"iS": 51601,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/bkgd-home-gallery-headline.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/bkgd-home-gallery.jpg": {
+		"ft": 16384,
+		"iS": 242834,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/bkgd-home-gallery.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/icon-map-entertainment.png": {
+		"ft": 32768,
+		"iS": 2936,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/icon-map-entertainment.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/icon-map-health-fitness.png": {
+		"ft": 32768,
+		"iS": 937,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/icon-map-health-fitness.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/icon-map-main.png": {
+		"ft": 32768,
+		"iS": 1325,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/icon-map-main.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/icon-map-miscellaneous.png": {
+		"ft": 32768,
+		"iS": 571,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/icon-map-miscellaneous.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/icon-map-restaurants.png": {
+		"ft": 32768,
+		"iS": 1247,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/icon-map-restaurants.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/icon-map-shopping.png": {
+		"ft": 32768,
+		"iS": 835,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/icon-map-shopping.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/icon-map-transportation.png": {
+		"ft": 32768,
+		"iS": 1079,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/icon-map-transportation.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/side-img.jpg": {
+		"ft": 16384,
+		"iS": 205553,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/side-img.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/sprite-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/sprite-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/sprite-map-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/sprite-map-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/sprite-social-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/sprite-social-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/sprite-ui-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/sprite-ui-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/imgs\/Thumbs.db": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/imgs\/Thumbs.db",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/inc\/akismet.class.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/inc\/akismet.class.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/inc\/contact.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/inc\/contact.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/inc\/custom-header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/inc\/custom-header.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/inc\/customizer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/inc\/customizer.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/inc\/extras.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/inc\/extras.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/inc\/jetpack.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/inc\/jetpack.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/inc\/template-tags.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/inc\/template-tags.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/index.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/area-map.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/area-map-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/customizer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/customizer-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/form-validate.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/form-validate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/imagelightbox.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/imagelightbox.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/jquery-imagefill.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/jquery-imagefill.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/jquery.imagesloaded.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/jquery.imagesloaded.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/map-directions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/map-directions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/navigation.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/navigation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/oms.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/oms.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/overlay.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/overlay-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/skip-link-focus-fix.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/skip-link-focus-fix-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/js\/validate.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/js\/validate.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/languages\/metro-village-apartments.pot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/languages\/metro-village-apartments.pot",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/languages\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/languages\/readme.txt",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/layouts\/content-sidebar.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/layouts\/content-sidebar-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/layouts\/sidebar-content.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/layouts\/sidebar-content-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/page-amenities.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/page-amenities.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/page-amenitiesBK.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/page-amenitiesBK.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/page-contact.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/page-contact.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/page-floor-plans.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/page-floor-plans.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/page-neighborhood.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/page-neighborhood.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/page-photo-gallery.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/page-photo-gallery.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/page.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/readme.txt",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/rtl.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/rtl-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/screenshot.png": {
+		"ft": 32768,
+		"iS": 1149710,
+		"oA": 0,
+		"oAP": "\/*project-notes\/metro-village-apartments\/screenshot.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/search.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/search.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/sidebar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/sidebar.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/single.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/single.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/template-parts\/content-front-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/template-parts\/content-front-page.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/template-parts\/content-none.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/template-parts\/content-none.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/template-parts\/content-page-floor-plans.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/template-parts\/content-page-floor-plans.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/template-parts\/content-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/template-parts\/content-page.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/template-parts\/content-search.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/template-parts\/content-search.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/template-parts\/content-single.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/template-parts\/content-single.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/template-parts\/content.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/template-parts\/content.php",
+		"oF": 0
+		},
+	"\/*project-notes\/metro-village-apartments\/Thumbs.db": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/metro-village-apartments\/Thumbs.db",
+		"oF": 0
 		},
 	"\/*project-notes\/portabello-logo.svg": {
 		"ft": 2097152,
@@ -2592,71 +3354,97 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
-	"\/images\/bar-stock.jpg": {
+	"\/images\/featured-images\/bar-stock.jpg": {
 		"ft": 16384,
 		"iS": 5138591,
 		"oA": 0,
-		"oAP": "\/images\/bar-stock.jpg",
+		"oAP": "\/images\/featured-images\/bar-stock.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/couch-stock.jpg": {
+	"\/images\/featured-images\/couch-stock.jpg": {
 		"ft": 16384,
 		"iS": 10336274,
 		"oA": 0,
-		"oAP": "\/images\/couch-stock.jpg",
+		"oAP": "\/images\/featured-images\/couch-stock.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/equal-housing-opportunity.png": {
+	"\/images\/featured-images\/water-stock.jpg": {
+		"ft": 16384,
+		"iS": 4202574,
+		"oA": 0,
+		"oAP": "\/images\/featured-images\/water-stock.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/footer\/equal-housing-opportunity.png": {
 		"ft": 32768,
 		"iS": 3947,
 		"oA": 0,
-		"oAP": "\/images\/equal-housing-opportunity.png",
+		"oAP": "\/images\/footer\/equal-housing-opportunity.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/equal-housing-opportunity.svg": {
+	"\/images\/footer\/equal-housing-opportunity.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/equal-housing-opportunity.svg",
+		"oAP": "\/images\/footer\/equal-housing-opportunity.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/facebook-icon.svg": {
+	"\/images\/footer\/facebook-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/facebook-icon.svg",
+		"oAP": "\/images\/footer\/facebook-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/facebook.png": {
+	"\/images\/footer\/facebook.png": {
 		"ft": 32768,
 		"iS": 1464,
 		"oA": 0,
-		"oAP": "\/images\/facebook.png",
+		"oAP": "\/images\/footer\/facebook.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/grady-management-logo.png": {
+	"\/images\/footer\/grady-management-logo.png": {
 		"ft": 32768,
 		"iS": 30106,
 		"oA": 0,
-		"oAP": "\/images\/grady-management-logo.png",
+		"oAP": "\/images\/footer\/grady-management-logo.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/grady-management.svg": {
+	"\/images\/footer\/grady-management.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/grady-management.svg",
+		"oAP": "\/images\/footer\/grady-management.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/footer\/satisfacts_resident_award_2016.jpg": {
+		"ft": 16384,
+		"iS": 10245,
+		"oA": 0,
+		"oAP": "\/images\/footer\/satisfacts_resident_award_2016.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/footer\/satisfacts_resident_award_2016.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/footer\/satisfacts_resident_award_2016.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -2672,25 +3460,193 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/green-circle.svg": {
+	"\/images\/old\/green-background-1.png": {
+		"ft": 32768,
+		"iS": 3033348,
+		"oA": 0,
+		"oAP": "\/images\/old\/green-background-1.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/old\/green-background-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/green-circle.svg",
+		"oAP": "\/images\/old\/green-background-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/orange-circle.svg": {
+	"\/images\/old\/green-background.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/orange-circle.svg",
+		"oAP": "\/images\/old\/green-background.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/old\/green-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/old\/green-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/old\/orange-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/old\/orange-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/old\/red-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/old\/red-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/originals\/floorplans\/1bed\/1BR1BA.A.png": {
+		"ft": 32768,
+		"iS": 1613928,
+		"oA": 0,
+		"oAP": "\/images\/originals\/floorplans\/1bed\/1BR1BA.A.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/originals\/floorplans\/1bed\/1BR1BA.B.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/originals\/floorplans\/1bed\/1BR1BA.B.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/originals\/floorplans\/1bed\/1BR1BAII.png": {
+		"ft": 32768,
+		"iS": 978105,
+		"oA": 0,
+		"oAP": "\/images\/originals\/floorplans\/1bed\/1BR1BAII.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/originals\/floorplans\/1bed\/1BRDenII.png": {
+		"ft": 32768,
+		"iS": 816479,
+		"oA": 0,
+		"oAP": "\/images\/originals\/floorplans\/1bed\/1BRDenII.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/originals\/floorplans\/1bed\/tiny-1bed.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/originals\/floorplans\/1bed\/tiny-1bed.zip",
+		"oF": 0
+		},
+	"\/images\/originals\/floorplans\/1bed\/tiny-1bed\/1BR1BA.A.png": {
+		"ft": 32768,
+		"iS": 446109,
+		"oA": 0,
+		"oAP": "\/images\/originals\/floorplans\/1bed\/tiny-1bed\/1BR1BA.A.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/originals\/floorplans\/1bed\/tiny-1bed\/1BR1BA.B.png": {
+		"ft": 32768,
+		"iS": 356278,
+		"oA": 0,
+		"oAP": "\/images\/originals\/floorplans\/1bed\/tiny-1bed\/1BR1BA.B.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/originals\/floorplans\/1bed\/tiny-1bed\/1BR1BAII.png": {
+		"ft": 32768,
+		"iS": 272440,
+		"oA": 0,
+		"oAP": "\/images\/originals\/floorplans\/1bed\/tiny-1bed\/1BR1BAII.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/originals\/floorplans\/1bed\/tiny-1bed\/1BRDenII.png": {
+		"ft": 32768,
+		"iS": 215781,
+		"oA": 0,
+		"oAP": "\/images\/originals\/floorplans\/1bed\/tiny-1bed\/1BRDenII.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/originals\/floorplans\/psd\/1BR1BA.A.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/originals\/floorplans\/psd\/1BR1BA.A.psd",
+		"oF": 0
+		},
+	"\/images\/originals\/floorplans\/psd\/1BR1BA.B.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/originals\/floorplans\/psd\/1BR1BA.B.psd",
+		"oF": 0
+		},
+	"\/images\/originals\/floorplans\/psd\/1BR1BAII.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/originals\/floorplans\/psd\/1BR1BAII.psd",
+		"oF": 0
+		},
+	"\/images\/originals\/floorplans\/psd\/1BRDenII.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/originals\/floorplans\/psd\/1BRDenII.psd",
+		"oF": 0
+		},
+	"\/images\/originals\/green-background-1.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/originals\/green-background-1.ai",
+		"oF": 0
+		},
+	"\/images\/originals\/green-background-1.png": {
+		"ft": 32768,
+		"iS": 627849,
+		"oA": 0,
+		"oAP": "\/images\/originals\/green-background-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/originals\/green-background-1.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/originals\/green-background-1.psd",
+		"oF": 0
+		},
+	"\/images\/originals\/green-background-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originals\/green-background-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/originals\/green-background-cropped.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/originals\/green-background-cropped.ai",
+		"oF": 0
 		},
 	"\/images\/portabello-logo.svg": {
 		"ft": 2097152,
@@ -2701,42 +3657,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/images\/red-circle.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/red-circle.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/satisfacts_resident_award_2016.jpg": {
-		"ft": 16384,
-		"iS": 10245,
-		"oA": 0,
-		"oAP": "\/images\/satisfacts_resident_award_2016.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/satisfacts_resident_award_2016.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/satisfacts_resident_award_2016.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/water-stock.jpg": {
-		"ft": 16384,
-		"iS": 4202574,
-		"oA": 0,
-		"oAP": "\/images\/water-stock.jpg",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/inc\/custom-header.php": {
 		"ft": 8192,
@@ -2766,6 +3686,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/jetpack.php",
+		"oF": 0
+		},
+	"\/inc\/one-bedroom-floorplan.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/one-bedroom-floorplan.php",
 		"oF": 0
 		},
 	"\/inc\/template-tags.php": {
@@ -2905,6 +3831,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-contact-page.php",
+		"oF": 0
+		},
+	"\/page-floorplan-listing-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-floorplan-listing-page.php",
 		"oF": 0
 		},
 	"\/page-floorplans-page.php": {
@@ -4148,7 +5080,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/page-templates\/footer.scss": {
+	"\/sass\/page-templates\/_amenities.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4156,12 +5088,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/page-templates\/footer.css",
+		"oAP": "\/sass\/page-templates\/_amenities.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/page-templates\/frontpage-template.scss": {
+	"\/sass\/page-templates\/_community.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4169,12 +5101,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/page-templates\/frontpage-template.css",
+		"oAP": "\/sass\/page-templates\/_community.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/page-templates\/page-templates.scss": {
+	"\/sass\/page-templates\/_contact.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4182,7 +5114,72 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/page-templates\/page-templates.css",
+		"oAP": "\/sass\/page-templates\/_contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/page-templates\/_frontpage.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/page-templates\/_frontpage.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/page-templates\/_page-templates.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/page-templates\/_page-templates.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/page-templates\/floorplans\/_floorplan-listing.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/page-templates\/floorplans\/_floorplan-listing.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/page-templates\/floorplans\/_floorplans.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/page-templates\/floorplans\/_floorplans.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/page-templates\/footer\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/page-templates\/footer\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

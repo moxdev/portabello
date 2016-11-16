@@ -32,8 +32,8 @@ function mm4_footer_colophon() {
         </div>
     </div>
     <div class="footer-awards">
-        <span><img class="satisfacts-logo" src="<?php echo get_template_directory_uri() . '/images/satisfacts_resident_award_2016.jpg' ?>" alt="satifacts resident 2016 award logo"></span>
-        <span><img class="grady-management-logo" src="<?php echo get_template_directory_uri() . '/images/grady-management-logo.png' ?>" alt="grady management logo exceptional people exceptional communinties"></span>
+        <span><img class="satisfacts-logo" src="<?php echo get_template_directory_uri() . '/images/footer/satisfacts_resident_award_2016.jpg' ?>" alt="satifacts resident 2016 award logo"></span>
+        <span><img class="grady-management-logo" src="<?php echo get_template_directory_uri() . '/images/footer/grady-management-logo.png' ?>" alt="grady management logo exceptional people exceptional communinties"></span>
     </div>
     <div class="footer-social">
         <span><a href="https://www.facebook.com/Portabello-Apartments-1466869373626592/"><svg id="facebook-svg" data-name="facebook svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 41.71 41.88"><defs><clipPath id="clip-path" transform="translate(-285 -378.12)"><rect x="276" y="370.87" width="59.71" height="50.13" style="fill:none"/></clipPath></defs><title>facebook-icon</title><g style="clip-path:url(#clip-path)"><path d="M310.44,419.84h-4.58V420h3.76a6.59,6.59,0,0,0,.82-.16M326.71,413V385a6.85,6.85,0,0,0-6.84-6.85h-28A6.85,6.85,0,0,0,285,385v28a6.85,6.85,0,0,0,6.84,6.84h14V407a2.63,2.63,0,0,0-2.63-2.81H300.6v-6.53h5.26v-3.28c0-4.71,3.53-8.54,7.88-8.54H319v6.5h-5.26c-.62,0-1.31.84-1.31,2v3.35H319v6.53h-6.57v13a2.49,2.49,0,0,1-2,2.64h9.43a6.85,6.85,0,0,0,6.84-6.84" transform="translate(-285 -378.12)" style="fill:#7d7e81"/></g></svg></a></span>
