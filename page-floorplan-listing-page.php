@@ -32,8 +32,8 @@ get_header(); ?>
 <?php
 
     // Displays one bedroom floor plan content
-    if (function_exists('mm4_one_bed_floor_plan')) {
-        mm4_one_bed_floor_plan();
+    if (function_exists('mm4_floor_plan_listing')) {
+        mm4_floor_plan_listing();
     }
 
 get_footer();

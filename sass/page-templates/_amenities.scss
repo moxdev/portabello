@@ -1,5 +1,41 @@
 // amenities.scss
 
-.page-template-frontpage {
+.page-template-page-amenities-page {
 
+    .site-content {
+
+        .amenities-wrapper {
+            text-align: left;
+
+            h3 {
+                color: $brand__light-green;
+                margin: 1em 0 0;
+                padding-left: .7em;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0 0 0 1.5em;
+
+                li {
+                    margin: .3em;
+                }
+            }
+
+            // .amenities-wrapper
+            @media (min-width: $laptop) {
+                display: flex;
+
+                h3 {
+                    margin: 0;
+                    padding-left: .5em;
+                }
+
+                ul {
+                    margin: 0 1em 1em;
+                    padding-left: 0;
+                }
+            };
+        }
+    }
 }

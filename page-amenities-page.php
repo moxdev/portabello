@@ -24,8 +24,13 @@ get_header(); ?>
                 endif;
 
             endwhile; // End of the loop.
-            ?>
 
+            // Displays one bedroom floor plan content
+            if (function_exists('mm4_amenities')) {
+                mm4_amenities();
+            }
+
+            ?>
 
         </main><!-- #main -->
     </div><!-- #primary -->

@@ -10,7 +10,7 @@
  *
  */
 
-function mm4_one_bed_floor_plan() { ?>
+function mm4_floor_plan_listing() { ?>
     <div class="floorplan-wrapper">
         <?php if( have_rows('floor_plans') ):
 

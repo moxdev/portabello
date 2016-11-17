@@ -51,15 +51,16 @@ html {
   box-sizing: inherit;
 }
 
-/* line 4, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
+/* line 6, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
 .site-content {
   background-image: url(images/green-background.svg);
   background-size: cover;
   width: 100%;
   background-color: #667264;
+  padding: 2em 0;
 }
 
-/* line 10, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
+/* line 13, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
 .site-content .content-area {
   max-width: 1200px;
   margin-left: auto;
@@ -78,21 +79,25 @@ html {
   display: block;
 }
 
-/* line 18, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
+/* line 21, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
 .site-content .content-area h1 {
   font-size: 1.3em;
   margin-bottom: 0;
 }
 
 @media screen and (min-width: 760px) {
-  /* line 26, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
+  /* line 29, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
   .site-content .content-area p {
     padding: 0 1em;
   }
 }
 
 @media screen and (min-width: 960px) {
-  /* line 34, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
+  /* line 13, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
+  .site-content .content-area {
+    font-size: 1.5em;
+  }
+  /* line 39, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/variables-site/_structure.scss */
   .site-content .content-area h1 {
     font-size: 2.5em;
   }
@@ -1109,6 +1114,48 @@ object {
 /*--------------------------------------------------------------
 ## Amenities Page Template
 --------------------------------------------------------------*/
+/* line 7, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_amenities.scss */
+.page-template-page-amenities-page .site-content .amenities-wrapper {
+  text-align: left;
+}
+
+/* line 10, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_amenities.scss */
+.page-template-page-amenities-page .site-content .amenities-wrapper h3 {
+  color: #babc89;
+  margin: 1em 0 0;
+  padding-left: .7em;
+}
+
+/* line 16, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_amenities.scss */
+.page-template-page-amenities-page .site-content .amenities-wrapper ul {
+  margin: 0;
+  padding: 0 0 0 1.5em;
+}
+
+/* line 20, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_amenities.scss */
+.page-template-page-amenities-page .site-content .amenities-wrapper ul li {
+  margin: .3em;
+}
+
+@media (min-width: 960px) {
+  /* line 7, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_amenities.scss */
+  .page-template-page-amenities-page .site-content .amenities-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  /* line 29, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_amenities.scss */
+  .page-template-page-amenities-page .site-content .amenities-wrapper h3 {
+    margin: 0;
+    padding-left: .5em;
+  }
+  /* line 34, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_amenities.scss */
+  .page-template-page-amenities-page .site-content .amenities-wrapper ul {
+    margin: 0 1em 1em;
+    padding-left: 0;
+  }
+}
+
 /*--------------------------------------------------------------
 ## Floor Plans Page Template
 --------------------------------------------------------------*/

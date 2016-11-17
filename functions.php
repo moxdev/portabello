@@ -148,6 +148,11 @@ require get_template_directory() . '/inc/jetpack.php';
 require get_template_directory() . '/inc/footer-colophon.php';
 
 /**
- * Load one bedroom floor plan content.
+ * Load floor plan content.
  */
-require get_template_directory() . '/inc/one-bedroom-floorplan.php';
+require get_template_directory() . '/inc/floorplan-listing.php';
+
+/**
+ * Load amenities content.
+ */
+require get_template_directory() . '/inc/amenities.php';
