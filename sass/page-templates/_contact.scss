@@ -1,5 +1,57 @@
 // contact.scss
 
-.page-template-frontpage {
+.page-template-page-contact-page {
 
+    .honey {
+        display: none !important;
+    }
+
+    #masthead {
+        position: relative;
+        background: $white;
+    }
+
+    .site-content {
+        background: $brand__orange;
+
+        .content-area {
+            text-align: left;
+        }
+
+        .contact-wrapper {
+            padding: 1em;
+
+            form {
+
+                label {
+                    color: $white;
+                    padding-top: 1em;
+                    font-family: $font__bold;
+                    border: none;
+                    border-radius: none;
+                    box-shadow: none;
+                }
+
+                .error {
+                    color: red;
+                }
+
+                .msg-box span {
+                    display: block;
+                    padding: .5em 1em 0;
+                }
+
+                input[type="submit"] {
+                    border: none;
+                    border-radius: none;
+                    color: $white;
+                    background: $color__background-button;
+                    padding: .5em;
+                    margin-top: 1em;
+                    text-align: center;
+                    width: 100%;
+;                }
+            }
+        }
+    }
 }

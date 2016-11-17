@@ -24,10 +24,20 @@ get_header(); ?>
                 endif;
 
             endwhile; // End of the loop.
+
+
             ?>
 
         </main><!-- #main -->
     </div><!-- #primary -->
 
-<?php
+    <?php  if(function_exists('mm4_contact_page_content')) {
+        mm4_contact_page_content();
+    }
+
 get_footer();
+
+
+
+//
+// mm4_contact_form()

@@ -9,6 +9,7 @@ $size__site-sidebar: 25%;
     width: 100%;
     background-color: $brand__dark_green;
     padding: 2em 0;
+    font-family: $font__regular;
 
     .content-area {
         @include outer-container;
@@ -19,6 +20,7 @@ $size__site-sidebar: 25%;
         text-align: center;
 
         h1 {
+            font-family: $font__bold;
             font-size: $font__size-h1-mobile;
             margin-bottom: 0;
         }

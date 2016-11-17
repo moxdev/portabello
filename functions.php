@@ -156,3 +156,14 @@ require get_template_directory() . '/inc/floorplan-listing.php';
  * Load amenities content.
  */
 require get_template_directory() . '/inc/amenities.php';
+
+/**
+ * Load contact content.
+ */
+require get_template_directory() . '/inc/contact-page-content.php';
+
+
+/**
+* Include Plugins
+*/
+include_once( get_stylesheet_directory() . '/plugins/mm4-you-contact-form/mm4-you-cf.php' );

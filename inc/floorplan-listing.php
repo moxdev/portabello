@@ -1,12 +1,12 @@
 <?php
 /**
- * Portabello Theme custom one bedroom floor plan for page-one-bedroom-page.php.
+ * Portabello Theme custom one bedroom floor plan for page-floor-plan-listing.php.
  *
  * @package portabello
  */
 
 /**
- * Dynamically adds one bedroom floor plan information and image to the one bedroom floor plan web page.
+ * Dynamically adds floor plan information and image to the floor plan web pages.
  *
  */
 
