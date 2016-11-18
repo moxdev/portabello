@@ -10,6 +10,6 @@
  *
  */
 
-function mm4_community_page_content() { ?>
+function mm4_community_page_content() {
 
 }
