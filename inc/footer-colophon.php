@@ -11,17 +11,18 @@
  */
 
 function mm4_footer_colophon() {
-    $address = get_theme_mod( 'setting_address' );
-    $city    = get_theme_mod( 'setting_city' );
-    $state   = get_theme_mod( 'setting_state' );
-    $zip     = get_theme_mod( 'setting_zipcode' );
-    $phone   = get_theme_mod( 'setting_phone' );
-    $fax   = get_theme_mod( 'setting_fax' );
-    $email   = get_theme_mod( 'setting_email' );
+    $company = get_field( 'company_name', 'options' );
+    $address = get_field( 'street_address', 'options' );
+    $city    = get_field( 'city', 'options' );
+    $state   = get_field( 'state', 'options' );
+    $zip     = get_field( 'zipcode', 'options' );
+    $phone   = get_field( 'phone', 'options' );
+    $fax     = get_field( 'fax', 'options' );
+    $email   = get_field( 'email', 'options' );
     ?>
     <div class="footer-address-section">
         <div class="footer-address">
-            <h4>Portabello Apartments</h4>
+            <h4><?php echo $company; ?></h4>
             <span><?php echo $address; ?>,</span>
             <span><?php echo $city; ?>,</span>
             <span><?php echo $state; ?></span>

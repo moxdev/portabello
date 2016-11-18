@@ -1,5 +1,14 @@
 // community.scss
 
-.page-template-frontpage {
+.page-template-page-community-page {
+
+    #masthead {
+        position: relative;
+        background: $white;
+    }
+
+    .site-content {
+        background: $brand__red;
+    }
 
 }

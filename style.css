@@ -560,12 +560,26 @@ table {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
+/* line 29, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_buttons.scss */
+input[type="submit"] {
+  border: none;
+  border-radius: none;
+  color: #ffffff;
+  background: #667264;
+  font-family: "GandhiSans-Bold";
+  padding: .5em;
+  margin-top: 1em;
+  text-align: center;
+  width: 100%;
+}
+
 /* line 1, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_fields.scss */
 input, label {
   display: block;
+  width: 100%;
 }
 
-/* line 5, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_fields.scss */
+/* line 6, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -581,6 +595,36 @@ input[type="time"],
 input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
+textarea {
+  color: #666;
+}
+
+/* line 27, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_fields.scss */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+  color: #111;
+}
+
+/* line 32, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_fields.scss */
+select {
+  border: 1px solid #ffffff;
+}
+
+/* line 36, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_fields.scss */
 textarea {
   width: 100%;
 }
@@ -1129,6 +1173,17 @@ object {
 /*--------------------------------------------------------------
 ## Community Page Template
 --------------------------------------------------------------*/
+/* line 5, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #masthead {
+  position: relative;
+  background: #ffffff;
+}
+
+/* line 10, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page .site-content {
+  background: #bd6573;
+}
+
 /*--------------------------------------------------------------
 ## Contact Page Template
 --------------------------------------------------------------*/
@@ -1144,51 +1199,69 @@ object {
 }
 
 /* line 14, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .hentry {
+  margin: 0;
+}
+
+/* line 18, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content {
   background: #d69e4b;
 }
 
-/* line 17, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+/* line 21, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content p {
+  margin-bottom: 0;
+}
+
+/* line 25, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content .content-area {
   text-align: left;
 }
 
-/* line 21, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-wrapper {
+/* line 29, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .contact-page-wrapper {
   padding: 1em;
 }
 
-/* line 26, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-wrapper form label {
+/* line 36, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .contact-page-wrapper .contact-form-wrapper form label {
   color: #ffffff;
   padding-top: 1em;
   font-family: "GandhiSans-Bold";
-  border: none;
-  border-radius: none;
-  box-shadow: none;
 }
 
-/* line 35, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-wrapper form .error {
-  color: red;
+/* line 42, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .contact-page-wrapper .contact-form-wrapper form .error {
+  color: #990000;
 }
 
-/* line 39, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-wrapper form .msg-box span {
+/* line 46, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .contact-page-wrapper .contact-form-wrapper form .msg-box span {
   display: block;
   padding: .5em 1em 0;
 }
 
-/* line 44, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-wrapper form input[type="submit"] {
-  border: none;
-  border-radius: none;
-  color: #ffffff;
-  background: #667264;
-  padding: .5em;
-  margin-top: 1em;
-  text-align: center;
-  width: 100%;
+/* line 55, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper {
+  background-color: #667264;
+  height: auto;
+  margin: 2em 0;
+  padding: 1em;
+}
+
+/* line 61, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper .map-wrapper {
+  color: #000;
+}
+
+/* line 64, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper .map-wrapper #map-canvas {
+  height: 300px;
+}
+
+/* line 70, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper .map-wrapper form input[type="submit"] {
+  background-color: #babc89;
 }
 
 /*--------------------------------------------------------------

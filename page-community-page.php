@@ -24,6 +24,11 @@ get_header(); ?>
                 endif;
 
             endwhile; // End of the loop.
+
+            if ( function_exists( 'mm4_community_page_content' ) ) {
+                mm4_community_page_content();
+            }
+
             ?>
 
         </main><!-- #main -->

@@ -11,47 +11,68 @@
         background: $white;
     }
 
+    .hentry {
+        margin: 0;
+    }
+
     .site-content {
         background: $brand__orange;
+
+        p {
+            margin-bottom: 0;
+        }
 
         .content-area {
             text-align: left;
         }
 
-        .contact-wrapper {
+        .contact-page-wrapper {
             padding: 1em;
 
-            form {
+            .contact-form-wrapper {
 
-                label {
-                    color: $white;
-                    padding-top: 1em;
-                    font-family: $font__bold;
-                    border: none;
-                    border-radius: none;
-                    box-shadow: none;
+                form {
+
+                    label {
+                        color: $white;
+                        padding-top: 1em;
+                        font-family: $font__bold;
+                    }
+
+                    .error {
+                        color: $error__color;
+                    }
+
+                    .msg-box span {
+                        display: block;
+                        padding: .5em 1em 0;
+                    }
                 }
+            } // .contact-form-wrapper
 
-                .error {
-                    color: red;
+
+
+            .sidebar-wrapper {
+                background-color: $brand__dark_green;
+                height:auto;
+                margin: 2em 0;
+                padding: 1em;
+
+                .map-wrapper {
+                    color: #000;
+
+                    #map-canvas {
+                        height:300px;
+                    }
+
+                    form {
+
+                        input[type="submit"] {
+                            background-color: $color__alt-background-buton;
+                        }
+                    }
                 }
-
-                .msg-box span {
-                    display: block;
-                    padding: .5em 1em 0;
-                }
-
-                input[type="submit"] {
-                    border: none;
-                    border-radius: none;
-                    color: $white;
-                    background: $color__background-button;
-                    padding: .5em;
-                    margin-top: 1em;
-                    text-align: center;
-                    width: 100%;
-;                }
             }
         }
-    }
+    } // .contact-page-wrapper
 }

@@ -111,11 +111,42 @@ function mm4_scripts() {
 
 	wp_enqueue_script( 'mm4-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
+	if ( is_page_template( 'page-contact-page.php' ) ) {
+
+		wp_enqueue_script( 'mm4-contact-directions-map', get_template_directory_uri() . '/js/map-directions-min.js', array(), '20151215', true );
+	}
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'mm4_scripts' );
+
+/**
+ * Global Website Information ( ACF Options )
+ */
+if( function_exists('acf_add_options_page') ) {
+
+    acf_add_options_page(array(
+        'page_title'    => 'Global Settings',
+        'menu_title'    => 'Global Website Information',
+        'menu_slug'     => 'global-info',
+        'capability'    => 'edit_posts',
+        'redirect'      => true
+    ));
+
+    acf_add_options_sub_page(array(
+        'page_title'    => 'Contact Information',
+        'menu_title'    => 'Contact Info',
+        'menu_slug'     => 'contact-info',
+        'parent_slug'   => 'global-info',
+    ));
+}
+
+/**
+* Include Plugins
+*/
+include_once( get_stylesheet_directory() . '/plugins/mm4-you-contact-form/mm4-you-cf.php' );
 
 /**
  * Implement the Custom Header feature.
@@ -162,8 +193,8 @@ require get_template_directory() . '/inc/amenities.php';
  */
 require get_template_directory() . '/inc/contact-page-content.php';
 
-
 /**
-* Include Plugins
-*/
-include_once( get_stylesheet_directory() . '/plugins/mm4-you-contact-form/mm4-you-cf.php' );
+ * Load contact content.
+ */
+require get_template_directory() . '/inc/community-page-content.php';
+
