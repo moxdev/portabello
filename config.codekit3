@@ -99,6 +99,12 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/*project-notes\/custom-post-type-example.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project-notes\/custom-post-type-example.php",
+		"oF": 0
+		},
 	"\/*project-notes\/directions map\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -312,6 +318,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/frontpage.php",
+		"oF": 0
+		},
+	"\/functions.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/functions.php",
 		"oF": 0
 		},
 	"\/gulp\/build-files\/fonts\/Arvo.zip": {
@@ -2636,6 +2648,22 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/images\/cat-191.png": {
+		"ft": 32768,
+		"iS": 1117,
+		"oA": 0,
+		"oAP": "\/images\/cat-191.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/cat-192.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/cat-192.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/images\/featured-images\/bar-stock.jpg": {
 		"ft": 16384,
 		"iS": 5138591,
@@ -2741,6 +2769,86 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/icons\/cat-191.png": {
+		"ft": 32768,
+		"iS": 1117,
+		"oA": 0,
+		"oAP": "\/images\/icons\/cat-191.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/cat-192.png": {
+		"ft": 32768,
+		"iS": 1297,
+		"oA": 0,
+		"oAP": "\/images\/icons\/cat-192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/parent-icons\/originals\/recreation.png": {
+		"ft": 32768,
+		"iS": 2960,
+		"oA": 0,
+		"oAP": "\/images\/icons\/parent-icons\/originals\/recreation.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/parent-icons\/originals\/restaurants.png": {
+		"ft": 32768,
+		"iS": 3244,
+		"oA": 0,
+		"oAP": "\/images\/icons\/parent-icons\/originals\/restaurants.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/parent-icons\/originals\/schools.png": {
+		"ft": 32768,
+		"iS": 3069,
+		"oA": 0,
+		"oAP": "\/images\/icons\/parent-icons\/originals\/schools.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/parent-icons\/originals\/shopping.png": {
+		"ft": 32768,
+		"iS": 3046,
+		"oA": 0,
+		"oAP": "\/images\/icons\/parent-icons\/originals\/shopping.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/icons\/parent-icons\/tinified\/recreation.png": {
+		"ft": 32768,
+		"iS": 1171,
+		"oA": 0,
+		"oAP": "\/images\/icons\/parent-icons\/tinified\/recreation.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/parent-icons\/tinified\/restaurants.png": {
+		"ft": 32768,
+		"iS": 1297,
+		"oA": 0,
+		"oAP": "\/images\/icons\/parent-icons\/tinified\/restaurants.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/parent-icons\/tinified\/schools.png": {
+		"ft": 32768,
+		"iS": 1180,
+		"oA": 0,
+		"oAP": "\/images\/icons\/parent-icons\/tinified\/schools.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/icons\/parent-icons\/tinified\/shopping.png": {
+		"ft": 32768,
+		"iS": 1117,
+		"oA": 0,
+		"oAP": "\/images\/icons\/parent-icons\/tinified\/shopping.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/old\/green-background-1.png": {
 		"ft": 32768,
@@ -2946,6 +3054,12 @@
 		"oAP": "\/inc\/amenities.php",
 		"oF": 0
 		},
+	"\/inc\/community-page-content.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/community-page-content.php",
+		"oF": 0
+		},
 	"\/inc\/contact-page-content.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2999,6 +3113,24 @@
 		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
+		},
+	"\/js\/area-map-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/area-map-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/area-map.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/area-map-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/custom.js": {
 		"ft": 64,
@@ -3131,6 +3263,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-amenities-page.php",
+		"oF": 0
+		},
+	"\/page-community-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-community-page.php",
 		"oF": 0
 		},
 	"\/page-contact-page.php": {

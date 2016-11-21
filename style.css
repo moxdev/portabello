@@ -1184,6 +1184,11 @@ object {
   background: #bd6573;
 }
 
+/* line 14, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #map-canvas {
+  height: 300px;
+}
+
 /*--------------------------------------------------------------
 ## Contact Page Template
 --------------------------------------------------------------*/

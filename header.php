@@ -59,14 +59,16 @@
 			    <?php endif;
 
 				wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+
 		</nav><!-- #site-navigation -->
 
 	</header><!-- #masthead -->
-<!-- 		<div class="front-page-circle-section">
-			<img src="http://localhost:8888/portabello/wp-content/themes/mm4/images/green-circle.svg" alt="">
-			<img src="http://localhost:8888/portabello/wp-content/themes/mm4/images/red-circle.svg" alt="">
-			<img src="http://localhost:8888/portabello/wp-content/themes/mm4/images/orange-circle.svg" alt="">
-		</div> -->
 
+		<!-- Display the map on the community-page -->
+		<?php  if( is_page_template( 'page-community-page.php' ) ) {
+		    		if ( function_exists( 'mm4_area_map' ) ) {
+		        		mm4_area_map();
+		     		} ;
+		} ?>
 
 	<div id="content" class="site-content">
