@@ -102,18 +102,38 @@ function mm4_widgets_init() {
 add_action( 'widgets_init', 'mm4_widgets_init' );
 
 /**
+ * Load jQuery in the footer.
+ */
+// function mm4_register_jquery()  {
+// 	if (!is_admin()) {
+// 		wp_deregister_script('jquery');
+//         // Load the copy of jQuery that comes with WordPress
+//         // The last parameter set to TRUE states that it should be loaded in the footer.
+//         wp_register_script('jquery', '/wp-includes/js/jquery/jquery.js', FALSE, FALSE, TRUE);
+//     }
+// }
+// add_action('init', 'register_jquery');
+
+/**
  * Enqueue scripts and styles.
  */
 function mm4_scripts() {
 	wp_enqueue_style( 'mm4-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'mm4-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_deregister_script('jquery');
+	//         // Load the copy of jQuery that comes with WordPress
+	//         // The last parameter set to TRUE states that it should be loaded in the footer.
+	wp_register_script('jquery', '/wp-includes/js/jquery/jquery.js', FALSE, FALSE, TRUE);
 
-	wp_enqueue_script( 'mm4-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'mm4-navigation', get_template_directory_uri() . '/js/min/navigation-min.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'mm4-skip-link-focus-fix', get_template_directory_uri() . '/js/min/skip-link-focus-fix-min.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'mm4-custom-scripts', get_template_directory_uri() . '/js/custom.js', array('jquery'), '20151215', true );
 
 	if ( is_page_template( 'page-contact-page.php' ) ) {
 
-		wp_enqueue_script( 'mm4-contact-directions-map', get_template_directory_uri() . '/js/map-directions-min.js', array(), '20151215', true );
+		wp_enqueue_script( 'mm4-contact-directions-map', get_template_directory_uri() . '/js/min/map-directions-min.js', array(), '20151215', true );
 	}
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

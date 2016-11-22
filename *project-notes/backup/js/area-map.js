@@ -6,7 +6,7 @@ var myMap = 'map-canvas';
 var apiKey = 'AIzaSyBH96bPjiEv8k96XGcglk9hdZvKVbbQa_s';
 
 // Paths to JSON data
-var markersFeed = '/portabello/wp-json/wp/v2/area_landmarks?per_page=100';
+var markersFeed = '/portabello/wp-json/wp/v2/area_landmarks/?filter[posts_per_page]=-1';
 
 // Specify whether you want to add category controls for landmarks to the map (true/false).
 // If you do, add the path to your category feed and the path to your image directory where your icons are stored
@@ -187,19 +187,17 @@ function buildCats(data, map) {
 	}
 
 	for(var i = 0; i < data.length; i++) {
-		if(data[i].count > 0) {
-			var listItem = document.createElement('li');
-			listItem.id = 'cat-' + data[i].id;
-			listItem.classList.add(data[i].slug);
-			var listItemHref = document.createElement('a');
-			listItemHref.href = '#';
-			listItemHref.innerText = data[i].name;
-			listItem.appendChild(listItemHref);
-			catNavUl.appendChild(listItem);
+		var listItem = document.createElement('li');
+		listItem.id = 'cat-' + data[i].id;
+		listItem.classList.add(data[i].slug);
+		var listItemHref = document.createElement('a');
+		listItemHref.href = '#';
+		listItemHref.innerText = data[i].name;
+		listItem.appendChild(listItemHref);
+		catNavUl.appendChild(listItem);
 
-			catClick(listItemHref, catNavUl);
-		}
-		}
+		catClick(listItemHref, catNavUl);
+	}
 }
 
 // Grab our JSON data of landmarks and if successful, call the function to build our map

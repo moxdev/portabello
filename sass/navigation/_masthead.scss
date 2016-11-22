@@ -9,7 +9,8 @@
     top: 0;
     background: rgba(243, 240, 230, .50);
     display: flex;
-    justify-content: space-around;
+    // justify-content: space-around;
+    align-items: center;
     padding: 2em 1.25em;
 
     .site-branding {
@@ -20,7 +21,7 @@
         }
     }
 
-    #site-navigation {
+    .main-navigation {
 
         .menu-toggle {
             display: block;
@@ -34,10 +35,54 @@
         }
         .masthead-tel {
             display: none;
+            font-family: $font__bold;
+
+            a {
+                text-decoration: none;
+                color: $brand__dark-green;
+                font-size: 1.3em;
+
+                span {
+                    color: $black;
+                    font-size: 1.5em;
+                }
+            }
+
+            .resident-button {
+                margin: 0 1em;
+
+
+                button {
+                    background-color: $brand__red;
+                    color: $white;
+                    font-family: $font__regular;
+                    font-size: 1em;
+                    padding: .5em;
+                }
+            }
         }
-        .menu-primary-container {
+
+        ul {
             display: none;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+
+                a {
+                    text-decoration: none;
+                    color: $color__navigation;
+                    font-family: $font__regular;
+                    font-size: $font__size-nav-links;
+                    text-transform: uppercase;
+                }
+            }
         }
+    }
+
+    .main-navigation.toggled ul {
+        display: block;
     }
 
     .featured-image img {
@@ -57,33 +102,44 @@
                 width: 225px;
             }
         }
+    }
 
-        #site-navigation {
+    @media screen and (min-width: $desktop) {
+        padding: 2em 2em 1em;
+
+        .main-navigation {
+            text-align: right;
 
             .menu-toggle {
-                padding: 1em;
-                font-size: 1em;
+                display: none;
+            }
+
+            .masthead-tel {
+                display: inline-flex;
+                text-align: right;
+            }
+
+            ul {
+                display: inline-flex;
+
+                li {
+                    padding: 20px;
+
+                    .sub-menu {
+                        display: none;
+                    }
+                }
             }
         }
     }
-
-    // @media screen and (min-width: $laptop) {
-    //     #site-navigation {
-    //         text-align: right;
-    //         .menu-toggle {
-    //             display: none;
-    //         }
-    //         .masthead-tel {
-    //             display: inline-flex;
-    //             text-align: right;
-    //         }
-    //         .menu-primary-container {
-    //             display: block;
-    //             text-align: right;
-    //             ul {
-    //                 display: inline-flex;
-    //             }
-    //         }
-    //     }
-    // }
 }
+
+
+
+// .menu-primary-container {
+//     display: block;
+//     text-align: right;
+//     ul {
+//         display: inline-flex;
+//     }
+// }

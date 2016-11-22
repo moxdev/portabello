@@ -18,5 +18,5 @@ function mm4_area_map() { ?>
         </div>
     </div>
 
-    <?php wp_enqueue_script( 'landmark-map', get_template_directory_uri() . '/js/area-map.js' , array(), '20151215', true);
+    <?php wp_enqueue_script( 'landmark-map', get_template_directory_uri() . '/js/min/area-map-min.js' , array(), '20151215', true);
 }

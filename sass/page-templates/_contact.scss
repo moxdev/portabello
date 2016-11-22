@@ -27,6 +27,7 @@
         }
 
         .contact-page-wrapper {
+            @include outer-container;
             padding: 1em;
 
             .contact-form-wrapper {
@@ -50,8 +51,6 @@
                 }
             } // .contact-form-wrapper
 
-
-
             .sidebar-wrapper {
                 background-color: $brand__dark_green;
                 height:auto;
@@ -73,6 +72,24 @@
                     }
                 }
             }
+        } // .contact-page-wrapper
+
+        @media screen and (min-width: $tablet) {
+            display: flex;
         }
-    } // .contact-page-wrapper
+    } // .site-content
 }
+
+// @media screen and (min-width: $tablet) {
+//     display: flex;
+
+//     .contact-form-wrapper {
+//         flex: 1;
+//         order: 2;
+//     }
+
+//     .sidebar-wrapper {
+//         flex: 1;
+//         order: 1;
+//     }
+// }

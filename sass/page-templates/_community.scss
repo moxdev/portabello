@@ -8,13 +8,51 @@
     }
 
     #map-container {
+        text-align: center;
 
         #map-wrapper {
 
             #map-nav {
                 background-color: $black;
                 height: auto;
-                margin: 1em 0;
+                padding-top: 2em;
+                padding-bottom: .3em;
+
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    a {
+                        font-family: $font__regular;
+                        position: relative;
+                        display: block;
+                        text-decoration: none;
+                        color: $white;
+                        text-transform: uppercase;
+                        &:before {
+                            position: absolute;
+                            top: -18px;
+                            left: -70px;
+                        }
+                    }
+
+                    .recreation a:before {
+                        content: url('/portabello/wp-content/themes/mm4/images/cat-192.png');
+                    }
+
+                    .restaurants a:before {
+                        content: url('/portabello/wp-content/themes/mm4/images/cat-194.png');
+                    }
+
+                    .schools a:before {
+                        content: url('/portabello/wp-content/themes/mm4/images/cat-193.png');
+                    }
+
+                    .shopping a:before {
+                        content: url('/portabello/wp-content/themes/mm4/images/cat-191.png');
+                    }
+                }
             }
 
             #map-canvas {
@@ -22,7 +60,10 @@
             }
 
             #reset-map {
-
+                padding: 20px;
+                color: $white;
+                background-color: $brand__red;
+                margin: 10px;
             }
         }
     }
@@ -30,7 +71,4 @@
     .site-content {
         background: $brand__red;
     }
-
-
-
 }

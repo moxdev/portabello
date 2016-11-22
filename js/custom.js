@@ -1,13 +1,13 @@
 /*
-* Loads the Flexslider JS for the Home Page Image Carousel
+* Custom MM4 Javascript
  */
-(function($) {
-  $(window).load(function() {
-    // front-page slider
-    $('.flexslider').flexslider({
-        animation: 'fade',
-        directionNav: false,
-        animationLoop: true
-    });
-  });
-})(jQuery);
+
+ // (function($) {
+ //   $(window).load(function() {
+ //     $('.sub-menu').hover(
+ //            function() {
+ //                $(this).show();
+ //            }
+ //        )
+ //   });
+ // })(jQuery);

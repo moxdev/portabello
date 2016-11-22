@@ -561,6 +561,12 @@ table {
 # Forms
 --------------------------------------------------------------*/
 /* line 29, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_buttons.scss */
+button {
+  border: none;
+  border-radius: 3px;
+}
+
+/* line 33, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/forms/_buttons.scss */
 input[type="submit"] {
   border: none;
   border-radius: none;
@@ -637,17 +643,17 @@ textarea {
 --------------------------------------------------------------*/
 /* line 1, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_links.scss */
 a {
-  color: #d69e4b;
+  color: #bd6573;
 }
 
 /* line 4, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_links.scss */
 a:visited {
-  color: purple;
+  color: #bd6573;
 }
 
 /* line 7, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_links.scss */
 a:hover, a:focus, a:active {
-  color: midnightblue;
+  color: #bd6573;
 }
 
 /* line 12, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_links.scss */
@@ -663,37 +669,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-/* line 7, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_menus.scss */
-.main-navigation ul {
-  display: none;
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-/* line 13, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_menus.scss */
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-  left: auto;
-}
-
-/* line 19, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_menus.scss */
-.main-navigation li {
-  position: relative;
-}
-
-/* line 28, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_menus.scss */
-.main-navigation a {
-  display: block;
-  text-decoration: none;
-}
-
-/* Small menu. */
-/* line 42, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_menus.scss */
-.main-navigation.toggled ul {
-  display: block;
-}
-
 /*--------------------------------------------------------------
 ## Masthead
 --------------------------------------------------------------*/
@@ -709,25 +684,26 @@ a:hover, a:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 2em 1.25em;
 }
 
-/* line 15, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+/* line 16, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead .site-branding {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-/* line 18, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+/* line 19, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead .site-branding #logo img {
   width: 175px;
 }
 
-/* line 25, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
-#masthead #site-navigation .menu-toggle {
+/* line 26, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+#masthead .main-navigation .menu-toggle {
   display: block;
   color: #ffffff;
   background-color: #bd6573;
@@ -738,17 +714,62 @@ a:hover, a:active {
   padding: 10px 15px;
 }
 
-/* line 35, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
-#masthead #site-navigation .masthead-tel {
+/* line 36, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+#masthead .main-navigation .masthead-tel {
   display: none;
+  font-family: "GandhiSans-Bold";
 }
 
-/* line 38, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
-#masthead #site-navigation .menu-primary-container {
-  display: none;
+/* line 40, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+#masthead .main-navigation .masthead-tel a {
+  text-decoration: none;
+  color: #667264;
+  font-size: 1.3em;
 }
 
-/* line 43, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+/* line 45, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+#masthead .main-navigation .masthead-tel a span {
+  color: #000000;
+  font-size: 1.5em;
+}
+
+/* line 51, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+#masthead .main-navigation .masthead-tel .resident-button {
+  margin: 0 1em;
+}
+
+/* line 55, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+#masthead .main-navigation .masthead-tel .resident-button button {
+  background-color: #bd6573;
+  color: #ffffff;
+  font-family: "GandhiSans-Regular";
+  font-size: 1em;
+  padding: .5em;
+}
+
+/* line 65, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+#masthead .main-navigation ul {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 73, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+#masthead .main-navigation ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-family: "GandhiSans-Regular";
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+/* line 84, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+#masthead .main-navigation.toggled ul {
+  display: block;
+}
+
+/* line 88, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead .featured-image img {
   width: 100%;
   position: relative;
@@ -762,14 +783,45 @@ a:hover, a:active {
   #masthead {
     padding: 2em;
   }
-  /* line 56, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 101, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .site-branding #logo img {
     width: 225px;
   }
-  /* line 63, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
-  #masthead #site-navigation .menu-toggle {
-    padding: 1em;
-    font-size: 1em;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 3, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead {
+    padding: 2em 2em 1em;
+  }
+  /* line 110, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .main-navigation {
+    text-align: right;
+  }
+  /* line 113, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .main-navigation .menu-toggle {
+    display: none;
+  }
+  /* line 117, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .main-navigation .masthead-tel {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    text-align: right;
+  }
+  /* line 122, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .main-navigation ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  /* line 125, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .main-navigation ul li {
+    padding: 20px;
+  }
+  /* line 128, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .main-navigation ul li .sub-menu {
+    display: none;
   }
 }
 
@@ -1179,19 +1231,82 @@ object {
   background: #ffffff;
 }
 
-/* line 14, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 10, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #map-container {
+  text-align: center;
+}
+
+/* line 15, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-nav {
   background-color: #000000;
   height: auto;
-  margin: 1em 0;
+  padding-top: 2em;
+  padding-bottom: .3em;
 }
 
-/* line 20, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 21, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #map-container #map-wrapper #map-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 26, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #map-container #map-wrapper #map-nav ul a {
+  font-family: "GandhiSans-Regular";
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* line 33, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #map-container #map-wrapper #map-nav ul a:before {
+  position: absolute;
+  top: -18px;
+  left: -70px;
+}
+
+/* line 40, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #map-container #map-wrapper #map-nav ul .recreation a:before {
+  content: url("/portabello/wp-content/themes/mm4/images/cat-192.png");
+}
+
+/* line 44, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #map-container #map-wrapper #map-nav ul .restaurants a:before {
+  content: url("/portabello/wp-content/themes/mm4/images/cat-194.png");
+}
+
+/* line 48, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #map-container #map-wrapper #map-nav ul .schools a:before {
+  content: url("/portabello/wp-content/themes/mm4/images/cat-193.png");
+}
+
+/* line 52, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #map-container #map-wrapper #map-nav ul .shopping a:before {
+  content: url("/portabello/wp-content/themes/mm4/images/cat-191.png");
+}
+
+/* line 58, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-canvas {
   height: 400px;
 }
 
-/* line 30, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 62, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page #map-container #map-wrapper #reset-map {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #bd6573;
+  margin: 10px;
+}
+
+/* line 71, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page .site-content {
   background: #bd6573;
 }
@@ -1232,28 +1347,34 @@ object {
 
 /* line 29, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content .contact-page-wrapper {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1em;
 }
 
-/* line 36, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+/* line 37, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content .contact-page-wrapper .contact-form-wrapper form label {
   color: #ffffff;
   padding-top: 1em;
   font-family: "GandhiSans-Bold";
 }
 
-/* line 42, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+/* line 43, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content .contact-page-wrapper .contact-form-wrapper form .error {
   color: #990000;
 }
 
-/* line 46, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+/* line 47, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content .contact-page-wrapper .contact-form-wrapper form .msg-box span {
   display: block;
   padding: .5em 1em 0;
 }
 
-/* line 55, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+/* line 54, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper {
   background-color: #667264;
   height: auto;
@@ -1261,19 +1382,28 @@ object {
   padding: 1em;
 }
 
-/* line 61, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+/* line 60, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper .map-wrapper {
   color: #000;
 }
 
-/* line 64, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+/* line 63, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper .map-wrapper #map-canvas {
   height: 300px;
 }
 
-/* line 70, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+/* line 69, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper .map-wrapper form input[type="submit"] {
   background-color: #babc89;
+}
+
+@media screen and (min-width: 760px) {
+  /* line 18, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+  .page-template-page-contact-page .site-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 /*--------------------------------------------------------------

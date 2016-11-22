@@ -36,8 +36,3 @@ get_header(); ?>
     }
 
 get_footer();
-
-
-
-//
-// mm4_contact_form()
