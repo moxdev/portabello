@@ -7,12 +7,30 @@
         background: $white;
     }
 
+    #map-container {
+
+        #map-wrapper {
+
+            #map-nav {
+                background-color: $black;
+                height: auto;
+                margin: 1em 0;
+            }
+
+            #map-canvas {
+                height: 400px;
+            }
+
+            #reset-map {
+
+            }
+        }
+    }
+
     .site-content {
         background: $brand__red;
     }
 
-    #map-canvas {
-        height: 300px;
-    }
+
 
 }

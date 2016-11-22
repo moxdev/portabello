@@ -23,6 +23,7 @@ var catsObj;
 var markers = [];
 var locations = [];
 var resetBtn = document.getElementById('reset-map');
+var header = document.getElementById('masthead');
 
 // Check to see if there is an HTML element on our page to load the map into (#map-canvas).
 // If there is, call the Google Maps API with our API key and a callback function
@@ -146,12 +147,13 @@ function buildMap(data) {
 }
 
 // Build the category navigation
-var catNav = document.createElement('nav');
-catNav.id = 'map-nav';
+
 
 function buildCats(data, map) {
 	var mapWrapper = document.getElementById(map).parentNode;
-	mapWrapper.appendChild(catNav, document.getElementById(map));
+	var catNav = document.createElement('nav');
+	catNav.id = 'map-nav';
+	mapWrapper.insertBefore(catNav, document.getElementById(map));
 	var catNavUl = document.createElement('ul');
 	catNav.appendChild(catNavUl);
 

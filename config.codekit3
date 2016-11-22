@@ -2658,11 +2658,27 @@
 		},
 	"\/images\/cat-192.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 1171,
 		"oA": 0,
 		"oAP": "\/images\/cat-192.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
+		},
+	"\/images\/cat-193.png": {
+		"ft": 32768,
+		"iS": 1180,
+		"oA": 0,
+		"oAP": "\/images\/cat-193.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/cat-194.png": {
+		"ft": 32768,
+		"iS": 1297,
+		"oA": 0,
+		"oAP": "\/images\/cat-194.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/featured-images\/bar-stock.jpg": {
 		"ft": 16384,
