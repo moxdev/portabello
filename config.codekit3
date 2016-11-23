@@ -323,6 +323,15 @@
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
+	"\/bs-config.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/bs-config-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/comments.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3187,10 +3196,16 @@
 		"oAP": "\/inc\/amenities.php",
 		"oF": 0
 		},
-	"\/inc\/community-page-content.php": {
+	"\/inc\/community-page-list.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/community-page-content.php",
+		"oAP": "\/inc\/community-page-list.php",
+		"oF": 0
+		},
+	"\/inc\/community-page-map.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/community-page-map.php",
 		"oF": 0
 		},
 	"\/inc\/contact-page-content.php": {

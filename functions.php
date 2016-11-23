@@ -306,12 +306,17 @@ require get_template_directory() . '/inc/floorplan-listing.php';
 require get_template_directory() . '/inc/amenities.php';
 
 /**
- * Load contact content.
+ * Load contact page content.
  */
 require get_template_directory() . '/inc/contact-page-content.php';
 
 /**
- * Load community content.
+ * Load community page map.
  */
-require get_template_directory() . '/inc/community-page-content.php';
+require get_template_directory() . '/inc/community-page-map.php';
+
+/**
+ * Load community page amenities list.
+ */
+require get_template_directory() . '/inc/community-page-list.php';
 

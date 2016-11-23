@@ -25,14 +25,18 @@ get_header(); ?>
 
             endwhile; // End of the loop.
 
-
+            if(function_exists('mm4_contact_page_form')) {
+                mm4_contact_page_form();
+            }
             ?>
 
         </main><!-- #main -->
     </div><!-- #primary -->
 
-    <?php  if(function_exists('mm4_contact_page_content')) {
-        mm4_contact_page_content();
+    <?php  if(function_exists('mm4_contact_page_sidebar')) {
+        mm4_contact_page_sidebar();
     }
+
+
 
 get_footer();

@@ -18,64 +18,106 @@
     .site-content {
         background: $brand__orange;
 
+        h1 {
+            text-align: center;
+        }
+
         p {
             margin-bottom: 0;
+            text-align: center;
         }
 
         .content-area {
             text-align: left;
-        }
 
-        .contact-page-wrapper {
-            @include outer-container;
-            padding: 1em;
+            .contact-page-wrapper {
+                @include outer-container;
+                // padding: 1em;
 
-            .contact-form-wrapper {
-
-                form {
-
-                    label {
-                        color: $white;
-                        padding-top: 1em;
-                        font-family: $font__bold;
-                    }
-
-                    .error {
-                        color: $error__color;
-                    }
-
-                    .msg-box span {
-                        display: block;
-                        padding: .5em 1em 0;
-                    }
-                }
-            } // .contact-form-wrapper
-
-            .sidebar-wrapper {
-                background-color: $brand__dark_green;
-                height:auto;
-                margin: 2em 0;
-                padding: 1em;
-
-                .map-wrapper {
-                    color: #000;
-
-                    #map-canvas {
-                        height:300px;
-                    }
+                .contact-form-wrapper {
 
                     form {
 
-                        input[type="submit"] {
-                            background-color: $color__alt-background-buton;
+                        label {
+                            color: $white;
+                            padding-top: 1em;
+                            font-family: $font__bold;
                         }
+
+                        .error {
+                            color: $error__color;
+                        }
+
+                        .msg-box span {
+                            display: block;
+                            padding: .5em 1em 0;
+                        }
+                    }
+                } // .contact-form-wrapper
+            } // .contact-page-wrapper
+        }
+
+        .sidebar-wrapper {
+            background-color: $brand__dark_green;
+            height:auto;
+            margin: 2em 0 -45px;
+            padding: 2em;
+
+            .sidebar-info {
+                @include outer-container;
+                text-align: left;
+                color: $white;
+
+                h3  {
+                    font-family: $font__bold;
+                    color: $brand__light-green;
+                    text-transform: uppercase;
+                }
+            }
+
+            .map-wrapper {
+                margin: 2em 0;
+
+                #map-canvas {
+                    height:250px;
+                }
+
+                form {
+                    color: $white;
+                    margin-top: 1em;
+
+                    input[type="submit"] {
+                        background-color: $color__alt-background-buton;
                     }
                 }
             }
-        } // .contact-page-wrapper
+        }
 
-        @media screen and (min-width: $tablet) {
-            display: flex;
+        @media screen and (min-width: $laptop) {
+            // position: relative;
+
+            h1  {
+                text-align: left;
+                margin-left: .5em;
+            }
+
+            p {
+                text-align: left;
+            }
+
+            .content-area {
+                width: 70%;
+                float: right;
+            }
+
+            .sidebar-wrapper {
+                width: 25%;
+                float: left;
+                margin-left: 3em;
+                // position: absolute;
+                // top: 0;
+                // left: 2em
+            }
         }
     } // .site-content
 }

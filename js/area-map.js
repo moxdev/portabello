@@ -215,7 +215,6 @@ function initMap(feed) {
 		}
 	};
 
-	xhr.overrideMimeType('application/json');
 	xhr.open('GET', feed, true);
 	xhr.send();
 	document.getElementById('map-canvas').innerHTML = 'Loading map...';
@@ -231,7 +230,6 @@ function initCats(feed) {
 		}
 	};
 
-	xhr.overrideMimeType('application/json');
 	xhr.open('GET', feed, true);
 	xhr.send();
 }

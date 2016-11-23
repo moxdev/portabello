@@ -66,7 +66,7 @@ html {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 10px;
+  padding: 0 1.5em;
   color: #ffffff;
   font-size: 1.2em;
   line-height: 1.5;
@@ -1233,10 +1233,11 @@ object {
 
 /* line 10, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container {
+  display: none;
   text-align: center;
 }
 
-/* line 15, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 16, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-nav {
   background-color: #000000;
   height: auto;
@@ -1244,7 +1245,7 @@ object {
   padding-bottom: .3em;
 }
 
-/* line 21, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 22, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1256,7 +1257,7 @@ object {
           align-items: center;
 }
 
-/* line 26, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 27, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-nav ul a {
   font-family: "GandhiSans-Regular";
   position: relative;
@@ -1266,39 +1267,39 @@ object {
   text-transform: uppercase;
 }
 
-/* line 33, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 34, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-nav ul a:before {
   position: absolute;
   top: -18px;
   left: -70px;
 }
 
-/* line 40, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 41, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-nav ul .recreation a:before {
   content: url("/portabello/wp-content/themes/mm4/images/cat-192.png");
 }
 
-/* line 44, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 45, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-nav ul .restaurants a:before {
   content: url("/portabello/wp-content/themes/mm4/images/cat-194.png");
 }
 
-/* line 48, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 49, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-nav ul .schools a:before {
   content: url("/portabello/wp-content/themes/mm4/images/cat-193.png");
 }
 
-/* line 52, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 53, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-nav ul .shopping a:before {
   content: url("/portabello/wp-content/themes/mm4/images/cat-191.png");
 }
 
-/* line 58, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 59, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #map-canvas {
   height: 400px;
 }
 
-/* line 62, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+/* line 63, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page #map-container #map-wrapper #reset-map {
   padding: 20px;
   color: #ffffff;
@@ -1306,9 +1307,74 @@ object {
   margin: 10px;
 }
 
-/* line 71, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+@media (min-width: 760px) {
+  /* line 10, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+  .page-template-page-community-page #map-container {
+    display: block;
+  }
+}
+
+/* line 76, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
 .page-template-page-community-page .site-content {
   background: #bd6573;
+}
+
+/* line 79, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page .site-content #landmark-listing {
+  background-color: #ffffff;
+  padding-top: 2em;
+  margin-bottom: -40px;
+}
+
+/* line 84, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page .site-content #landmark-listing .landmark-inner-wrapper {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 87, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page .site-content #landmark-listing .landmark-inner-wrapper .community-listing-wrapper {
+  text-align: left;
+  padding: 0 1.5em;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+/* line 94, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page .site-content #landmark-listing .landmark-inner-wrapper .community-listing-wrapper .community-listing-header {
+  font-family: "GandhiSans-Bold";
+  color: #bd6573;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+/* line 102, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page .site-content #landmark-listing .landmark-inner-wrapper .community-listing-wrapper .community-listing {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 108, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page .site-content #landmark-listing .landmark-inner-wrapper .community-listing-wrapper .community-listing li {
+  padding: 0 0 1em;
+  margin: 0;
+}
+
+/* line 112, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+.page-template-page-community-page .site-content #landmark-listing .landmark-inner-wrapper .community-listing-wrapper .community-listing li .comm-name {
+  font-family: "GandhiSans-Bold";
+}
+
+@media (min-width: 760px) {
+  /* line 122, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_community.scss */
+  .page-template-page-community-page .site-content #landmark-listing {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1336,73 +1402,117 @@ object {
 }
 
 /* line 21, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content p {
-  margin-bottom: 0;
+.page-template-page-contact-page .site-content h1 {
+  text-align: center;
 }
 
 /* line 25, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* line 30, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
 .page-template-page-contact-page .site-content .content-area {
   text-align: left;
 }
 
-/* line 29, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-page-wrapper {
+/* line 33, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .content-area .contact-page-wrapper {
   content: "";
   display: table;
   table-layout: fixed;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em;
 }
 
-/* line 37, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-page-wrapper .contact-form-wrapper form label {
+/* line 41, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .content-area .contact-page-wrapper .contact-form-wrapper form label {
   color: #ffffff;
   padding-top: 1em;
   font-family: "GandhiSans-Bold";
 }
 
-/* line 43, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-page-wrapper .contact-form-wrapper form .error {
+/* line 47, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .content-area .contact-page-wrapper .contact-form-wrapper form .error {
   color: #990000;
 }
 
-/* line 47, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-page-wrapper .contact-form-wrapper form .msg-box span {
+/* line 51, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .content-area .contact-page-wrapper .contact-form-wrapper form .msg-box span {
   display: block;
   padding: .5em 1em 0;
 }
 
-/* line 54, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper {
+/* line 60, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .sidebar-wrapper {
   background-color: #667264;
   height: auto;
+  margin: 2em 0 -45px;
+  padding: 2em;
+}
+
+/* line 66, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .sidebar-wrapper .sidebar-info {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* line 71, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .sidebar-wrapper .sidebar-info h3 {
+  font-family: "GandhiSans-Bold";
+  color: #babc89;
+  text-transform: uppercase;
+}
+
+/* line 78, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .sidebar-wrapper .map-wrapper {
   margin: 2em 0;
-  padding: 1em;
 }
 
-/* line 60, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper .map-wrapper {
-  color: #000;
+/* line 81, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .sidebar-wrapper .map-wrapper #map-canvas {
+  height: 250px;
 }
 
-/* line 63, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper .map-wrapper #map-canvas {
-  height: 300px;
+/* line 85, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .sidebar-wrapper .map-wrapper form {
+  color: #ffffff;
+  margin-top: 1em;
 }
 
-/* line 69, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-.page-template-page-contact-page .site-content .contact-page-wrapper .sidebar-wrapper .map-wrapper form input[type="submit"] {
+/* line 89, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+.page-template-page-contact-page .site-content .sidebar-wrapper .map-wrapper form input[type="submit"] {
   background-color: #babc89;
 }
 
-@media screen and (min-width: 760px) {
-  /* line 18, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
-  .page-template-page-contact-page .site-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+@media screen and (min-width: 960px) {
+  /* line 99, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+  .page-template-page-contact-page .site-content h1 {
+    text-align: left;
+    margin-left: .5em;
+  }
+  /* line 104, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+  .page-template-page-contact-page .site-content p {
+    text-align: left;
+  }
+  /* line 108, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+  .page-template-page-contact-page .site-content .content-area {
+    width: 70%;
+    float: right;
+  }
+  /* line 113, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_contact.scss */
+  .page-template-page-contact-page .site-content .sidebar-wrapper {
+    width: 25%;
+    float: left;
+    margin-left: 3em;
   }
 }
 

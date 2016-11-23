@@ -72,18 +72,21 @@ function calcRoute() {
 
     if(start === '') {
         document.getElementById(mapResponses).innerHTML = "Please enter a starting address.";
-        document.getElementById(mapResponses).classList.add('error', 'active');
+        document.getElementById(mapResponses).classList.add('error');
+        document.getElementById(mapResponses).classList.add('active');
     } else {
         directionsDisplay.setPanel(document.getElementById(mapResponses));
         directionsService.route(request, function(result, status) {
-            document.getElementById(mapResponses).classList.remove('error', 'active');
+            document.getElementById(mapResponses).classList.remove('error');
+            document.getElementById(mapResponses).classList.remove('active');
             if (status === 'OK') {
                 document.getElementById(mapResponses).classList.add('active');
                 document.getElementById(mapResponses).innerHTML = '';
                 directionsDisplay.setDirections(result);
             } else {
                 document.getElementById(mapResponses).innerHTML = "We're sorry, but an error occurred: <strong><em>" + status + "</em></strong>.<br>Please check your starting address and try again.";
-                document.getElementById(mapResponses).classList.add('error', 'active');
+                document.getElementById(mapResponses).classList.add('error');
+                document.getElementById(mapResponses).classList.add('active');
             }
         });
     }

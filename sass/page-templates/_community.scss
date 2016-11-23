@@ -8,6 +8,7 @@
     }
 
     #map-container {
+        display: none;
         text-align: center;
 
         #map-wrapper {
@@ -66,9 +67,62 @@
                 margin: 10px;
             }
         }
+
+        @media (min-width: $tablet) {
+            display: block;
+        }
     }
 
     .site-content {
         background: $brand__red;
+
+        #landmark-listing {
+            background-color: $white;
+            padding-top: 2em;
+            margin-bottom: -40px;
+
+            .landmark-inner-wrapper {
+                @include outer-container;
+
+                .community-listing-wrapper {
+                    text-align: left;
+                    padding: 0 1.5em;
+                    font-size: $font__size-mobile;
+                    line-height: 1.5;
+
+
+                    .community-listing-header {
+                        font-family: $font__bold;
+                        color: $brand__red;
+                        font-size: $font__size-h1-mobile;
+                        margin: 0;
+
+                    }
+
+                    .community-listing {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+
+
+                        li {
+                            padding: 0 0 1em;
+                            margin: 0;
+
+                            .comm-name {
+                                font-family: $font__bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (min-width: $tablet) {
+            #landmark-listing {
+                display: none;
+            }
+        }
     }
+
 }

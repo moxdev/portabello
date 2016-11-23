@@ -30,6 +30,10 @@ get_header(); ?>
         </main><!-- #main -->
     </div><!-- #primary -->
 
+    <?php if ( function_exists( 'mm4_community_landmark_list' ) ) {
+        mm4_community_landmark_list();
+    } ?>
+
 <?php
 
 get_footer();
