@@ -61,6 +61,9 @@
 				wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 
 		</nav><!-- #site-navigation -->
+		<div class="display">
+			<h1>Display Words</h1>
+		</div>
 
 	</header><!-- #masthead -->
 
