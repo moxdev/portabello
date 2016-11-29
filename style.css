@@ -814,7 +814,15 @@ a:hover, a:active {
 
 /* line 123, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead .frontpage-display .circles {
-  bottom: 0;
+  margin-top: 3em;
+}
+
+/* line 126, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+#masthead .frontpage-display .circles svg {
+  width: 80px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 @media screen and (min-width: 760px) {
@@ -822,7 +830,7 @@ a:hover, a:active {
   #masthead {
     padding: 2em;
   }
-  /* line 133, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 138, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .site-branding #logo img {
     width: 225px;
   }
@@ -833,36 +841,36 @@ a:hover, a:active {
   #masthead {
     padding: 2em 2em 1em;
   }
-  /* line 142, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 147, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation {
     text-align: right;
   }
-  /* line 145, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 150, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-toggle {
     display: none;
   }
-  /* line 149, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 154, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation .masthead-tel {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     text-align: right;
   }
-  /* line 154, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 159, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation ul {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-  /* line 157, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 162, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation ul li {
     padding: 20px;
   }
-  /* line 160, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 165, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation ul li .sub-menu {
     display: none;
   }
-  /* line 167, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 172, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display {
     text-align: center;
     position: absolute;
@@ -873,16 +881,16 @@ a:hover, a:active {
     color: #ffffff;
     font-family: "Arvo";
   }
-  /* line 177, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 182, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display .border {
     border: 3px solid #ffffff;
     margin: 0 5%;
   }
-  /* line 180, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 185, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display .border h1 {
     font-size: 100px;
   }
-  /* line 183, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 188, /Users/Mox/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display .border h2 {
     font-size: 44px;
   }

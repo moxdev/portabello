@@ -121,7 +121,12 @@
         }
 
         .circles {
-            bottom: 0;
+            margin-top: 3em;
+
+            svg {
+                width: 80px;
+                display: inline-flex;
+            }
         }
     }
 
