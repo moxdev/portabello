@@ -3388,6 +3388,60 @@
 		"oAP": "\/images\/originals\/green-background-cropped.ai",
 		"oF": 0
 		},
+	"\/images\/pages\/amenities-hero-1500x1000.jpg": {
+		"ft": 16384,
+		"iS": 134519,
+		"oA": 0,
+		"oAP": "\/images\/pages\/amenities-hero-1500x1000.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/pages\/floor-plan-hero-1500x1000.jpg": {
+		"ft": 16384,
+		"iS": 238893,
+		"oA": 0,
+		"oAP": "\/images\/pages\/floor-plan-hero-1500x1000.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/pages\/home-hero-1500x1000.jpg": {
+		"ft": 16384,
+		"iS": 261157,
+		"oA": 0,
+		"oAP": "\/images\/pages\/home-hero-1500x1000.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/pages\/tinified.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/pages\/tinified.zip",
+		"oF": 0
+		},
+	"\/images\/pages\/tinified\/amenities-hero-1500x1000.jpg": {
+		"ft": 16384,
+		"iS": 91019,
+		"oA": 0,
+		"oAP": "\/images\/pages\/tinified\/amenities-hero-1500x1000.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/pages\/tinified\/floor-plan-hero-1500x1000.jpg": {
+		"ft": 16384,
+		"iS": 159071,
+		"oA": 0,
+		"oAP": "\/images\/pages\/tinified\/floor-plan-hero-1500x1000.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/pages\/tinified\/home-hero-1500x1000.jpg": {
+		"ft": 16384,
+		"iS": 206128,
+		"oA": 0,
+		"oAP": "\/images\/pages\/tinified\/home-hero-1500x1000.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/portabello-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -6707,6 +6761,14 @@
 		"oA": 2,
 		"oAP": "\/search.php",
 		"oF": 0
+		},
+	"\/sftp-config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/sftp-config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/sidebar.php": {
 		"ft": 8192,
