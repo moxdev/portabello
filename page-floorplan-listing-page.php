@@ -11,6 +11,11 @@
 get_header(); ?>
 
     <div id="primary" class="content-area">
+
+        <?php if ( function_exists( 'mm4_floor_plan_highlights' ) ) {
+            mm4_floor_plan_highlights();
+        } ?>
+
         <main id="main" class="site-main" role="main">
 
             <?php

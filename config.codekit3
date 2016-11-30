@@ -348,6 +348,34 @@
 		"oAP": "\/comments.php",
 		"oF": 0
 		},
+	"\/fonts\/Arvo.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Arvo.eot",
+		"oF": 0
+		},
+	"\/fonts\/Arvo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Arvo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Arvo.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Arvo.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Arvo.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Arvo.woff",
+		"oF": 0
+		},
 	"\/fonts\/GandhiSans-Bold.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -2796,16 +2824,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/circles\/1-bed-circle.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/circles\/1-bed-circle.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/images\/circles\/2-bed-circle.png": {
 		"ft": 32768,
 		"iS": 37493,
@@ -2814,16 +2832,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/circles\/2-bed-circle.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/circles\/2-bed-circle.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/images\/circles\/3-bed-circle.png": {
 		"ft": 32768,
 		"iS": 46126,
@@ -2831,16 +2839,6 @@
 		"oAP": "\/images\/circles\/3-bed-circle.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/images\/circles\/3-bed-circle.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/circles\/3-bed-circle.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/images\/circles\/AI\/1-bed-circle.ai": {
 		"ft": 8192,
@@ -2865,6 +2863,156 @@
 		"oA": 2,
 		"oAP": "\/images\/circles\/AI\/3-bed-circle.ai",
 		"oF": 0
+		},
+	"\/images\/circles\/AI\/front-green-circle-no-text.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/circles\/AI\/front-green-circle-no-text.ai",
+		"oF": 0
+		},
+	"\/images\/circles\/AI\/front-green-circle.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/circles\/AI\/front-green-circle.ai",
+		"oF": 0
+		},
+	"\/images\/circles\/AI\/front-orange-circle-no-text.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/circles\/AI\/front-orange-circle-no-text.ai",
+		"oF": 0
+		},
+	"\/images\/circles\/AI\/front-orange-circle.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/circles\/AI\/front-orange-circle.ai",
+		"oF": 0
+		},
+	"\/images\/circles\/AI\/front-red-circle-no-text.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/circles\/AI\/front-red-circle-no-text.ai",
+		"oF": 0
+		},
+	"\/images\/circles\/AI\/front-red-circle.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/circles\/AI\/front-red-circle.ai",
+		"oF": 0
+		},
+	"\/images\/circles\/front-green-circle-no-text.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/circles\/front-green-circle-no-text.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/circles\/front-green-circle.png": {
+		"ft": 32768,
+		"iS": 24863,
+		"oA": 0,
+		"oAP": "\/images\/circles\/front-green-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/circles\/front-green-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/circles\/front-green-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/circles\/front-orange-circle-no-text.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/circles\/front-orange-circle-no-text.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/circles\/front-orange-circle.png": {
+		"ft": 32768,
+		"iS": 25188,
+		"oA": 0,
+		"oAP": "\/images\/circles\/front-orange-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/circles\/front-orange-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/circles\/front-orange-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/circles\/front-red-circle-no-text.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/circles\/front-red-circle-no-text.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/circles\/front-red-circle.png": {
+		"ft": 32768,
+		"iS": 22541,
+		"oA": 0,
+		"oAP": "\/images\/circles\/front-red-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/circles\/front-red-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/circles\/front-red-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/circles\/one-bedroom-green-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/circles\/one-bedroom-green-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/circles\/three-bedroom-orange-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/circles\/three-bedroom-orange-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/circles\/two-bedroom-red-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/circles\/two-bedroom-red-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/featured-images\/bar-stock.jpg": {
 		"ft": 16384,
@@ -3290,6 +3438,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/extras.php",
+		"oF": 0
+		},
+	"\/inc\/floor-plan-highlights.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/floor-plan-highlights.php",
 		"oF": 0
 		},
 	"\/inc\/floorplan-listing.php": {

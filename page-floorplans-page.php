@@ -27,6 +27,10 @@ get_header(); ?>
             ?>
 
         </main><!-- #main -->
+
+        <?php if ( function_exists( 'mm4_floor_plan_highlights' ) ) {
+            mm4_floor_plan_highlights();
+        } ?>
     </div><!-- #primary -->
 
 <?php

@@ -324,3 +324,8 @@ require get_template_directory() . '/inc/community-page-list.php';
  * Load frontpage display with circle links.
  */
 require get_template_directory() . '/inc/front-page-highlights.php';
+
+/**
+ * Load frontpage display with circle links.
+ */
+require get_template_directory() . '/inc/floor-plan-highlights.php';

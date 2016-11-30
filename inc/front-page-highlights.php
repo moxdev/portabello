@@ -17,9 +17,9 @@ function mm4_front_page_highlights() { ?>
             <h2>Great Apartments &#8226 Convenient Location</h2>
         </div>
         <div class="front-page-circles">
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/circles/1-bed-circle.svg" alt=""></a>
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/circles/2-bed-circle.svg" alt=""></a>
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/circles/3-bed-circle.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/circles/front-green-circle.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/circles/front-red-circle.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/circles/front-orange-circle.svg" alt=""></a>
         </div>
     </div> <?php
 }

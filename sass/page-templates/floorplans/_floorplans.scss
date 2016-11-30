@@ -1,6 +1,30 @@
 //  floorplans.scss
 
-
 .page-template-page-floorplans-page {
 
+    .hentry {
+        margin: 0;
+    }
+
+    .floor-plan-display {
+
+        .floor-plan-circles {
+
+            img {
+                max-width: 260px;
+                display: block;
+                margin: 1em auto;
+
+                @media (min-width: $mobile) {
+                    max-width: 300px;
+                }
+
+                @media (min-width: $tablet) {
+                    display: inline-block;
+                    max-width: 200px;
+                    margin: 1em;
+                }
+            }
+        }
+    }
 }

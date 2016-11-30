@@ -795,20 +795,20 @@ a:hover, a:active {
 
 /* line 109, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead .frontpage-display .border {
-  border: 2px solid #ffffff;
-  margin: 0 10%;
-  padding: 10px 5px;
+  border: 1px solid #ffffff;
+  margin: 0 5%;
+  padding: 10px;
 }
 
 /* line 113, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead .frontpage-display .border h1 {
-  font-size: 28px;
+  font-size: 30px;
   margin: 0;
 }
 
 /* line 117, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
 #masthead .frontpage-display .border h2 {
-  font-size: 11px;
+  font-size: 12px;
   margin: 0;
 }
 
@@ -824,18 +824,24 @@ a:hover, a:active {
   #masthead .frontpage-display {
     top: 5em;
   }
-  /* line 142, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 140, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .frontpage-display .border {
+    border: 2px solid #ffffff;
+    margin: 0 10%;
+    padding: 10px;
+  }
+  /* line 145, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display .border h1 {
     font-size: 40px;
   }
-  /* line 145, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 148, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display .border h2 {
-    font-size: 18px;
+    font-size: 17px;
   }
-  /* line 154, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 157, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display .front-page-circles a img {
     max-width: 100px;
-    margin: 2em .5em;
+    margin: 1em .5em;
   }
 }
 
@@ -844,9 +850,26 @@ a:hover, a:active {
   #masthead {
     padding: 2em;
   }
-  /* line 168, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 171, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .site-branding #logo img {
     width: 225px;
+  }
+  /* line 176, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .frontpage-display {
+    top: 14em;
+  }
+  /* line 181, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .frontpage-display .border h1 {
+    font-size: 40px;
+  }
+  /* line 184, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .frontpage-display .border h2 {
+    font-size: 18px;
+  }
+  /* line 193, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  #masthead .frontpage-display .front-page-circles a img {
+    max-width: 200px;
+    margin: 2em .5em;
   }
 }
 
@@ -855,36 +878,36 @@ a:hover, a:active {
   #masthead {
     padding: 2em 2em 1em;
   }
-  /* line 177, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 205, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation {
     text-align: right;
   }
-  /* line 180, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 208, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation .menu-toggle {
     display: none;
   }
-  /* line 184, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 212, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation .masthead-tel {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     text-align: right;
   }
-  /* line 189, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 217, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation ul {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-  /* line 192, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 220, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation ul li {
     padding: 20px;
   }
-  /* line 195, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 223, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .main-navigation ul li .sub-menu {
     display: none;
   }
-  /* line 202, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 230, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display {
     text-align: center;
     position: absolute;
@@ -895,16 +918,16 @@ a:hover, a:active {
     color: #ffffff;
     font-family: "Arvo";
   }
-  /* line 212, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 240, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display .border {
     border: 3px solid #ffffff;
     margin: 0 5%;
   }
-  /* line 215, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 243, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display .border h1 {
     font-size: 100px;
   }
-  /* line 218, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
+  /* line 246, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_masthead.scss */
   #masthead .frontpage-display .border h2 {
     font-size: 44px;
   }
@@ -1211,22 +1234,6 @@ object {
   background-color: #667264;
 }
 
-/* line 9, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_frontpage.scss */
-.page-template-frontpage .front-page-circle-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-}
-
-/* line 12, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_frontpage.scss */
-.page-template-frontpage .front-page-circle-section img {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  width: 100px;
-}
-
 /*--------------------------------------------------------------
 ## Amenities Page Template
 --------------------------------------------------------------*/
@@ -1275,34 +1282,90 @@ object {
 /*--------------------------------------------------------------
 ## Floor Plans Page Template
 --------------------------------------------------------------*/
+/* line 5, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplans.scss */
+.page-template-page-floorplans-page .hentry {
+  margin: 0;
+}
+
+/* line 13, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplans.scss */
+.page-template-page-floorplans-page .floor-plan-display .floor-plan-circles img {
+  max-width: 260px;
+  display: block;
+  margin: 1em auto;
+}
+
+@media (min-width: 480px) {
+  /* line 13, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplans.scss */
+  .page-template-page-floorplans-page .floor-plan-display .floor-plan-circles img {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 760px) {
+  /* line 13, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplans.scss */
+  .page-template-page-floorplans-page .floor-plan-display .floor-plan-circles img {
+    display: inline-block;
+    max-width: 200px;
+    margin: 1em;
+  }
+}
+
 /*--------------------------------------------------------------
 ### Floor Plan Listing Page Template
 --------------------------------------------------------------*/
 /* line 7, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+.page-template-page-floorplan-listing-page .site-content h1 {
+  margin: 0;
+}
+
+/* line 15, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+.page-template-page-floorplan-listing-page .site-content .floor-plan-display .floor-plan-circles img {
+  max-width: 80px;
+  display: inline-block;
+  margin: .1em;
+}
+
+@media (min-width: 480px) {
+  /* line 15, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+  .page-template-page-floorplan-listing-page .site-content .floor-plan-display .floor-plan-circles img {
+    max-width: 115px;
+    margin: .5em;
+  }
+}
+
+@media (min-width: 760px) {
+  /* line 15, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+  .page-template-page-floorplan-listing-page .site-content .floor-plan-display .floor-plan-circles img {
+    max-width: 195px;
+    margin: 1em;
+  }
+}
+
+/* line 34, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
 .page-template-page-floorplan-listing-page .site-content .floorplan-wrapper {
   background-color: #F1F2E7;
   padding: 2em 0;
 }
 
-/* line 11, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+/* line 38, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
 .page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .floorplan-section {
   text-align: center;
   margin-bottom: 3em;
 }
 
-/* line 15, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+/* line 42, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
 .page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .floorplan-section h3 {
   color: #667264;
   font-family: "GandhiSans-Bold";
 }
 
-/* line 20, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+/* line 47, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
 .page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .floorplan-section h4 {
   color: #000000;
   font-family: "GandhiSans-Regular";
 }
 
-/* line 25, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+/* line 52, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
 .page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .floorplan-section img {
   width: 300px;
 }
