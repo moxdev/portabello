@@ -24,12 +24,6 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mm4' ); ?></a>
 
-	<div class="featured-image">
-		<?php if ( has_post_thumbnail() ) {
-	    	the_post_thumbnail( 'full');
-		} ?>
-	</div>
-
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 			<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portabello-logo.svg" alt="Portabello Apartments logo"></a>
@@ -54,7 +48,7 @@
 			<?php $phone = get_theme_mod('setting_phone');
 			    if ($phone): ?>
 			        <div class="masthead-tel">
-			            <a id="tel-link" href="tel:<?php echo $phone; ?>">Schedule a tour today!&nbsp;<span><?php echo $phone; ?></span></a><span class="resident-button"><button>Resident Corner</button></span>
+			            <a id="tel-link" href="tel:<?php echo $phone; ?>">Schedule a tour today!&nbsp;<span><?php echo $phone; ?></span></a><a href="/residents/"><span class="resident-button"><button>Resident Corner</button></span></a>
 			        </div>
 			    <?php endif;
 
@@ -71,8 +65,15 @@
 
 	</header><!-- #masthead -->
 
-		<!-- Display the map on the community-page -->
-		<?php  if( is_page_template( 'page-community-page.php' ) ) {
+		<!-- Displays featured image header if page has one -->
+		<?php if ( has_post_thumbnail() ) {
+			?><figure class="featured-image"><?php
+				the_post_thumbnail( 'full'); ?>
+	    	</figure><?php
+		}
+
+		// Display the map on the community-page
+		if( is_page_template( 'page-community-page.php' ) ) {
 		    		if ( function_exists( 'mm4_area_map' ) ) {
 		        		mm4_area_map();
 		     		}

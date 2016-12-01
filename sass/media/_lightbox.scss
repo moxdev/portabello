@@ -1,0 +1,137 @@
+#imagelightbox {
+    position: fixed;
+    z-index: 9998;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+#imagelightbox-overlay {
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index:9997;
+    background-color:rgba(255, 255, 255, .95);
+}
+
+#imagelightbox-close {
+    position:relative;
+    z-index:9999;
+    background: none;
+    color: $color__text-main;
+    text-transform: none;
+    font-family: inherit;
+    padding: 0;
+    border: none;
+    font-size: 1.125em;
+    margin-top: 1em;
+
+    &:hover, &:active {
+        cursor:pointer;
+    }
+}
+
+.imagelightbox-arrow {
+    position:fixed;
+    z-index:9999;
+    border:none;
+    border-radius: 100%;
+    padding: 10px 13px 7px;
+    font-size:1.5em;
+    line-height:1;
+    text-align:center;
+    background:#282828;
+    font-family: $font__regular;
+    right: 20px;
+
+    &:hover {
+        background:#515151;
+        color: #FFF;
+    }
+}
+
+.imagelightbox-arrow-left {
+    top:42%;
+}
+
+.imagelightbox-arrow-right {
+    top:50%;
+}
+
+#imagelightbox-caption {
+    font-family: $font__bold;
+    font-size: 1.25em;
+    line-height: 1.25;
+    text-align: center;
+    color:$color__text-main;
+    position: fixed;
+    z-index: 10001;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 0.625em;
+}
+
+#imagelightbox-loading,
+#imagelightbox-loading div {
+    border-radius: 50%;
+}
+
+#imagelightbox-loading {
+    width: 2.5em; /* 40 */
+    height: 2.5em; /* 40 */
+    background-color: #444;
+    background-color: rgba( 0, 0, 0, .5 );
+    position: fixed;
+    z-index: 10003;
+    top: 50%;
+    left: 50%;
+    padding: 0.625em; /* 10 */
+    margin: -1.25em 0 0 -1.25em; /* 20 */
+
+    -webkit-box-shadow: 0 0 2.5em rgba( 0, 0, 0, .75 ); /* 40 */
+    box-shadow: 0 0 2.5em rgba( 0, 0, 0, .75 ); /* 40 */
+}
+
+#imagelightbox-loading div {
+    width: 1.25em; /* 20 */
+    height: 1.25em; /* 20 */
+    background-color: #fff;
+
+    -webkit-animation: imagelightbox-loading .5s ease infinite;
+    animation: imagelightbox-loading .5s ease infinite;
+}
+
+@-webkit-keyframes imagelightbox-loading  {
+    from { opacity: .5; -webkit-transform: scale( .75 ); }
+    50%  { opacity: 1;  -webkit-transform: scale( 1 ); }
+    to   { opacity: .5; -webkit-transform: scale( .75 ); }
+}
+
+@keyframes imagelightbox-loading {
+    from { opacity: .5; transform: scale( .75 ); }
+    50%  { opacity: 1;  transform: scale( 1 ); }
+    to   { opacity: .5; transform: scale( .75 ); }
+}
+
+#imagelightbox-loading,
+#imagelightbox-overlay,
+#imagelightbox-close,
+#imagelightbox-caption,
+#imagelightbox-nav,
+.imagelightbox-arrow
+{
+    -webkit-animation: fade-in .25s linear;
+    animation: fade-in .25s linear;
+}
+    @-webkit-keyframes fade-in
+    {
+        from    { opacity: 0; }
+        to      { opacity: 1; }
+    }
+    @keyframes fade-in
+    {
+        from    { opacity: 0; }
+        to      { opacity: 1; }
+    }

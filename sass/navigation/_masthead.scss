@@ -51,6 +51,7 @@
 
             .resident-button {
                 margin: 0 1em;
+                font-size: 1em;
 
 
                 button {
@@ -84,16 +85,6 @@
 
     .main-navigation.toggled ul {
         display: block;
-    }
-
-    .featured-image {
-        img {
-            width: 100%;
-            position: relative;
-            height: auto;
-            z-index: -99999;
-            display: block;
-        }
     }
 
     .frontpage-display {

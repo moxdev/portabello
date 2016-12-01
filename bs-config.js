@@ -22,11 +22,12 @@ module.exports = {
     "files": [
         'style.css',
         '**/*.php',
-        'js/**/*.js'
+        'js/**/*.js',
+        '**/*.svg'
     ],
     "watchOptions": {},
     "server": false,
-    "proxy": 'http://localhost:8888/portabello',
+    "proxy": 'http://dev.portabelloapartments.com/',
     "port": 3000,
     "middleware": false,
     "serveStatic": [],
