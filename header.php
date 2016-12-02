@@ -65,10 +65,17 @@
 
 	</header><!-- #masthead -->
 
-		<!-- Displays featured image header if page has one -->
-		<?php if ( has_post_thumbnail() ) {
+		<!-- Displays featured image on home page header if page has featured image -->
+		<?php if( is_page_template( 'frontpage.php' )  &&  has_post_thumbnail() ) {
 			?><figure class="featured-image"><?php
-				the_post_thumbnail( 'full'); ?>
+				the_post_thumbnail( 'featured-image-home-page'); ?>
+	    	</figure><?php
+		}
+
+		// Displays featured image header if page has featured image  -->
+		if( !is_page_template( 'frontpage.php' )  &&  has_post_thumbnail() ) {
+			?><figure class="featured-image"><?php
+				the_post_thumbnail( 'featured-image'); ?>
 	    	</figure><?php
 		}
 

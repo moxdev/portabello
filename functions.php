@@ -41,7 +41,8 @@ function mm4_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
-	add_image_size('featured-image', 2600, 1200, false);
+	add_image_size('featured-image-home-page', 1500, 1000, array( 'center', 'bottom' ) );
+	add_image_size('featured-image', 1800, 500, true );
 	add_image_size('floor-plan-thumb', 900, 9999, false);
 	add_image_size('floor-plan-lightbox', 1500, 1000, false);
 

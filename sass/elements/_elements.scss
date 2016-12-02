@@ -35,33 +35,36 @@ img {
 	max-width: 100%; /* Adhere to container width. */
 }
 
-.featured-image {
-	margin: 0;
-	min-height: 1000px;
-    max-height: 600px;
-    height: 25vh;
-    overflow: hidden;
-    position: relative;
+// .featured-image {
+// 	margin: 0;
+// 	min-height: 1000px;
+//     max-height: 600px;
+//     height: 25vh;
+//     overflow: hidden;
+//     position: relative;
 
+//     img {
+//     	position: absolute;
+//     	left: 0;
+//     	right: 0;
+//     	bottom: 0;
+//     	top: 0;
+//     	// margin: auto;
+//     	display: block;
+//     	width: 100%;
+//     }
+// }
+
+
+.featured-image {
+    margin: 0;
     img {
-    	position: absolute;
-    	left: 0;
-    	right: 0;
-    	bottom: 0;
-    	top: 0;
-    	// margin: auto;
-    	display: block;
-    	width: 100%;
+	display: block;
+	width: 100%;
+	position: relative;
+	height: auto;
+	z-index: -99999;
     }
 }
-
-
-// .featured-image img {
-// 	display: block;
-// 	width: 100%;
-// 	position: relative;
-// 	height: auto;
-// 	z-index: -99999;
-// }
 
 @import "tables";

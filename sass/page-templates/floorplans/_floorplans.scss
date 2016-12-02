@@ -11,18 +11,24 @@
         .floor-plan-circles {
 
             img {
-                max-width: 260px;
+                max-width: 200px;
                 display: block;
-                margin: 1em auto;
+                margin: 2em auto;
 
                 @media (min-width: $mobile) {
-                    max-width: 300px;
+                    // max-width: 300px;
                 }
 
                 @media (min-width: $tablet) {
-                    display: inline-block;
+                    display: inline-flex;
+                    flex-wrap: nowrap;
                     max-width: 200px;
                     margin: 1em;
+                }
+
+                @media (min-width: $laptop) {
+                    max-width: 250px;
+                    margin: 2em;
                 }
             }
         }

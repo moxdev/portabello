@@ -8,38 +8,56 @@ $size__site-sidebar: 25%;
     background-size: cover;
     width: 100%;
     background-color: $brand__dark_green;
-    padding: 2em 0;
+    // padding: 0 0 2em;
+    padding-bottom: 2em;
     font-family: $font__regular;
 
     .content-area {
         @include outer-container;
         padding: 0 1.5em;
         color: $color__text-main;
-        font-size: $font__size-mobile;
+        // font-size: $font__size-mobile;
         line-height: $font__line-height-body;
         text-align: center;
 
         h1 {
             font-family: $font__bold;
-            font-size: $font__size-h1-mobile;
-            margin-bottom: 0;
+            // font-size: $font__size-h1-mobile;
+            // margin: 0;
         }
 
         // .content-area media query
         @media screen and (min-width: $tablet) {
+            font-size: 110%;
 
             p {
-                padding: 0 1em;
+                // padding: 0 1em;
             }
         }
 
         // .content-area media query
         @media screen and (min-width: $laptop) {
+            font-size: 120%;
 
-            font-size: $font__size-desktop;
+            // font-size: $font__size-desktop;
 
             h1 {
-                font-size: $font__size-h1-desktop;
+                // font-size: $font__size-h1-desktop;
+            }
+
+            p {
+                // padding: 0 1em;
+            }
+        }
+
+        // .content-area media query
+        @media screen and (min-width: $desktop) {
+            font-size: 150%;
+
+            // font-size: $font__size-desktop;
+
+            h1 {
+                // font-size: $font__size-h1-desktop;
             }
 
             p {

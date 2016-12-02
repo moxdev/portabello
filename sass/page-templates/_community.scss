@@ -1,6 +1,9 @@
 // community.scss
 
 .page-template-page-community-page {
+    a {
+        color: $brand__red;
+    }
 
     #masthead {
         position: relative;
