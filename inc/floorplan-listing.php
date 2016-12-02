@@ -10,38 +10,40 @@
  *
  */
 
-function mm4_floor_plan_listing() { ?>
-    <div class="floorplan-wrapper">
-        <?php if( have_rows('floor_plans') ):
+function mm4_floor_plan_listing() {
+    if(function_exists('get_field')) {
+        if( have_rows('floor_plans') ): ?>
+            <div class='floorplan-wrapper'>
+                <div class='fp-models'>
 
-            while( have_rows('floor_plans') ): the_row();
+                    <?php while( have_rows('floor_plans') ): the_row();
 
-                $desc = get_sub_field('floor_plan_description');
-                $sqft = get_sub_field('floor_plan_square_feet');
-                $image = get_sub_field('floor_plan_image');
+                        $img = get_sub_field('floor_plan_image');
+                        $desc = get_sub_field('floor_plan_description');
+                        $sqft = get_sub_field('floor_plan_square_feet'); ?>
 
-                ?>
+                        <div class='floorplan-section'>
 
-                <div class="floorplan-section">
+                            <?php if( $desc ): ?>
+                                <h3><?php echo $desc; ?></h3>
+                            <?php endif; ?>
 
-                    <?php if( $desc ): ?>
-                        <h3><?php echo $desc; ?></h3>
-                    <?php endif; ?>
+                            <?php if( $sqft ): ?>
+                                <h4><?php echo $sqft; ?> sq.ft</h4>
+                            <?php endif; ?>
 
-                    <?php if( $sqft ): ?>
-                        <h4><?php echo $sqft; ?> sq.ft</h4>
-                    <?php endif; ?>
+                            <?php if( $img ): ?>
+                                <a href="<?php echo $img['sizes']['floor-plan-thumb']; ?>" class="fp-trigger" data-imagelightbox="c"><img src="<?php echo $img['sizes']['floor-plan-thumb']; ?>" alt="<?php echo $img['alt']; ?>" description="<?php echo $img['description']; ?>"></a>
+                             <?php endif; ?>
 
-                    <?php if( $image ): ?>
-                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
-                    <?php endif; ?>
+                        </div>
 
-                </div>
+                    <?php endwhile; ?> <!-- floorplan-section -->
 
-            <?php endwhile; ?>
+                </div> <!-- fp-models -->
 
-        <?php endif; ?>
+            </div> <!-- floorplan-wrapper -->
 
-    </div><?php
-
+        <?php endif;
+    }
 }

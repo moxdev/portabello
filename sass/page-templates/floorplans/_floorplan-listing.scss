@@ -25,7 +25,11 @@
                     @media (min-width: $tablet) {
                         max-width: 195px;
                         margin: 1em;
+                    }
 
+                    @media (min-width: $tablet) {
+                        max-width: 300px;
+                        margin: 1em;
                     }
                 }
             }
@@ -35,35 +39,55 @@
             background-color: $alt__background;
             padding: 2em 0;
 
-            .floorplan-section {
-                text-align: center;
-                margin-bottom: 3em;
+            .fp-models {
 
-                h3 {
-                    color: $brand__dark_green;
-                    font-family: $font__bold;
+                .floorplan-section {
+                    text-align: center;
+                    margin-bottom: 3em;
+
+                    h3 {
+                        color: $brand__dark_green;
+                        font-family: $font__bold;
+                    }
+
+                    h4 {
+                        color: $black;
+                        font-family: $font__regular;
+                    }
+
+                    img {
+                        // width: 300px;
+                    }
                 }
 
-                h4 {
-                    color: $black;
-                    font-family: $font__regular;
+                // .floorplan-wrapper media query
+                @media screen and (min-width: $tablet) {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+
+                    .floorplan-section {
+                        flex: 1 1 50%;
+                    }
                 }
 
-                img {
-                    width: 300px;
+                // .floorplan-wrapper media query
+                @media screen and (min-width: $laptop) {
+                    .floorplan-section {
+                        h3 {
+                            font-size: 2em;
+                        }
+
+                        h4 {
+                            font-size: 1.5em;
+                        }
+
+                        img {
+                            // width: 500px;
+                        }
+                    }
                 }
             }
-
-            // .floorplan-wrapper media query
-            @media screen and (min-width: $tablet) {
-
-            }
-
-            // .floorplan-wrapper media query
-            @media screen and (min-width: $laptop) {
-
-            }
-
         }
     }
 }

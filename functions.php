@@ -41,7 +41,8 @@ function mm4_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
-	add_image_size('featured-image', 2600, 1200, true);
+	// add_image_size('featured-image', 2600, 1200, false);
+	// add_image_size('floor-plan-thumb', 1500, 1000, false);
 
 /*<?php the_post_thumbnail(); ?>*/
 
@@ -134,6 +135,13 @@ function mm4_scripts() {
 	if ( is_page_template( 'page-contact-page.php' ) ) {
 
 		wp_enqueue_script( 'mm4-contact-directions-map', get_template_directory_uri() . '/js/min/map-directions-min.js', array(), '20151215', true );
+	}
+
+	if ( is_page_template( 'page-floorplan-listing-page.php' ) ) {
+
+		wp_enqueue_script( 'mm4-imagelightbox', get_template_directory_uri() . '/js/min/imagelightbox-min.js', array(), false, true );
+
+		wp_enqueue_script( 'mm4-lightbox', get_template_directory_uri() . '/js/min/lightbox-min.js', array('mm4-imagelightbox'), false, true );
 	}
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

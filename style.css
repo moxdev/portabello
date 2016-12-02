@@ -664,7 +664,7 @@ a {
 
 /* line 4, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_links.scss */
 a:visited {
-  color: #bd6573;
+  color: #ffffff;
 }
 
 /* line 7, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/navigation/_links.scss */
@@ -1242,7 +1242,7 @@ object {
   touch-action: none;
 }
 
-/* line 8, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 9, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 #imagelightbox-overlay {
   position: fixed;
   left: 0;
@@ -1253,26 +1253,27 @@ object {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-/* line 18, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 24, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 #imagelightbox-close {
   position: relative;
   z-index: 9999;
   background: none;
-  color: #ffffff;
+  color: #333333;
+  font-family: "GandhiSans-Bold";
   text-transform: none;
-  font-family: inherit;
   padding: 0;
   border: none;
   font-size: 1.125em;
-  margin-top: 1em;
+  margin-top: 2em;
+  margin-left: 2em;
 }
 
-/* line 30, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 37, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 #imagelightbox-close:hover, #imagelightbox-close:active {
   cursor: pointer;
 }
 
-/* line 35, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 42, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 .imagelightbox-arrow {
   position: fixed;
   z-index: 9999;
@@ -1284,32 +1285,33 @@ object {
   text-align: center;
   background: #282828;
   font-family: "GandhiSans-Regular";
+  color: #ffffff;
   right: 20px;
 }
 
-/* line 48, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 56, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 .imagelightbox-arrow:hover {
   background: #515151;
   color: #FFF;
 }
 
-/* line 54, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 62, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 .imagelightbox-arrow-left {
   top: 42%;
 }
 
-/* line 58, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 66, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 .imagelightbox-arrow-right {
   top: 50%;
 }
 
-/* line 62, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 70, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 #imagelightbox-caption {
   font-family: "GandhiSans-Bold";
   font-size: 1.25em;
   line-height: 1.25;
   text-align: center;
-  color: #ffffff;
+  color: #333333;
   position: fixed;
   z-index: 10001;
   left: 0px;
@@ -1318,13 +1320,13 @@ object {
   padding: 0.625em;
 }
 
-/* line 76, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 84, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 #imagelightbox-loading,
 #imagelightbox-loading div {
   border-radius: 50%;
 }
 
-/* line 81, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 89, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 #imagelightbox-loading {
   width: 2.5em;
   /* 40 */
@@ -1345,7 +1347,7 @@ object {
   /* 40 */
 }
 
-/* line 97, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 105, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 #imagelightbox-loading div {
   width: 1.25em;
   /* 20 */
@@ -1389,7 +1391,7 @@ object {
   }
 }
 
-/* line 118, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
+/* line 126, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/media/_lightbox.scss */
 #imagelightbox-loading,
 #imagelightbox-overlay,
 #imagelightbox-close,
@@ -1536,33 +1538,66 @@ object {
   }
 }
 
-/* line 34, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+@media (min-width: 760px) {
+  /* line 15, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+  .page-template-page-floorplan-listing-page .site-content .floor-plan-display .floor-plan-circles img {
+    max-width: 300px;
+    margin: 1em;
+  }
+}
+
+/* line 38, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
 .page-template-page-floorplan-listing-page .site-content .floorplan-wrapper {
   background-color: #F1F2E7;
   padding: 2em 0;
 }
 
-/* line 38, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
-.page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .floorplan-section {
+/* line 44, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+.page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .fp-models .floorplan-section {
   text-align: center;
   margin-bottom: 3em;
 }
 
-/* line 42, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
-.page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .floorplan-section h3 {
+/* line 48, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+.page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .fp-models .floorplan-section h3 {
   color: #667264;
   font-family: "GandhiSans-Bold";
 }
 
-/* line 47, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
-.page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .floorplan-section h4 {
+/* line 53, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+.page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .fp-models .floorplan-section h4 {
   color: #000000;
   font-family: "GandhiSans-Regular";
 }
 
-/* line 52, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
-.page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .floorplan-section img {
-  width: 300px;
+@media screen and (min-width: 760px) {
+  /* line 42, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+  .page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .fp-models {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /* line 69, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+  .page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .fp-models .floorplan-section {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  /* line 77, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+  .page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .fp-models .floorplan-section h3 {
+    font-size: 2em;
+  }
+  /* line 81, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss */
+  .page-template-page-floorplan-listing-page .site-content .floorplan-wrapper .fp-models .floorplan-section h4 {
+    font-size: 1.5em;
+  }
 }
 
 /*--------------------------------------------------------------

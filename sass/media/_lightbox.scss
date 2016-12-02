@@ -1,4 +1,5 @@
 #imagelightbox {
+    // max-width: 1500px;
     position: fixed;
     z-index: 9998;
     -ms-touch-action: none;
@@ -13,19 +14,25 @@
     bottom:0;
     z-index:9997;
     background-color:rgba(255, 255, 255, .95);
+
+    .wrapper{
+        // max-width: 1200px;
+        // margin: 0 auto;
+    }
 }
 
 #imagelightbox-close {
     position:relative;
     z-index:9999;
     background: none;
-    color: $color__text-main;
+    color: $color__text-alt;
+    font-family: $font__bold;
     text-transform: none;
-    font-family: inherit;
     padding: 0;
     border: none;
     font-size: 1.125em;
-    margin-top: 1em;
+    margin-top: 2em;
+    margin-left: 2em;
 
     &:hover, &:active {
         cursor:pointer;
@@ -43,6 +50,7 @@
     text-align:center;
     background:#282828;
     font-family: $font__regular;
+    color: $white;
     right: 20px;
 
     &:hover {
@@ -64,7 +72,7 @@
     font-size: 1.25em;
     line-height: 1.25;
     text-align: center;
-    color:$color__text-main;
+    color:$color__text-alt;
     position: fixed;
     z-index: 10001;
     left: 0px;

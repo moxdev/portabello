@@ -3608,6 +3608,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/min\/customizer-min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/customizer-min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/min\/customizer-min.js": {
 		"ft": 64,
 		"mi": 1,

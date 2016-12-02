@@ -29,7 +29,7 @@ jQuery(window).load(function() {
     }
 
     captionOn = function() {
-        var description = jQuery( 'a[href="' + jQuery( '#imagelightbox' ).attr( 'src' ) + '"] img' ).attr( 'alt' );
+        var description = jQuery( 'a[href="' + jQuery( '#imagelightbox' ).attr( 'src' ) + '"] img' ).attr( 'description' );
         if( description.length > 0 ) {
                 jQuery( '<div id="imagelightbox-caption">' + description + '</div>' ).appendTo( 'body' );
         }
