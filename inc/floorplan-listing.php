@@ -33,7 +33,7 @@ function mm4_floor_plan_listing() {
                             <?php endif; ?>
 
                             <?php if( $img ): ?>
-                                <a href="<?php echo $img['sizes']['floor-plan-thumb']; ?>" class="fp-trigger" data-imagelightbox="c"><img src="<?php echo $img['sizes']['floor-plan-thumb']; ?>" alt="<?php echo $img['alt']; ?>" description="<?php echo $img['description']; ?>"></a>
+                                <a href="<?php echo $img['sizes']['floor-plan-lightbox']; ?>" class="fp-trigger" data-imagelightbox="c"><img src="<?php echo $img['sizes']['floor-plan-thumb']; ?>" alt="<?php echo $img['alt']; ?>" description="<?php echo $img['description']; ?>"></a>
                              <?php endif; ?>
 
                         </div>
