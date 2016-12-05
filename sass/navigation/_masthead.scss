@@ -131,6 +131,7 @@
     }
 
     @media screen and (min-width: $mobile) {
+
         .frontpage-display {
             top: 6em;
 
@@ -161,7 +162,7 @@
     }
 
     @media screen and (min-width: $tablet) {
-        padding: 1em 2em;
+        padding: 2em;
 
         .site-branding {
 

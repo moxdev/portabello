@@ -2936,6 +2936,14 @@
 		"oAP": "\/images\/circles\/AI\/old-front-circle\/front-red-circle.ai",
 		"oF": 0
 		},
+	"\/images\/circles\/front-green-circle.png": {
+		"ft": 32768,
+		"iS": 19830,
+		"oA": 0,
+		"oAP": "\/images\/circles\/front-green-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/circles\/front-green-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2946,6 +2954,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/circles\/front-orange-circle.png": {
+		"ft": 32768,
+		"iS": 20399,
+		"oA": 0,
+		"oAP": "\/images\/circles\/front-orange-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/circles\/front-orange-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2955,6 +2971,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/circles\/front-red-circle.png": {
+		"ft": 32768,
+		"iS": 18447,
+		"oA": 0,
+		"oAP": "\/images\/circles\/front-red-circle.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/circles\/front-red-circle.svg": {
 		"ft": 2097152,
@@ -3074,6 +3098,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/circles\/one-bedroom-green-circle.png": {
+		"ft": 32768,
+		"iS": 17075,
+		"oA": 0,
+		"oAP": "\/images\/circles\/one-bedroom-green-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/circles\/one-bedroom-green-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3084,6 +3116,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/circles\/three-bedroom-orange-circle.png": {
+		"ft": 32768,
+		"iS": 20488,
+		"oA": 0,
+		"oAP": "\/images\/circles\/three-bedroom-orange-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/circles\/three-bedroom-orange-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3093,6 +3133,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/circles\/two-bedroom-red-circle.png": {
+		"ft": 32768,
+		"iS": 17144,
+		"oA": 0,
+		"oAP": "\/images\/circles\/two-bedroom-red-circle.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/circles\/two-bedroom-red-circle.svg": {
 		"ft": 2097152,

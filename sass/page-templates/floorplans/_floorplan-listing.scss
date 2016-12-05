@@ -24,11 +24,11 @@
                     }
 
                     @media (min-width: $tablet) {
-                        max-width: 195px;
+                        max-width: 200px;
                         margin: 1em;
                     }
 
-                    @media (min-width: $tablet) {
+                    @media (min-width: $laptop) {
                         max-width: 300px;
                         margin: 1em;
                     }

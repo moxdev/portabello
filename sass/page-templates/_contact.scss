@@ -96,8 +96,8 @@
             }
         }
 
-        @media screen and (min-width: $laptop) {
-            // position: relative;
+        @media screen and (min-width: $tablet) {
+            display: flex;
 
             h1  {
                 text-align: left;
@@ -109,17 +109,14 @@
             }
 
             .content-area {
-                width: 70%;
-                float: right;
+                flex: 1;
+                margin-bottom: 2em;
             }
 
             .sidebar-wrapper {
-                width: 25%;
-                float: left;
-                margin-left: 3em;
-                // position: absolute;
-                // top: 0;
-                // left: 2em
+                flex: 1;
+                margin: 0;
+
             }
         }
     } // .site-content
