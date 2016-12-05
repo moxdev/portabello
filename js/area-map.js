@@ -3,16 +3,16 @@
 var myMap = 'map-canvas';
 
 // Google Maps API Key
-var apiKey = 'AIzaSyBH96bPjiEv8k96XGcglk9hdZvKVbbQa_s';
+var apiKey = 'AIzaSyCDhdGGnlXT8zhicJyTP3xa9ZV6ocqOOpY';
 
 // Paths to JSON data
-var markersFeed = '/portabello/wp-json/wp/v2/area_landmarks?per_page=100';
+var markersFeed = '/wp-json/wp/v2/area_landmarks?per_page=100';
 
 // Specify whether you want to add category controls for landmarks to the map (true/false).
 // If you do, add the path to your category feed and the path to your image directory where your icons are stored
 var addCats = true;
-var catsFeed = '/portabello/wp-json/wp/v2/landmark_types';
-var catIconPath = '/portabello/wp-content/themes/mm4/images/';
+var catsFeed = '/wp-json/wp/v2/landmark_types';
+var catIconPath = '/wp-content/themes/mm4/images/';
 
 var map;
 var bounds;

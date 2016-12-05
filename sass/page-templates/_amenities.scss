@@ -3,14 +3,14 @@
 .page-template-page-amenities-page {
 
     .site-content {
+        padding-bottom: 1em;
 
         .amenities-wrapper {
             text-align: left;
 
             h3 {
                 color: $brand__light-green;
-                margin: 1em 0 0;
-                // padding-left: .7em;
+                margin: 0;
             }
 
             ul {

@@ -2822,11 +2822,27 @@
 		"oAP": "\/images\/circles\/AI\/1-bed-circle.ai",
 		"oF": 0
 		},
+	"\/images\/circles\/AI\/1-bed-circle.png": {
+		"ft": 32768,
+		"iS": 38273,
+		"oA": 0,
+		"oAP": "\/images\/circles\/AI\/1-bed-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/circles\/AI\/2-bed-circle.ai": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/images\/circles\/AI\/2-bed-circle.ai",
 		"oF": 0
+		},
+	"\/images\/circles\/AI\/2-bed-circle.png": {
+		"ft": 32768,
+		"iS": 37493,
+		"oA": 0,
+		"oAP": "\/images\/circles\/AI\/2-bed-circle.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/circles\/AI\/3-bed-circle.ai": {
 		"ft": 8192,
@@ -2834,11 +2850,27 @@
 		"oAP": "\/images\/circles\/AI\/3-bed-circle.ai",
 		"oF": 0
 		},
+	"\/images\/circles\/AI\/3-bed-circle.png": {
+		"ft": 32768,
+		"iS": 46126,
+		"oA": 0,
+		"oAP": "\/images\/circles\/AI\/3-bed-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/circles\/AI\/front green-circle.ai": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/images\/circles\/AI\/front green-circle.ai",
 		"oF": 0
+		},
+	"\/images\/circles\/AI\/front-green-circle.png": {
+		"ft": 32768,
+		"iS": 45043,
+		"oA": 0,
+		"oAP": "\/images\/circles\/AI\/front-green-circle.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/circles\/AI\/front-orange-circle.ai": {
 		"ft": 8192,
@@ -2846,11 +2878,27 @@
 		"oAP": "\/images\/circles\/AI\/front-orange-circle.ai",
 		"oF": 0
 		},
+	"\/images\/circles\/AI\/front-orange-circle.png": {
+		"ft": 32768,
+		"iS": 46105,
+		"oA": 0,
+		"oAP": "\/images\/circles\/AI\/front-orange-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/circles\/AI\/front-red-circle.ai": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/images\/circles\/AI\/front-red-circle.ai",
 		"oF": 0
+		},
+	"\/images\/circles\/AI\/front-red-circle.png": {
+		"ft": 32768,
+		"iS": 40549,
+		"oA": 0,
+		"oAP": "\/images\/circles\/AI\/front-red-circle.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/circles\/AI\/old-front-circle\/front-green-circle-no-text.ai": {
 		"ft": 8192,

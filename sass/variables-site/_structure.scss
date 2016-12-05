@@ -8,27 +8,49 @@ $size__site-sidebar: 25%;
     background-size: cover;
     width: 100%;
     background-color: $brand__dark_green;
-    // padding: 0 0 2em;
-    padding-bottom: 2em;
     font-family: $font__regular;
 
     .content-area {
         @include outer-container;
-        padding: 0 1.5em;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0 1.563em;
         color: $color__text-main;
-        // font-size: $font__size-mobile;
+        font-size: $font__size-mobile;
         line-height: $font__line-height-body;
-        text-align: center;
+        text-align: left;
 
         h1 {
             font-family: $font__bold;
-            // font-size: $font__size-h1-mobile;
-            // margin: 0;
+            font-size: $font__size-h1-mobile;
+            line-height: $font__line-h1;
+            text-align: left;
+            margin: 1em 0 0;
+        }
+
+        h3 {
+            font-size: $font__size-h3-mobile;
+            // font-family: $font__bold;
         }
 
         // .content-area media query
+        @media screen and (min-width: $mobile) {
+            h1 {
+                font-size: $font__size-h1-mobile;
+            }
+
+            p {
+                // padding: 0 1em;
+            }
+        }
+
+         // .content-area media query
         @media screen and (min-width: $tablet) {
-            font-size: 110%;
+            text-align: center;
+
+            h1 {
+                text-align: center;
+            }
 
             p {
                 // padding: 0 1em;
@@ -37,7 +59,7 @@ $size__site-sidebar: 25%;
 
         // .content-area media query
         @media screen and (min-width: $laptop) {
-            font-size: 120%;
+            // font-size: 120%;
 
             // font-size: $font__size-desktop;
 
@@ -52,7 +74,7 @@ $size__site-sidebar: 25%;
 
         // .content-area media query
         @media screen and (min-width: $desktop) {
-            font-size: 150%;
+            // font-size: 150%;
 
             // font-size: $font__size-desktop;
 

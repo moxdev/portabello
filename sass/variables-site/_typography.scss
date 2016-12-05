@@ -4,10 +4,15 @@ $font__arvo: "Arvo";
 $font__main: $font__regular;
 
 $font__line-height-body: 1.5;
+$font__line-h1: 1.125;
+$font__line-h3: 1.125;
 
 // Font Sizes
-$font__size-h1-mobile: 1.3em; //18.5 pt
+$font__size-h1-mobile: 2.25em; //18.5 pt
 $font__size-h1-desktop: 2em; //37pt
+
+$font__size-h3-mobile: 1.875em; //18.5 pt
+$font__size-h3-desktop: 2em; //37pt
 
 $font__size-mobile: 1.2em;
 $font__size-desktop: 2em;

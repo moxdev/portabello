@@ -4,14 +4,14 @@
     width: 100%;
     height: auto;
     position: absolute;
-    z-index: 9999   ;
+    z-index: 9999;
     left: 0;
     top: 0;
     background: rgba(243, 240, 230, .50);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: .5em 1em;
+    padding: 1em;
 
     .site-branding {
         flex: 1;
@@ -99,14 +99,14 @@
         left: 0;
         right: 0;
         bottom: 0;
-        top: 4em;
+        top: 5em;
         color: $white;
         font-family: $font__arvo;
 
         .border {
             border: 1px solid $white;
             margin: 0 5%;
-            padding: 10px;
+            padding-bottom: 10px;
             h1 {
                 font-size: 30px;
                 margin: 0;
@@ -132,7 +132,7 @@
 
     @media screen and (min-width: $mobile) {
         .frontpage-display {
-            top: 5em;
+            top: 6em;
 
             .border {
                 border: 2px solid $white;

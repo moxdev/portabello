@@ -18,21 +18,14 @@
     .site-content {
         background: $brand__orange;
 
-        h1 {
-            text-align: center;
-        }
-
         p {
             margin-bottom: 0;
-            text-align: center;
         }
 
         .content-area {
-            text-align: left;
 
             .contact-page-wrapper {
                 @include outer-container;
-                // padding: 1em;
 
                 .contact-form-wrapper {
 
@@ -62,21 +55,28 @@
             height:auto;
             margin: 2em 0 -45px;
             padding: 2em;
+            line-height: $font__line-height-body;
+
 
             .sidebar-info {
-                @include outer-container;
-                text-align: left;
                 color: $white;
 
                 h3  {
                     font-family: $font__bold;
                     color: $brand__light-green;
                     text-transform: uppercase;
+                    font-size: $font__size-h3-mobile;
+                    margin: .5em 0 .5em;
+                }
+
+                span {
+                    font-size: $font__size-mobile;
                 }
             }
 
             .map-wrapper {
                 margin: 2em 0;
+                font-size: $font__size-mobile;
 
                 #map-canvas {
                     height:250px;
@@ -85,6 +85,9 @@
                 form {
                     color: $white;
                     margin-top: 1em;
+
+                    label {
+                    }
 
                     input[type="submit"] {
                         background-color: $color__alt-background-buton;

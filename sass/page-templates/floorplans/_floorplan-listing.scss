@@ -10,14 +10,13 @@
         }
 
         .floor-plan-display {
-            margin-top: 1em;
+            margin: 1em 0;
 
             .floor-plan-circles {
 
                 img {
                     max-width: 80px;
                     display: inline-block;
-                    margin: .1em;
 
                     @media (min-width: $mobile) {
                         max-width: 115px;
