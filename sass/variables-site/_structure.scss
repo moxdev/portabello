@@ -2,9 +2,14 @@
 
 $size__site-main: 100%;
 $size__site-sidebar: 25%;
-
+// #page {
+//     position: relative;
+//     z-index: 1;
+//     overflow: hidden;
+// }
 .site-content {
     background-image: url(images/green-background.svg);
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     background-color: $brand__dark_green;
@@ -30,18 +35,6 @@ $size__site-sidebar: 25%;
 
         h3 {
             font-size: $font__size-h3-mobile;
-            // font-family: $font__bold;
-        }
-
-        // .content-area media query
-        @media screen and (min-width: $mobile) {
-            h1 {
-                font-size: $font__size-h1-mobile;
-            }
-
-            p {
-                // padding: 0 1em;
-            }
         }
 
          // .content-area media query
@@ -52,9 +45,6 @@ $size__site-sidebar: 25%;
                 text-align: center;
             }
 
-            p {
-                // padding: 0 1em;
-            }
         }
 
         // .content-area media query

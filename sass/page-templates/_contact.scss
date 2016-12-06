@@ -1,6 +1,7 @@
 // contact.scss
 
 .page-template-page-contact-page {
+    background-color: $brand__orange;
 
     .honey {
         display: none !important;
@@ -16,16 +17,18 @@
     }
 
     .site-content {
-        background: $brand__orange;
+        @include outer-container;
+        background-color: $brand__orange;
+        background-image: none;
 
         p {
             margin-bottom: 0;
         }
 
         .content-area {
+            text-align: left;
 
             .contact-page-wrapper {
-                @include outer-container;
 
                 .contact-form-wrapper {
 
@@ -92,6 +95,14 @@
                     input[type="submit"] {
                         background-color: $color__alt-background-buton;
                     }
+
+                    #response-panel span {
+                        color: $white;
+                    }
+
+                    .adp, .adp table, .adp-details, .adp-legal {
+                        color: $white;
+                    }
                 }
             }
         }
@@ -101,7 +112,6 @@
 
             h1  {
                 text-align: left;
-                margin-left: .5em;
             }
 
             p {
@@ -109,13 +119,40 @@
             }
 
             .content-area {
-                flex: 1;
+                flex: 2;
+                order: 2;
                 margin-bottom: 2em;
             }
 
             .sidebar-wrapper {
                 flex: 1;
-                margin: 0;
+                order: -1;
+                margin: 2em;
+
+            }
+        }
+
+        @media screen and (min-width: $laptop) {
+            display: flex;
+
+            h1  {
+                text-align: left;
+            }
+
+            p {
+                text-align: left;
+            }
+
+            .content-area {
+                flex: 2;
+                order: 2;
+                margin-bottom: 2em;
+            }
+
+            .sidebar-wrapper {
+                flex: 1;
+                order: -1;
+                margin: 2em;
 
             }
         }

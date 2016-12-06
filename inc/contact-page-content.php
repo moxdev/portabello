@@ -26,18 +26,16 @@ function mm4_contact_page_form() { ?>
 
 function mm4_contact_page_sidebar() { ?>
     <div class="sidebar-wrapper">
-    <div class="sidebar-info">
-        <?php
+        <div class="sidebar-info"> <?php
             $address = get_field( 'street_address', 'option' );
             $city = get_field( 'city', 'option' );
             $state = get_field( 'state', 'option' );
             $zip = get_field( 'zip', 'option' );
             $email = get_field( 'email', 'option' );
             $phone = get_field( 'phone', 'option' );
-            $fax = get_field( 'fax', 'option' );
-        ?>
+            $fax = get_field( 'fax', 'option' ); ?>
 
-        <div class="hours">
+            <div class="hours">
 
              <?php if( have_rows('hours', 'option') ): ?>
 
@@ -55,34 +53,33 @@ function mm4_contact_page_sidebar() { ?>
 
             endif; ?>
 
-        </div>
+            </div>
 
-        <div class="location">
-            <h3>location</h3>
-            <span><?php echo $address ?></span><br>
-            <span><?php echo $city ?>, </span><span><?php echo $state ?> </span><span><?php echo $zip ?></span>
-        </div>
+            <div class="location">
+                <h3>location</h3>
+                <span><?php echo $address ?></span><br>
+                <span><?php echo $city ?>, </span><span><?php echo $state ?> </span><span><?php echo $zip ?></span>
+            </div>
 
-        <div class="phone-fax">
-            <h3>phone/fax</h3>
-            <span>Phone: </span><span><?php echo $phone ?></span><br>
-            <span>Fax: </span><span><?php echo $fax ?></span>
-        </div>
+            <div class="phone-fax">
+                <h3>phone/fax</h3>
+                <span>Phone: </span><span><?php echo $phone ?></span><br>
+                <span>Fax: </span><span><?php echo $fax ?></span>
+            </div>
 
-    </div> <!-- sidebar-info -->
+        </div> <!-- sidebar-info -->
 
-    <div class="map-wrapper">
-        <div id="map-canvas"></div>
-        <form id="get-directions">
-            <label>Starting Address:
-                <input type="text" id="start">
-                <input type="hidden" id="end" value="38.800410,-76.987104">
-            </label>
-            <div id="response-panel"></div>
-            <input type="submit" value="Get Directions">
-        </form>
-    </div> <!-- map-wrapper -->
-
+        <div class="map-wrapper">
+            <div id="map-canvas"></div>
+            <form id="get-directions">
+                <label>Starting Address:
+                    <input type="text" id="start">
+                    <input type="hidden" id="end" value="38.800410,-76.987104">
+                </label>
+                <div id="response-panel"></div>
+                <input type="submit" value="Get Directions">
+            </form>
+        </div> <!-- map-wrapper -->
     </div> <!-- sidebar-wrapper -->
 
     <?php

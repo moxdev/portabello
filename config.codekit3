@@ -3935,6 +3935,12 @@
 		"oAP": "\/page-floorplans-page.php",
 		"oF": 0
 		},
+	"\/page-resident-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-resident-page.php",
+		"oF": 0
+		},
 	"\/page.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -6752,6 +6758,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/page-templates\/_page-templates.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/page-templates\/_residents.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/page-templates\/_residents.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
