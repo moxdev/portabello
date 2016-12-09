@@ -7,7 +7,7 @@
     z-index: 100;
     left: 0;
     top: 0;
-    background: rgba(243, 240, 230, .50);
+    background: rgba(243, 240, 230, .5);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,12 +22,13 @@
     }
 
     .toggled {
-        position: relative;
+        position: fixed;
         z-index: 99999;
-        background-color: #fff;
-        margin: -2em -2em 0 -2em;
+        // background-color: rgba(243, 240, 230, .5);
         height: 100vh;
         width: 100vw;
+        top: 0;
+        left: 0;
         overflow: hidden;
 
         .menu-menu-container {
@@ -112,6 +113,17 @@
 
     .main-navigation.toggled ul {
         display: block;
+
+        .floor-plan-menu {
+
+            .sub-menu {
+                padding-top: 1em;
+
+                li {
+                    padding-bottom: 1em;
+                }
+            }
+        }
     }
 
     .frontpage-display {
@@ -183,7 +195,6 @@
     }
 
     @media screen and (min-width: $tablet) {
-        padding: 2em;
 
         .site-branding {
 
@@ -196,7 +207,25 @@
 
             .menu-toggle {
                 font-size: 1.4em;
+                top: 25px;
+                right: 30px;
             }
+        }
+
+        .toggled {
+
+            .menu-toggle {
+                top: 35px;
+                right: 50px;
+                font-size: 1.4em;
+            }
+
+            .menu-menu-container {
+                margin-top: 5em;
+                margin-left: 3em;
+                font-size:1.2em;
+            }
+
         }
 
         .frontpage-display {
@@ -231,6 +260,14 @@
     @media screen and (min-width: $laptop) {
         padding: 2em;
 
+        .main-navigation {
+
+            .menu-toggle {
+                top: 40px;
+                right: 40px;
+            }
+        }
+
         .frontpage-display {
             top: 12em;
 
@@ -259,7 +296,7 @@
     }
 
     @media screen and (min-width: $desktop) {
-        padding: 2em 2em 0;
+        padding: 1em 2em 0;
 
         .main-navigation {
             text-align: right;
@@ -284,7 +321,7 @@
                 .floor-plan-menu {
 
                     &:hover  > .sub-menu {
-                        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+                        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
                         float: left;
                         position: absolute;
                         top: 65px;
@@ -292,7 +329,7 @@
                         z-index: 99999;
                         display: block;
                         text-align: center;
-                        background-color: rgba(#fff, .7);
+                        background-color: rgba(#fff, .5);
                         width: 180px;
 
                     }
@@ -304,7 +341,6 @@
                             background-color: rgba(#fff, .7);
 
                         }
-
 
                         a {
                             font-family: $font__regular;
@@ -340,6 +376,24 @@
                         margin: 8em 0 0;
                     }
 
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: $large) {
+        .main-navigation ul {
+
+            li a {
+                font-size: 1.5em;
+            }
+
+            .floor-plan-menu {
+
+                &:hover  > .sub-menu {
+                    left: 295px;
+                    top: 70px;
+                    background-color: #fff;
                 }
             }
         }

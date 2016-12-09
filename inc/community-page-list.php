@@ -33,7 +33,7 @@ function mm4_community_landmark_list() {
                                 $my_query = new WP_Query($args);
                                 if( $my_query->have_posts() ) { ?>
                                     <div class="community-listing-wrapper <?php echo $tax_term->slug; ?>">
-                                        <h3 class="community-listing-header"> <?php echo $tax_term->name; ?></h3>
+                                        <h2 class="community-listing-header"> <?php echo $tax_term->name; ?></h2>
                                         <ul class="community-listing">
                                             <?php while ($my_query->have_posts()) : $my_query->the_post();
                                             $add = get_field('address');
@@ -45,11 +45,11 @@ function mm4_community_landmark_list() {
                                             $adtl_details = get_field('additional_details'); ?>
                                             <li>
                                                 <span class="comm-name"><?php the_title(); ?></span><br>
-                                                <?php if($add): echo '<span class="comm-add">' . $add . '</span>'; endif; ?><br>
-                                                <?php if($city): echo '<span class="comm-sta">' . $city . ',</span>'; endif; ?>
+                                                <?php if($add): echo '<span class="comm-add">' . $add . '</span><br>'; endif; ?>
+                                                <?php if($city): echo '<span class="comm-city">' . $city . ',</span>'; endif; ?>
                                                 <?php if($state): echo '<span class="comm-sta"> ' . $state . '</span>'; endif; ?>
-                                                <?php if($zip): echo '<span class="comm-sta"> ' . $zip . '</span>'; endif; ?><br>
-                                                <?php if($phone): echo '<span class="comm-details phone">' . $phone . '</span>'; endif; ?><br>
+                                                <?php if($zip): echo '<span class="comm-zip"> ' . $zip . '</span><br>'; endif; ?>
+                                                <?php if($phone): echo '<span class="comm-details phone">' . $phone . '</span><br>'; endif; ?>
                                                 <?php if($url): echo '<span class="comm-details url"><a target="_blank" href="' . $url . '">Visit Website &raquo;</a></span>'; endif; ?>
                                                 <?php if($adtl_details): echo '<br>' . $adtl_details; endif; ?>
                                             </li>

@@ -12,7 +12,7 @@ var markersFeed = '/wp-json/wp/v2/area_landmarks?per_page=100';
 // If you do, add the path to your category feed and the path to your image directory where your icons are stored
 var addCats = true;
 var catsFeed = '/wp-json/wp/v2/landmark_types';
-var catIconPath = '/wp-content/themes/mm4/images/';
+var catIconPath = 'wp-content/themes/mm4/images/';
 
 var map;
 var bounds;

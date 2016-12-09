@@ -1,174 +1,157 @@
 // contact.scss
 
 .page-template-page-contact-page {
-    background-color: $brand__orange;
 
-    .honey {
-        display: none !important;
-    }
-
-    #masthead {
-        position: relative;
-        background: $white;
-    }
-
-    .hentry {
-        margin: 0;
-    }
-
-    .site-content {
-        @include outer-container;
+    .site {
         background-color: $brand__orange;
-        background-image: none;
 
-        p {
-            margin-bottom: 0;
+        .honey {
+            display: none !important;
         }
 
-        .content-area {
-            text-align: left;
+        #masthead {
+            position: relative;
+            background: $white;
+        }
 
-            .contact-page-wrapper {
+        .hentry {
+            margin: 0;
+        }
 
-                .contact-form-wrapper {
+        .site-content {
+            @include outer-container;
+            background-color: $brand__orange;
+            background-image: none;
+
+            p {
+                margin-bottom: 0;
+            }
+
+            .content-area {
+                text-align: left;
+
+                .contact-page-wrapper {
+
+                    .contact-form-wrapper {
+
+                        form {
+
+                            label {
+                                color: $white;
+                                padding-top: 1em;
+                                font-family: $font__bold;
+                            }
+
+                            .error {
+                                color: $error__color;
+                            }
+
+                            .msg-box span {
+                                display: block;
+                                padding: .5em 1em 0;
+                            }
+                        }
+                    } // .contact-form-wrapper
+                } // .contact-page-wrapper
+            }
+
+            .sidebar-wrapper {
+                background-color: $brand__dark_green;
+                height:auto;
+                margin: 2em 0 -45px;
+                padding: 1.563em 1.563em 2em;
+                line-height: $font__line-height-body;
+
+
+                .sidebar-info {
+                    color: $white;
+
+                    h2  {
+                        font-family: $font__bold;
+                        color: $brand__light-green;
+                        text-transform: uppercase;
+                        margin: .5em 0 .5em;
+                    }
+                }
+
+                .map-wrapper {
+                    margin: 2em 0;
+
+                    #map-canvas {
+                        height:250px;
+                    }
 
                     form {
+                        color: $white;
+                        margin-top: 1em;
 
                         label {
+                        }
+
+                        input[type="submit"] {
+                            background-color: $color__alt-background-buton;
+                        }
+
+                        #response-panel span {
                             color: $white;
-                            padding-top: 1em;
-                            font-family: $font__bold;
                         }
 
-                        .error {
-                            color: $error__color;
-                        }
-
-                        .msg-box span {
-                            display: block;
-                            padding: .5em 1em 0;
+                        .adp, .adp table, .adp-details, .adp-legal {
+                            color: $white;
                         }
                     }
-                } // .contact-form-wrapper
-            } // .contact-page-wrapper
-        }
-
-        .sidebar-wrapper {
-            background-color: $brand__dark_green;
-            height:auto;
-            margin: 2em 0 -45px;
-            padding: 2em;
-            line-height: $font__line-height-body;
-
-
-            .sidebar-info {
-                color: $white;
-
-                h3  {
-                    font-family: $font__bold;
-                    color: $brand__light-green;
-                    text-transform: uppercase;
-                    font-size: $font__size-h3-mobile;
-                    margin: .5em 0 .5em;
-                }
-
-                span {
-                    font-size: $font__size-mobile;
                 }
             }
 
-            .map-wrapper {
-                margin: 2em 0;
-                font-size: $font__size-mobile;
+            @media screen and (min-width: $tablet) {
+                display: flex;
 
-                #map-canvas {
-                    height:250px;
+                h1  {
+                    text-align: left;
                 }
 
-                form {
-                    color: $white;
-                    margin-top: 1em;
+                p {
+                    text-align: left;
+                }
 
-                    label {
-                    }
+                .content-area {
+                    flex: 2;
+                    order: 2;
+                    margin-bottom: 2em;
+                }
 
-                    input[type="submit"] {
-                        background-color: $color__alt-background-buton;
-                    }
+                .sidebar-wrapper {
+                    flex: 1;
+                    order: -1;
+                    margin: 2em;
 
-                    #response-panel span {
-                        color: $white;
-                    }
-
-                    .adp, .adp table, .adp-details, .adp-legal {
-                        color: $white;
-                    }
                 }
             }
-        }
 
-        @media screen and (min-width: $tablet) {
-            display: flex;
+            @media screen and (min-width: $laptop) {
+                display: flex;
 
-            h1  {
-                text-align: left;
+                h1  {
+                    text-align: left;
+                }
+
+                p {
+                    text-align: left;
+                }
+
+                .content-area {
+                    flex: 2;
+                    order: 2;
+                    margin-bottom: 2em;
+                }
+
+                .sidebar-wrapper {
+                    flex: 1;
+                    order: -1;
+                    margin: 2em;
+
+                }
             }
-
-            p {
-                text-align: left;
-            }
-
-            .content-area {
-                flex: 2;
-                order: 2;
-                margin-bottom: 2em;
-            }
-
-            .sidebar-wrapper {
-                flex: 1;
-                order: -1;
-                margin: 2em;
-
-            }
-        }
-
-        @media screen and (min-width: $laptop) {
-            display: flex;
-
-            h1  {
-                text-align: left;
-            }
-
-            p {
-                text-align: left;
-            }
-
-            .content-area {
-                flex: 2;
-                order: 2;
-                margin-bottom: 2em;
-            }
-
-            .sidebar-wrapper {
-                flex: 1;
-                order: -1;
-                margin: 2em;
-
-            }
-        }
-    } // .site-content
+        } // .site-content
+    }
 }
-
-// @media screen and (min-width: $tablet) {
-//     display: flex;
-
-//     .contact-form-wrapper {
-//         flex: 1;
-//         order: 2;
-//     }
-
-//     .sidebar-wrapper {
-//         flex: 1;
-//         order: 1;
-//     }
-// }

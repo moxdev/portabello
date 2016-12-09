@@ -2,11 +2,7 @@
 
 $size__site-main: 100%;
 $size__site-sidebar: 25%;
-// #page {
-//     position: relative;
-//     z-index: 1;
-//     overflow: hidden;
-// }
+
 .site-content {
     background-image: url(images/green-background.svg);
     background-repeat: no-repeat;
@@ -17,24 +13,15 @@ $size__site-sidebar: 25%;
 
     .content-area {
         @include outer-container;
-        margin-left: auto !important;
-        margin-right: auto !important;
         padding: 0 1.563em;
         color: $color__text-main;
-        font-size: $font__size-mobile;
         line-height: $font__line-height-body;
         text-align: left;
 
         h1 {
             font-family: $font__bold;
-            font-size: $font__size-h1-mobile;
             line-height: $font__line-h1;
             text-align: left;
-            margin: 1em 0 0;
-        }
-
-        h3 {
-            font-size: $font__size-h3-mobile;
         }
 
          // .content-area media query
@@ -44,37 +31,17 @@ $size__site-sidebar: 25%;
             h1 {
                 text-align: center;
             }
-
         }
 
         // .content-area media query
         @media screen and (min-width: $laptop) {
-            // font-size: 120%;
-
-            // font-size: $font__size-desktop;
-
-            h1 {
-                // font-size: $font__size-h1-desktop;
-            }
-
-            p {
-                // padding: 0 1em;
-            }
+            font-size: 1.143rem;
         }
+    }
 
-        // .content-area media query
-        @media screen and (min-width: $desktop) {
-            // font-size: 150%;
-
-            // font-size: $font__size-desktop;
-
-            h1 {
-                // font-size: $font__size-h1-desktop;
-            }
-
-            p {
-                // padding: 0 1em;
-            }
+    @media (min-width: $large) {
+        h1 {
+            font-size: 2.857rem;
         }
     }
 }

@@ -23,7 +23,7 @@
             }
 
             // .amenities-wrapper
-            @media (min-width: $laptop) {
+            @media (min-width: $tablet) {
                 display: flex;
 
                 h3 {
@@ -34,6 +34,36 @@
                 ul {
                     margin: 0 1em 1em;
                     padding-left: 0;
+                }
+
+                .apartment-section {
+                    flex: 1 1 50%;
+                }
+
+                .community-section {
+                    flex: 1 1 50%;
+                }
+            }
+
+            @media (min-width: $desktop) {
+
+                .apartment-section {
+                    padding-left: 2em;
+                }
+
+                .community-section {
+                    padding-left: 2em;
+                }
+            }
+
+            @media (min-width: $large) {
+
+                .apartment-section {
+                    padding-left: 4em;
+                }
+
+                .community-section {
+                    padding-left: 4em;
                 }
             }
         }

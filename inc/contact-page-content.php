@@ -39,7 +39,7 @@ function mm4_contact_page_sidebar() { ?>
 
              <?php if( have_rows('hours', 'option') ): ?>
 
-                <h3>office hours</h3>
+                <h2>office hours</h2>
 
                 <?php while( have_rows('hours', 'option') ): the_row();
 
@@ -47,7 +47,7 @@ function mm4_contact_page_sidebar() { ?>
                     $open = get_sub_field( 'open' );
                     $close = get_sub_field( 'close' ); ?>
 
-                    <span><?php echo $day ?>: </span><span><?php echo $open ?> - </span><span><?php echo $close ?></span><br>
+                    <span><?php echo $day ?>: </span><span><?php echo $open; ?> - </span><span><?php echo $close; ?></span><br>
 
                 <?php endwhile;
 
@@ -56,13 +56,13 @@ function mm4_contact_page_sidebar() { ?>
             </div>
 
             <div class="location">
-                <h3>location</h3>
+                <h2>location</h2>
                 <span><?php echo $address ?></span><br>
                 <span><?php echo $city ?>, </span><span><?php echo $state ?> </span><span><?php echo $zip ?></span>
             </div>
 
             <div class="phone-fax">
-                <h3>phone/fax</h3>
+                <h2>phone/fax</h2>
                 <span>Phone: </span><span><?php echo $phone ?></span><br>
                 <span>Fax: </span><span><?php echo $fax ?></span>
             </div>

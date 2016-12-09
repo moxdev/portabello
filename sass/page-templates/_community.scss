@@ -1,9 +1,6 @@
 // community.scss
 
 .page-template-page-community-page {
-    a {
-        color: $brand__red;
-    }
 
     #masthead {
         position: relative;
@@ -42,25 +39,25 @@
                     }
 
                     .recreation a:before {
-                        content: url('/portabello/wp-content/themes/mm4/images/cat-192.png');
+                        content: url('/wp-content/themes/mm4/images/cat-192.png');
                     }
 
                     .restaurants a:before {
-                        content: url('/portabello/wp-content/themes/mm4/images/cat-194.png');
+                        content: url('/wp-content/themes/mm4/images/cat-194.png');
                     }
 
                     .schools a:before {
-                        content: url('/portabello/wp-content/themes/mm4/images/cat-193.png');
+                        content: url('/wp-content/themes/mm4/images/cat-193.png');
                     }
 
                     .shopping a:before {
-                        content: url('/portabello/wp-content/themes/mm4/images/cat-191.png');
+                        content: url('/wp-content/themes/mm4/images/cat-191.png');
                     }
                 }
             }
 
             #map-canvas {
-                height: 400px;
+                height: 800px;
             }
 
             #reset-map {
@@ -71,7 +68,7 @@
             }
         }
 
-        @media (min-width: $tablet) {
+        @media (min-width: $laptop) {
             display: block;
         }
     }
@@ -81,25 +78,23 @@
 
         #landmark-listing {
             background-color: $white;
-            padding: 2em 0;
-            margin-bottom: -40px;
+            padding-top: 1em;
 
             .landmark-inner-wrapper {
-                @include outer-container;
+
+                a {
+                    color: $brand__red;
+                }
 
                 .community-listing-wrapper {
                     text-align: left;
                     padding: 0 1.5em;
-                    font-size: $font__size-mobile;
                     line-height: 1.5;
 
 
                     .community-listing-header {
                         font-family: $font__bold;
                         color: $brand__red;
-                        font-size: $font__size-h1-mobile;
-                        margin: 0;
-
                     }
 
                     .community-listing {
@@ -119,13 +114,26 @@
                     }
                 }
             }
+
+            @media (min-width: 560px) {
+                padding-top: 0;
+                .landmark-inner-wrapper {
+                    display: flex;
+                    flex-wrap:wrap;
+                    justify-content: space-around;
+                    margin-top: 1em;
+
+                    .community-listing-wrapper {
+                        flex: 1 0 50%;
+                    }
+                }
+            }
         }
 
-        @media (min-width: $tablet) {
+        @media (min-width: $laptop) {
             #landmark-listing {
                 display: none;
             }
         }
     }
-
 }

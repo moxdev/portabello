@@ -43,8 +43,8 @@ function mm4_setup() {
 	add_theme_support( 'post-thumbnails' );
 	add_image_size('featured-image-home-page', 1500, 1000, array( 'center', 'bottom' ) );
 	add_image_size('featured-image', 1800, 500, true );
-	add_image_size('floor-plan-thumb', 900, 9999, false);
-	add_image_size('floor-plan-lightbox', 1500, 1000, false);
+	add_image_size('floor-plan-thumb', 800, 9999, false);
+	// add_image_size('floor-plan-lightbox', 1500, 1000, false);
 
 /*<?php the_post_thumbnail(); ?>*/
 
@@ -105,19 +105,6 @@ function mm4_widgets_init() {
 add_action( 'widgets_init', 'mm4_widgets_init' );
 
 /**
- * Load jQuery in the footer.
- */
-// function mm4_register_jquery()  {
-// 	if (!is_admin()) {
-// 		wp_deregister_script('jquery');
-//         // Load the copy of jQuery that comes with WordPress
-//         // The last parameter set to TRUE states that it should be loaded in the footer.
-//         wp_register_script('jquery', '/wp-includes/js/jquery/jquery.js', FALSE, FALSE, TRUE);
-//     }
-// }
-// add_action('init', 'register_jquery');
-
-/**
  * Enqueue scripts and styles.
  */
 function mm4_scripts() {
@@ -132,8 +119,6 @@ function mm4_scripts() {
 
 	wp_enqueue_script( 'mm4-skip-link-focus-fix', get_template_directory_uri() . '/js/min/skip-link-focus-fix-min.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'mm4-custom-scripts', get_template_directory_uri() . '/js/custom.js', array('jquery'), '20151215', true );
-
 	if ( is_page_template( 'page-contact-page.php' ) ) {
 
 		wp_enqueue_script( 'mm4-contact-directions-map', get_template_directory_uri() . '/js/min/map-directions-min.js', array(), '20151215', true );
@@ -141,7 +126,7 @@ function mm4_scripts() {
 
 	if ( is_page_template( 'page-floorplan-listing-page.php' ) ) {
 
-		wp_enqueue_script( 'mm4-imagelightbox', get_template_directory_uri() . '/js/min/imagelightbox-min.js', array(), false, true );
+		wp_enqueue_script( 'mm4-imagelightbox', get_template_directory_uri() . '/js/min/imagelightbox-min.js', array('jquery'), false, true );
 
 		wp_enqueue_script( 'mm4-lightbox', get_template_directory_uri() . '/js/min/lightbox-min.js', array('mm4-imagelightbox'), false, true );
 	}

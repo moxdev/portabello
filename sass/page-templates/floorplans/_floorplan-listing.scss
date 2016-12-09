@@ -5,40 +5,35 @@
     .site-content {
         padding-bottom: 0;
 
-        h1 {
-            margin: 0;
-        }
-
         .floor-plan-display {
-            margin: 1em 0;
+            max-width: 1000px;
+            margin: 2em auto 1em;
 
             .floor-plan-circles {
+                display: flex;
 
                 img {
-                    max-width: 80px;
-                    display: inline-block;
-
-                    @media (min-width: $mobile) {
-                        max-width: 115px;
-                        margin: .5em;
-                    }
+                    flex: 1 1 auto;
+                    padding: .2em;
 
                     @media (min-width: $tablet) {
-                        max-width: 200px;
-                        margin: 1em;
+                        padding: 1em;
                     }
 
                     @media (min-width: $laptop) {
-                        max-width: 300px;
-                        margin: 1em;
+                        padding: 1.5em;
                     }
                 }
             }
         }
+    }
+
+    #floorplans {
+        background-color: $alt__background;
 
         .floorplan-wrapper {
-            background-color: $alt__background;
-            padding: 2em 0;
+            @include outer-container;
+            padding: 2em .5em;
 
             .fp-models {
 
@@ -46,46 +41,24 @@
                     text-align: center;
                     margin-bottom: 3em;
 
-                    h3 {
+                    h2 {
                         color: $brand__dark_green;
                         font-family: $font__bold;
                     }
 
-                    h4 {
+                    h3 {
                         color: $black;
                         font-family: $font__regular;
                     }
-
-                    img {
-                        // width: 300px;
-                    }
                 }
 
-                // .floorplan-wrapper media query
+                // .fp-models media query
                 @media screen and (min-width: $tablet) {
                     display: flex;
                     flex-wrap: wrap;
-                    justify-content: flex-end;
 
                     .floorplan-section {
                         flex: 1 1 50%;
-                    }
-                }
-
-                // .floorplan-wrapper media query
-                @media screen and (min-width: $laptop) {
-                    .floorplan-section {
-                        h3 {
-                            font-size: 2em;
-                        }
-
-                        h4 {
-                            font-size: 1.5em;
-                        }
-
-                        img {
-                            // width: 500px;
-                        }
                     }
                 }
             }
