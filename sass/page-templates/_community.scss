@@ -5,6 +5,10 @@
     #masthead {
         position: relative;
         background: $white;
+
+        #primary-menu .floor-plan-menu:hover  > .sub-menu {
+                background-color: #fff;
+            }
     }
 
     #map-container {
@@ -61,11 +65,27 @@
             }
 
             #reset-map {
-                padding: .5em 1em;
+                display: none;
+            }
+
+            #reset-map.active {
+                display: block;
+                position: absolute;
+                top: 300px;
+                right: 50px;
+                font-size: 1.25em;
+                padding: .5em 2em;
                 color: $white;
                 background-color: $brand__red;
                 margin: 10px;
+                transition: background .3s;
+
+                &:hover {
+                    background-color: $black;
+                }
             }
+
+
         }
 
         @media (min-width: $laptop) {

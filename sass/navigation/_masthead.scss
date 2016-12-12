@@ -1,4 +1,5 @@
 // masthead.scss
+//
 
 #masthead {
     width: 100%;
@@ -24,21 +25,37 @@
     .toggled {
         position: fixed;
         z-index: 99999;
-        // background-color: rgba(243, 240, 230, .5);
+        background-color: $white;
         height: 100vh;
         width: 100vw;
         top: 0;
         left: 0;
         overflow: hidden;
+        transition: background .3s;
 
         .menu-menu-container {
             margin-top: 4em;
 
             #primary-menu {
-                margin-left: 2em;
+                    margin-left: 2em;
 
                 li {
                     padding: .5em 0;
+
+                    a {
+                        font-family: $font__bold;
+                    }
+                }
+
+                .sub-menu {
+                    li {
+                        padding-left: 1em;
+                        padding-right: 1em;
+                        a {
+                            font-family: $font__regular;
+                            text-transform: capitalize;
+                        }
+                    }
                 }
             }
         }
@@ -78,15 +95,13 @@
             }
 
             .resident-button {
-                margin: 0 1em;
+                padding: 0 1em;
                 font-size: 1em;
-
 
                 button {
                     background-color: $brand__red;
                     color: $white;
                     font-family: $font__regular;
-                    font-size: 1em;
                     padding: 5px 15px;
                 }
             }
@@ -97,6 +112,11 @@
             list-style: none;
             margin: 0;
             padding: 0;
+
+
+            .current-menu-item a {
+                color: $brand__red;
+            }
 
             li {
 
@@ -329,16 +349,15 @@
                         z-index: 99999;
                         display: block;
                         text-align: center;
-                        background-color: rgba(#fff, .5);
+                        background-color: #fff;
                         width: 180px;
-
                     }
 
                     .sub-menu {
                         display: none;
 
-                        li:hover {
-                            background-color: rgba(#fff, .7);
+                        li:hover a {
+                            color: $brand__red;
 
                         }
 
@@ -346,6 +365,7 @@
                             font-family: $font__regular;
                             text-transform: capitalize;
                             font-size: 1.2em;
+                            color: #000;
                         }
                     }
                 }

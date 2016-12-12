@@ -2,36 +2,45 @@
 
 .page-template-page-floorplans-page {
 
-    .hentry {
-        margin: 0;
-    }
-
     .floor-plan-display {
-        margin-bottom: 2em;
+        margin-top: 2em;
 
         .floor-plan-circles {
+            text-align: center;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
 
             img {
-                padding: 1em;
+                flex: 1;
+                padding: .5em;
+                width: 70%;
             }
 
-            @media (min-width: 560px) {
+            @media (min-width: 480px) {
                 flex-direction: row;
                 max-width: 1000px;
                 margin: auto;
 
                 img {
-                    flex: 1 1 auto;
-                    padding: none;
+                    width: 80%;
+                    padding: 0;
+                }
+            }
+
+            @media (min-width: $laptop) {
+
+                img {
+                    width: 70%;
                 }
             }
         }
+    }
 
-        @media (min-width: $large) {
-            margin: 2em 0 4em;
+    @media (min-width: $tablet) {
+        #masthead {
+            position: relative;
+            background-color: $white;
         }
     }
 }

@@ -12,7 +12,7 @@ var markersFeed = '/wp-json/wp/v2/area_landmarks?per_page=100';
 // If you do, add the path to your category feed and the path to your image directory where your icons are stored
 var addCats = true;
 var catsFeed = '/wp-json/wp/v2/landmark_types';
-var catIconPath = 'wp-content/themes/mm4/images/';
+var catIconPath = '/wp-content/themes/mm4/images/';
 
 var map;
 var bounds;
@@ -71,6 +71,9 @@ function buildMap(data) {
 		var title = data[i].title.rendered;
 		var add = data[i].acf.address;
 		var add2 = data[i].acf.address_2;
+		var city = data[i].acf.city;
+		var state = data[i].acf.state;
+		var zip = data[i].acf.zip;
 		var phone = data[i].acf.phone;
 		var website = data[i].acf.website;
 		var details = data[i].acf.additional_details;
@@ -96,6 +99,24 @@ function buildMap(data) {
 			add2 = '';
 		}
 
+		if(city !== '') {
+			city = '<br>' + city;
+		} else {
+			city = '';
+		}
+
+		if(state !== '') {
+			state = ', ' + state;
+		} else {
+			state = '';
+		}
+
+		if(zip !== '') {
+			zip = ' ' + zip;
+		} else {
+			zip = '';
+		}
+
 		if(phone !== '') {
 			phone = '<br>' + phone;
 		} else {
@@ -103,7 +124,7 @@ function buildMap(data) {
 		}
 
 		if(website !== '') {
-			website = '<br><a target="_blank" href="' + website + '">Website &raquo;</a>';
+			website = '<br><a style="color:#bd6573;" target="_blank" href="' + website + '">Website &raquo;</a>';
 		} else {
 			website = '';
 		}
@@ -114,7 +135,7 @@ function buildMap(data) {
 			details = '';
 		}
 
-		locations.push([i, title, latitude, longitude, add, add2, phone, website, details, category]);
+		locations.push([i, title, latitude, longitude, add, city, state, zip, phone, website, details, category]);
 	}
 
 	function openInfoWindow(marker) {
@@ -130,12 +151,12 @@ function buildMap(data) {
 	}
 
 	for(var j = 0; j < locations.length; j++) {
-		var image = catIconPath + locations[j][9] + '.png';
+		var image = catIconPath + locations[j][11] + '.png';
 		var marker = new google.maps.Marker({
 			position: new google.maps.LatLng(locations[j][2], locations[j][3]),
 			map: map,
 			icon: image,
-			html: '<strong class="heading">' + locations[j][1] + '</strong>' + locations[j][4] + locations[j][5] + locations[j][6] + locations[j][7] + locations[j][8],
+			html: '<strong class="heading">' + locations[j][1] + '</strong>' + locations[j][4] + locations[j][5] + locations[j][6] + locations[j][7] + locations[j][8] + locations[j][9],
 		});
 		markers.push(marker);
 		bounds.extend(marker.getPosition());
@@ -147,12 +168,11 @@ function buildMap(data) {
 }
 
 // Build the category navigation
-
+var catNav = document.createElement('nav');
+catNav.id = 'map-nav';
 
 function buildCats(data, map) {
 	var mapWrapper = document.getElementById(map).parentNode;
-	var catNav = document.createElement('nav');
-	catNav.id = 'map-nav';
 	mapWrapper.insertBefore(catNav, document.getElementById(map));
 	var catNavUl = document.createElement('ul');
 	catNav.appendChild(catNavUl);
@@ -167,10 +187,10 @@ function buildCats(data, map) {
 			var cat = (this.parentElement.getAttribute('id'));
 
 			for(var i = 0; i < locations.length; i++) {
-				if (locations[i][9] === cat) {
+				if (locations[i][11] === cat) {
 					markers[i].setVisible(true);
 					markers[i].setOptions({zIndex:1100});
-				} else if (locations[i][9] !== cat) {
+				} else if (locations[i][11] !== cat) {
 					markers[i].setVisible(false);
 				}
 			}
@@ -199,7 +219,7 @@ function buildCats(data, map) {
 
 			catClick(listItemHref, catNavUl);
 		}
-		}
+	}
 }
 
 // Grab our JSON data of landmarks and if successful, call the function to build our map

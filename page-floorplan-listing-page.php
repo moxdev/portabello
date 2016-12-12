@@ -12,13 +12,12 @@ get_header(); ?>
 
     <div id="primary" class="content-area">
 
-        <?php if ( function_exists( 'mm4_floor_plan_highlights' ) ) {
-            mm4_floor_plan_highlights();
-        } ?>
-
         <main id="main" class="site-main" role="main">
 
-            <?php
+        <?php   if ( function_exists( 'mm4_floor_plan_highlights' ) ) {
+                mm4_floor_plan_highlights();
+            }
+
             while ( have_posts() ) : the_post();
 
                 get_template_part( 'template-parts/content', 'page' );
@@ -29,7 +28,8 @@ get_header(); ?>
                 endif;
 
             endwhile; // End of the loop.
-            ?>
+
+          ?>
 
         </main><!-- #main -->
     </div><!-- #primary -->

@@ -14,14 +14,14 @@
             background: $white;
         }
 
-        .hentry {
-            margin: 0;
-        }
-
         .site-content {
             @include outer-container;
             background-color: $brand__orange;
             background-image: none;
+
+            h1 {
+                margin: 0 0 .3em;
+            }
 
             p {
                 margin-bottom: 0;
@@ -43,12 +43,16 @@
                             }
 
                             .error {
-                                color: $error__color;
+                                color: #bd3e0f;
                             }
 
                             .msg-box span {
                                 display: block;
                                 padding: .5em 1em 0;
+                                background: #f8ece7;
+                                border: 1px solid #de9f87;
+                                color: #bd3e0f;
+                                margin-bottom: .5em;
                             }
                         }
                     } // .contact-form-wrapper
@@ -99,6 +103,7 @@
                         .adp, .adp table, .adp-details, .adp-legal {
                             color: $white;
                         }
+
                     }
                 }
             }
@@ -125,6 +130,10 @@
                     order: -1;
                     margin: 2em;
 
+                    .sidebar-info {
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
                 }
             }
 
@@ -142,7 +151,7 @@
                 .content-area {
                     flex: 2;
                     order: 2;
-                    margin-bottom: 2em;
+                    margin:0 4em 2em 4em;
                 }
 
                 .sidebar-wrapper {

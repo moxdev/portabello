@@ -18,7 +18,7 @@ function mm4_amenities() { ?>
                 $apartment = get_field( "apartment_amenities" );
 
                 if( $apartment ): ?>
-                    <h3>Apartment Amenities</h3>
+                    <h2>Apartment Amenities</h2>
 
                     <div class="amenities-list">
                         <?php echo $apartment ?>
@@ -32,7 +32,7 @@ function mm4_amenities() { ?>
                 $community = get_field( "community_amenities" );
 
                 if( $community ): ?>
-                    <h3>Community Amenities</h3>
+                    <h2>Community Amenities</h2>
 
                     <div class="amenities-list">
                         <?php echo $community ?>
