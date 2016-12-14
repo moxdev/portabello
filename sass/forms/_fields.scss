@@ -21,6 +21,7 @@ input[type="color"],
 textarea {
 	color: $color__text-input;
 	border: none;
+    border-radius: 0;
 
 	&:active,
 	&:focus {
@@ -30,4 +31,12 @@ textarea {
 
 textarea {
 	width: 100%;
+}
+
+input[type="submit"] {
+    border-radius: 0;
+}
+
+a[href^=tel] {
+    color: inherit;
 }

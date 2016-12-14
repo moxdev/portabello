@@ -43,7 +43,7 @@ function mm4_setup() {
 	add_theme_support( 'post-thumbnails' );
 	add_image_size('featured-image-home-page', 1500, 1000, array( 'center', 'bottom' ) );
 	add_image_size('featured-image', 1800, 500, true );
-	add_image_size('floor-plan-thumb', 800, 9999, false);
+	add_image_size('floor-plan-thumb', 400, 9999, false);
 	// add_image_size('floor-plan-lightbox', 1500, 1000, false);
 
 /*<?php the_post_thumbnail(); ?>*/
@@ -255,6 +255,9 @@ function mm4_create_custom_taxonomies() {
 }
 add_action( 'init', 'mm4_create_custom_taxonomies', 0 );
 
+// Remove option for no type from radio button for taxonomies plugin
+add_filter('radio-buttons-for-taxonomies-no-term-landmark_types', '__return_FALSE' );
+
 /**
 * Include Plugins
 */
@@ -321,6 +324,11 @@ require get_template_directory() . '/inc/community-page-list.php';
 require get_template_directory() . '/inc/front-page-highlights.php';
 
 /**
- * Load frontpage display with circle links.
+ * Load floor plan parent page display with circle links.
  */
 require get_template_directory() . '/inc/floor-plan-highlights.php';
+
+/**
+ * Load floor plan listing page display with circle links.
+ */
+require get_template_directory() . '/inc/floor-plan-listing-highlights.php';

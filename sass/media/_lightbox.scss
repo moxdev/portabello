@@ -3,6 +3,15 @@
     z-index: 9998;
     -ms-touch-action: none;
     touch-action: none;
+    padding: 1em;
+
+    @media (min-width: 590px) {
+        padding: 2em;
+    }
+
+    @media (min-width: $large) {
+        padding: 3em;
+    }
 }
 
 #imagelightbox-overlay {
@@ -13,9 +22,6 @@
     bottom:0;
     z-index:9997;
     background-color:rgba(255, 255, 255, .95);
-
-    .wrapper{
-    }
 }
 
 #imagelightbox-close {
@@ -28,11 +34,42 @@
     padding: 0;
     border: none;
     font-size: 1.125em;
-    margin-top: 2em;
-    margin-left: 2em;
+    margin: 1em .5em;
+    // margin-left: 2em;
 
     &:hover, &:active {
         cursor:pointer;
+    }
+
+    @media (min-width: $desktop) {
+        margin-left: 2em;
+        margin-top: 2em;
+    }
+}
+
+#imagelightbox-caption {
+    font-family: $font__bold;
+    font-size: 1.125em;
+    text-align: center;
+    color:$color__text-alt;
+    position: fixed;
+    z-index: 10001;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 2em 0;
+
+    @media (min-width: 460px) {
+        padding: 0;
+    }
+
+    @media (min-width: 590px) {
+        padding: 2em 0;
+        font-size: 1.5em;
+    }
+
+    @media (min-width: $tablet) {
+        padding: 1em 0;
     }
 }
 
@@ -63,21 +100,6 @@
 
 .imagelightbox-arrow-right {
     top:50%;
-}
-
-#imagelightbox-caption {
-    font-family: $font__bold;
-    font-size: 1.25em;
-    line-height: 1.25;
-    text-align: center;
-    color:$color__text-alt;
-    position: fixed;
-    z-index: 10001;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    padding: 0.625em;
-    margin-bottom: 3em;
 }
 
 #imagelightbox-loading,
@@ -144,72 +166,72 @@
     }
 
 
-@media (min-width: $tablet) {
-    #imagelightbox-close {
-        margin-top: 4em;
-        margin-left: 5em;
-    }
+// @media (min-width: $tablet) {
+//     #imagelightbox-close {
+//         margin-top: 4em;
+//         margin-left: 5em;
+//     }
 
-    .imagelightbox-arrow {
-        display: block;
-        margin-right: 2em;
+//     .imagelightbox-arrow {
+//         display: block;
+//         margin-right: 2em;
 
-    }
+//     }
 
-    #imagelightbox-caption {
-        margin-bottom: 6em;
-    }
-}
+//     #imagelightbox-caption {
+//         margin-bottom: 6em;
+//     }
+// }
 
-@media (min-width: $laptop) {
-    #imagelightbox-close {
-        margin-top: 3em;
-        margin-left: 4em;
-    }
+// @media (min-width: $laptop) {
+//     #imagelightbox-close {
+//         margin-top: 3em;
+//         margin-left: 4em;
+//     }
 
-    .imagelightbox-arrow {
-        display: block;
-        margin-right: 2em;
-    }
+//     .imagelightbox-arrow {
+//         display: block;
+//         margin-right: 2em;
+//     }
 
-    #imagelightbox-caption {
-        margin-bottom: 2em;
-    }
-}
+//     #imagelightbox-caption {
+//         margin-bottom: 2em;
+//     }
+// }
 
-@media (min-width: $desktop) {
-    #imagelightbox-close {
-        margin-top: 1em;
-        margin-left: 4em;
-        font-size: 1.5em;
-    }
+// @media (min-width: $desktop) {
+//     #imagelightbox-close {
+//         margin-top: 1em;
+//         margin-left: 4em;
+//         font-size: 1.5em;
+//     }
 
-    .imagelightbox-arrow {
-        display: block;
-        margin-right: 2em;
-        font-size: 1.5em;
-    }
+//     .imagelightbox-arrow {
+//         display: block;
+//         margin-right: 2em;
+//         font-size: 1.5em;
+//     }
 
-    #imagelightbox-caption {
-        margin-bottom: 0;
-        font-size: 1.5em;
-    }
-}
+//     #imagelightbox-caption {
+//         margin-bottom: 0;
+//         font-size: 1.5em;
+//     }
+// }
 
-@media (min-width: $large) {
-    #imagelightbox-close {
-        margin-top: 2em;
-        margin-left: 6em;
-        font-size: 2em;
-    }
+// @media (min-width: $large) {
+//     #imagelightbox-close {
+//         margin-top: 2em;
+//         margin-left: 6em;
+//         font-size: 2em;
+//     }
 
-    .imagelightbox-arrow {
-        display: block;
-        margin-right: 4em;
-    }
+//     .imagelightbox-arrow {
+//         display: block;
+//         margin-right: 4em;
+//     }
 
-    #imagelightbox-caption {
-        margin-bottom: 1em;
-        font-size: 2em;
-    }
-}
+//     #imagelightbox-caption {
+//         margin-bottom: 1em;
+//         font-size: 2em;
+//     }
+// }

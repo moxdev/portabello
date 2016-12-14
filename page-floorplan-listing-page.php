@@ -14,8 +14,8 @@ get_header(); ?>
 
         <main id="main" class="site-main" role="main">
 
-        <?php   if ( function_exists( 'mm4_floor_plan_highlights' ) ) {
-                mm4_floor_plan_highlights();
+        <?php   if ( function_exists( 'mm4_floor_plan_listing_highlights' ) ) {
+                mm4_floor_plan_listing_highlights();
             }
 
             while ( have_posts() ) : the_post();
