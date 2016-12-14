@@ -2,7 +2,7 @@
 
 #colophon {
     text-align: center;
-    padding: 1em .5em 4em;
+    padding: 1em 1.563em;
     background-color: $white;
     display: block;
 
@@ -11,6 +11,11 @@
         color: $color__footer-text;
         margin-bottom: 1em;
         font-size: .9em;
+
+        a {
+            color: $color__footer-text;
+            text-decoration: none;
+        }
 
         h4 {
             margin: 5px 0;
@@ -24,7 +29,7 @@
         }
 
         .satisfacts-logo {
-            width: 125px;
+            width: 100px;
 
         }
         .grady-management-logo {
@@ -32,27 +37,42 @@
         }
     }
 
-    .footer-social {
-        padding: 1em;
+    .facebook {
+        padding: 5px 0;
+        float:left;
+        width: 49%;
+        text-align: right;
 
-        span {
-            padding: 5px;
-
-            svg {
-                width: 40px;
-            }
+        svg {
+            width: 40px;
         }
     }
 
-    @media screen and (min-width: $tablet) {
+    .housing {
+        padding: 5px 0;
+        float:right;
+        width: 49%;
+        text-align: left;
+
+        svg {
+            width: 40px;
+        }
+    }
+
+    .wrapper {
+        clear: both;
+    }
+
+    @media screen and (min-width: $laptop) {
         .site-info {
             display: flex;
-            align-items: center;
-            padding: 1em;
+            align-items: flex-start;
+            justify-content: flex-end;
+            flex-wrap: wrap;
 
             .footer-address-section {
-                flex: 1;
                 text-align: left;
+                flex: 2;
             }
 
             .footer-awards {
@@ -60,31 +80,31 @@
                     width: 150px;
                 }
                 .grady-management-logo {
-                    width: 175px;
+                    width: 190px;
                 }
             }
-            .footer-social {
-                // text-align: right;
-                // flex: 1;
+
+            .facebook {
+                float: none;
+                width: 50px;
+                text-align: center;
+            }
+
+            .housing {
+                float: none;
+                width: 50px;
+                text-align: center;
+
+            }
+
+            .wrapper {
+                text-align: right;
+                margin-left: 15px;
             }
         }
     }
 
-    @media screen and (min-width: $laptop) {
-        .site-info {
-            .footer-address-section {
-                font-size: $font__size-footer-desktop;
-            }
-
-            .footer-awards {
-                .satisfacts-logo {
-                    width: 200px;
-                }
-                .grady-management-logo {
-                    width: 250px;
-
-                }
-            }
-        }
+    @media screen and (min-width: $large) {
+        padding: 2em;
     }
 }

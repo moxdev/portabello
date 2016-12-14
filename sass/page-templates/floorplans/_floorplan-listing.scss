@@ -35,13 +35,13 @@
 
         .floorplan-wrapper {
             @include outer-container;
-            padding: 2em .5em;
+            padding: 2em 1.563em;
 
             .fp-models {
 
                 .floorplan-section {
                     text-align: center;
-                    margin-bottom: 3em;
+                    margin-bottom: 2em;
 
                     h2 {
                         color: $brand__dark_green;

@@ -332,3 +332,8 @@ require get_template_directory() . '/inc/floor-plan-highlights.php';
  * Load floor plan listing page display with circle links.
  */
 require get_template_directory() . '/inc/floor-plan-listing-highlights.php';
+
+/**
+ * Load resident page pay online links and service request form.
+ */
+require get_template_directory() . '/inc/resident-page-content.php';

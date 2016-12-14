@@ -26,9 +26,17 @@ get_header(); ?>
             endwhile; // End of the loop.
 
             ?>
-
         </main><!-- #main -->
     </div><!-- #primary -->
 
-<?php
+    <div class="resident-wrapper"><?php
+        if ( function_exists( 'mm4_resident_page_sidebar' ) ) {
+            mm4_resident_page_sidebar();
+        }
+
+        if ( function_exists( 'mm4_resident_page_form' ) ) {
+            mm4_resident_page_form();
+        } ?>
+    </div> <?php
+
 get_footer();

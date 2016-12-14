@@ -1,37 +1,185 @@
 // residents.scss
 
 .page-template-page-resident-page {
-    min-height: 500px;
 
-    #masthead {
-        position: relative;
-        background-color: $white;
-    }
+    .site {
+        background-color: $brand__orange;
 
-    h1 , p {
-        text-align: center !important;
-    }
-
-    a {
-        color: $white;
-
-        &:hover, &:visited {
-            color: $white;
-        }
-    }
-
-    button {
-        background-color: $brand__red;
-        padding: 10px 15px;
-        margin: 1em;
-        font-family: $font__bold;
-
-        @media (min-width: 367px) {
-            padding: 15px 20px;
+        h1 {
+            text-align: left;
         }
 
-        @media (min-width: $mobile) {
-            padding: 20px;
+        .honey {
+            display: none !important;
         }
+
+        #masthead {
+            position: relative;
+            background: $white;
+        }
+
+        .site-content {
+            @include outer-container;
+            background-color: $brand__orange;
+            background-image: none;
+
+            .resident-wrapper {
+                text-align: left;
+                color: $white;
+                margin-bottom: 2em;
+
+                .sidebar-wrapper {
+                    background-color: $brand__dark_green;
+                    height:auto;
+                    padding: 1em;
+                    margin: 1em;
+                    line-height: $font__line-height-body;
+
+                    .sidebar-info {
+                        color: $white;
+
+                        h2  {
+                            font-family: $font__bold;
+                            color: $brand__light-green;
+                            text-transform: uppercase;
+                            margin-left: 10px;
+                        }
+
+                        a {
+
+                            &:hover {
+                                color: $brand__dark_green;
+                            }
+
+                            button {
+                                background-color: $brand__light-green;
+                                padding: 1em 2em;
+                                margin: 10px;
+                            }
+                        }
+                    }
+                }
+
+                .service-request-wrapper {
+                    margin: 1em;
+
+                    h1 {
+                        text-align: left;
+                    }
+
+                    form {
+
+                        label {
+                            color: $white;
+                            padding-top: 1em;
+                            font-family: $font__bold;
+                        }
+
+                        .error {
+                            color: #bd3e0f;
+                        }
+
+                        .msg-box span {
+                            display: block;
+                            padding: .5em 1em 0;
+                            background: #f8ece7;
+                            border: 1px solid #de9f87;
+                            color: #bd3e0f;
+                            margin-bottom: .5em;
+                        }
+                    }
+                } // .service-request-wrapper
+
+                @media (min-width: $laptop) {
+                    display: flex;
+                    margin-bottom: 7em;
+
+                    .sidebar-wrapper {
+                        flex: 1;
+                        padding: 1.563em 1.563em;
+
+                        .sidebar-info {
+
+                            a {
+
+                                button {
+                                    background-color: $brand__light-green;
+                                    padding: 1em 2em;
+                                    margin: 10px;
+                                }
+                            }
+                        }
+                    }
+
+                    .service-request-wrapper {
+                        flex: 3;
+                        margin: 0 4em;
+
+                        form {
+
+                            label {
+                                padding-top: 1em;
+                            }
+                        }
+                    } // .service-request-wrapper
+                }
+            }
+
+
+
+            // @media screen and (min-width: $tablet) {
+            //     display: flex;
+
+            //     h1  {
+            //         text-align: left;
+            //     }
+
+            //     p {
+            //         text-align: left;
+            //     }
+
+            //     .content-area {
+            //         flex: 2;
+            //         order: 2;
+            //         margin-bottom: 2em;
+            //     }
+
+            //     .sidebar-wrapper {
+            //         flex: 1;
+            //         order: -1;
+            //         margin: 2em;
+
+            //         .sidebar-info {
+            //             margin-left: 0;
+            //             margin-right: 0;
+            //         }
+            //     }
+            // }
+
+            // @media screen and (min-width: $laptop) {
+            //     display: flex;
+
+            //     h1  {
+            //         text-align: left;
+            //     }
+
+            //     p {
+            //         text-align: left;
+            //     }
+
+            //     .content-area {
+            //         flex: 2;
+            //         order: 2;
+            //         margin:0 4em 2em 4em;
+            //     }
+
+            //     .sidebar-wrapper {
+            //         flex: 1;
+            //         order: -1;
+            //         margin: 2em;
+
+            //     }
+            // }
+        } // .site-content
     }
 }

@@ -10,7 +10,9 @@ X - 5) Please replace the current rental application with the one that is attach
 
 6) On the Resident Portal page, please create a new contact form labeled Service Request with the following fields -  Name, Address (including Apt. #), Phone Number, Email Address, and Service Request. Note: This form is very similar to what we already have on the Contact page, just adding the address/apt field and changing Comments to Service Request. Also, between the headline (Service Request Form) and the first field, add the line, in italics: For routine requests only.  All emergencies should be reported by calling 301-839-5600.
 
-7) We need to add the SatisFacts widget/plugin that is currently on the Portabello Apartments old website and all other Grady Management websites. Here is what that client sent me:
+
+
+X - 7) We need to add the SatisFacts widget/plugin that is currently on the Portabello Apartments old website and all other Grady Management websites. Here is what that client sent me:
 
 You will need account credentials for what what we call SSNIP, which will allow the website to make a call to the SatisFact’s web service to pull in the property's score from the SatisFacts survey program:
 
