@@ -2,15 +2,13 @@ X - 1) On all the floor plans, the text is on top of the image (we already saw t
 
 X - 2) On the Resident Corer page, please change "Residents Portal" to "Resident Portal"
 
-3) Please add an icon for Portabello Apartments on the Community map
+X - 3) Please add an icon for Portabello Apartments on the Community map
 
 X - 4) Please change the office hours to Mon-Fri 10-6, Sat 10-5 and Sunday 12-4
 
 X - 5) Please replace the current rental application with the one that is attached here
 
-6) On the Resident Portal page, please create a new contact form labeled Service Request with the following fields -  Name, Address (including Apt. #), Phone Number, Email Address, and Service Request. Note: This form is very similar to what we already have on the Contact page, just adding the address/apt field and changing Comments to Service Request. Also, between the headline (Service Request Form) and the first field, add the line, in italics: For routine requests only.  All emergencies should be reported by calling 301-839-5600.
-
-
+X - 6) On the Resident Portal page, please create a new contact form labeled Service Request with the following fields -  Name, Address (including Apt. #), Phone Number, Email Address, and Service Request. Note: This form is very similar to what we already have on the Contact page, just adding the address/apt field and changing Comments to Service Request. Also, between the headline (Service Request Form) and the first field, add the line, in italics: For routine requests only.  All emergencies should be reported by calling 301-839-5600.
 
 X - 7) We need to add the SatisFacts widget/plugin that is currently on the Portabello Apartments old website and all other Grady Management websites. Here is what that client sent me:
 

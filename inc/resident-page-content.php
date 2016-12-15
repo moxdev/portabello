@@ -12,7 +12,8 @@
 
 function mm4_resident_page_form() { ?>
     <div class="service-request-wrapper">
-        <h1>Service Request</h1>
+        <h1 class="service-h1">Service Request</h1>
+            <p>For routine requests only. All emergencies should be reported by calling <a href="tel:301-839-5600">301-839-5600</a></p>
         <?php  if ( function_exists( 'mm4_you_service_request_form' ) ) {
         mm4_you_service_request_form(); }?>
     </div> <?php

@@ -225,11 +225,28 @@ function buildCats(data, map) {
 // Grab our JSON data of landmarks and if successful, call the function to build our map
 function initMap(feed) {
 	var xhr = new XMLHttpRequest();
+	var image = '/wp-content/themes/mm4/images/townhouse.png';
+	var infowindow = new google.maps.InfoWindow({
+	  content: '<div id="content">'+ '<h2 id="firstHeading" class="firstHeading">Portabello Apartments</h2>' + '</div>'
+	});
+
+	var marker = new google.maps.Marker({
+		position: {lat: 38.800389, lng: -76.987106},
+		icon: image,
+		animation: google.maps.Animation.DROP,
+		title: 'Portabello Apartments'
+	});
+
+	marker.addListener('click', function() {
+	  infowindow.open(map, marker);
+	});
+
 	xhr.onreadystatechange = function(){
 		if (xhr.readyState === 4 && xhr.status === 200) {
 			landmarksObj = JSON.parse(xhr.responseText);
 			document.getElementById('map-canvas').innerHTML = '';
 			buildMap(landmarksObj);
+			marker.setMap(map);
 		} else {
 			document.getElementById('map-canvas').innerHTML = 'Error Loading Data';
 		}

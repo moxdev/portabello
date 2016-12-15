@@ -3708,6 +3708,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/port-1.png": {
+		"ft": 32768,
+		"iS": 1401,
+		"oA": 0,
+		"oAP": "\/images\/port-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/port-2.png": {
+		"ft": 32768,
+		"iS": 1544,
+		"oA": 0,
+		"oAP": "\/images\/port-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/port-3.png": {
+		"ft": 32768,
+		"iS": 1612,
+		"oA": 0,
+		"oAP": "\/images\/port-3.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/portabello-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3717,6 +3741,30 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/portabello.png": {
+		"ft": 32768,
+		"iS": 4928,
+		"oA": 0,
+		"oAP": "\/images\/portabello.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/townhouse-2.png": {
+		"ft": 32768,
+		"iS": 5715,
+		"oA": 0,
+		"oAP": "\/images\/townhouse-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/townhouse.png": {
+		"ft": 32768,
+		"iS": 605,
+		"oA": 0,
+		"oAP": "\/images\/townhouse.png",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/inc\/amenities.php": {
 		"ft": 8192,

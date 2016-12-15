@@ -334,6 +334,10 @@
                 display: inline-flex;
                 position: relative;
 
+                .resident-menu {
+                    display: none;
+                }
+
                 li {
                     padding: 20px;
                 }

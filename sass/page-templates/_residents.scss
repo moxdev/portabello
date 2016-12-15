@@ -3,10 +3,12 @@
 .page-template-page-resident-page {
 
     .site {
+        font-size: 1.143rem;
         background-color: $brand__orange;
 
         h1 {
             text-align: left;
+            font-size: 2.857rem;
         }
 
         .honey {
@@ -53,8 +55,9 @@
 
                             button {
                                 background-color: $brand__light-green;
-                                padding: 1em 2em;
+                                padding: 10px 50px;
                                 margin: 10px;
+                                border-radius: 0;
                             }
                         }
                     }
@@ -65,6 +68,10 @@
 
                     h1 {
                         text-align: left;
+                    }
+
+                    p  {
+                        font-style: italic;
                     }
 
                     form {
@@ -90,7 +97,16 @@
                     }
                 } // .service-request-wrapper
 
+                @media (min-width: $tablet) {
+                    .sidebar-info {
+                        display: flex;
+                    }
+
+
+                }
+
                 @media (min-width: $laptop) {
+                    @include outer-container;
                     display: flex;
                     margin-bottom: 7em;
 
@@ -99,21 +115,19 @@
                         padding: 1.563em 1.563em;
 
                         .sidebar-info {
-
-                            a {
-
-                                button {
-                                    background-color: $brand__light-green;
-                                    padding: 1em 2em;
-                                    margin: 10px;
-                                }
-                            }
+                            display: block;
                         }
                     }
 
                     .service-request-wrapper {
-                        flex: 3;
+                        flex: 2;
                         margin: 0 4em;
+                        padding-top: .7rem;
+
+                        .service-h1 {
+                            margin:0;
+                            font-size: 2rem;
+                        }
 
                         form {
 
@@ -181,5 +195,22 @@
             //     }
             // }
         } // .site-content
+
+        @media (min-width: $tablet) {
+            .site-content {
+                padding: 0 1.5em 1.5em;
+            }
+        }
+
+        @media (min-width: $laptop) {
+            h1 {
+                text-align: center;
+                margin-bottom: 1em;
+            }
+
+            button {
+                padding: 1em 2em;
+            }
+        }
     }
 }
