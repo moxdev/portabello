@@ -2342,22 +2342,23 @@ object {
 /* line 40, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
 .page-template-page-resident-page .site .site-content .resident-wrapper .sidebar-wrapper .sidebar-info {
   color: #ffffff;
+  text-align: center;
 }
 
-/* line 43, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+/* line 44, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
 .page-template-page-resident-page .site .site-content .resident-wrapper .sidebar-wrapper .sidebar-info h2 {
   font-family: "GandhiSans-Bold";
-  color: #babc89;
+  color: #ffffff;
   text-transform: uppercase;
   margin-left: 10px;
 }
 
-/* line 52, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+/* line 53, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
 .page-template-page-resident-page .site .site-content .resident-wrapper .sidebar-wrapper .sidebar-info a:hover {
   color: #667264;
 }
 
-/* line 56, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+/* line 57, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
 .page-template-page-resident-page .site .site-content .resident-wrapper .sidebar-wrapper .sidebar-info a button {
   background-color: #babc89;
   padding: 10px 50px;
@@ -2365,34 +2366,34 @@ object {
   border-radius: 0;
 }
 
-/* line 66, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+/* line 67, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
 .page-template-page-resident-page .site .site-content .resident-wrapper .service-request-wrapper {
   margin: 1em;
 }
 
-/* line 69, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+/* line 70, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
 .page-template-page-resident-page .site .site-content .resident-wrapper .service-request-wrapper h1 {
   text-align: left;
 }
 
-/* line 73, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+/* line 74, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
 .page-template-page-resident-page .site .site-content .resident-wrapper .service-request-wrapper p {
   font-style: italic;
 }
 
-/* line 79, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+/* line 80, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
 .page-template-page-resident-page .site .site-content .resident-wrapper .service-request-wrapper form label {
   color: #ffffff;
   padding-top: 1em;
   font-family: "GandhiSans-Bold";
 }
 
-/* line 85, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+/* line 86, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
 .page-template-page-resident-page .site .site-content .resident-wrapper .service-request-wrapper form .error {
   color: #bd3e0f;
 }
 
-/* line 89, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+/* line 90, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
 .page-template-page-resident-page .site .site-content .resident-wrapper .service-request-wrapper form .msg-box span {
   display: block;
   padding: .5em 1em 0;
@@ -2403,7 +2404,7 @@ object {
 }
 
 @media (min-width: 760px) {
-  /* line 101, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+  /* line 102, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
   .page-template-page-resident-page .site .site-content .resident-wrapper .sidebar-info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2422,18 +2423,18 @@ object {
     display: flex;
     margin-bottom: 7em;
   }
-  /* line 113, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+  /* line 114, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
   .page-template-page-resident-page .site .site-content .resident-wrapper .sidebar-wrapper {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     padding: 1.563em 1.563em;
   }
-  /* line 117, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+  /* line 118, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
   .page-template-page-resident-page .site .site-content .resident-wrapper .sidebar-wrapper .sidebar-info {
     display: block;
   }
-  /* line 122, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+  /* line 123, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
   .page-template-page-resident-page .site .site-content .resident-wrapper .service-request-wrapper {
     -webkit-box-flex: 2;
         -ms-flex: 2;
@@ -2441,31 +2442,31 @@ object {
     margin: 0 4em;
     padding-top: .7rem;
   }
-  /* line 127, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+  /* line 128, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
   .page-template-page-resident-page .site .site-content .resident-wrapper .service-request-wrapper .service-h1 {
     margin: 0;
     font-size: 2rem;
   }
-  /* line 134, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+  /* line 135, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
   .page-template-page-resident-page .site .site-content .resident-wrapper .service-request-wrapper form label {
     padding-top: 1em;
   }
 }
 
 @media (min-width: 760px) {
-  /* line 200, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+  /* line 201, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
   .page-template-page-resident-page .site .site-content {
     padding: 0 1.5em 1.5em;
   }
 }
 
 @media (min-width: 960px) {
-  /* line 206, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+  /* line 207, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
   .page-template-page-resident-page .site h1 {
     text-align: center;
     margin-bottom: 1em;
   }
-  /* line 211, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
+  /* line 212, /Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/_residents.scss */
   .page-template-page-resident-page .site button {
     padding: 1em 2em;
   }

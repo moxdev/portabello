@@ -24,8 +24,8 @@ function mm4_resident_page_sidebar() { ?>
     <div class="sidebar-wrapper">
         <div class="sidebar-info">
             <h2>Pay Your Rent Online</h2>
-                <a href="https://www.paylease.com/index_out.php?pm_id=25863697"><button>Portabello I (Buildings 6405-6477)</button></a>
-                <a href="https://www.paylease.com/index_out.php?pm_id=25863701"><button>Portabello II (Buildings 6515-6335)</button></a>
+                <a href="https://www.paylease.com/index_out.php?pm_id=25863697"><button>Portabello I<br>Buildings 6405-6477</button></a>
+                <a href="https://www.paylease.com/index_out.php?pm_id=25863701"><button>Portabello II<br>Buildings 6515-6335</button></a>
         </div> <!-- sidebar-info -->
     </div> <?php
 }
