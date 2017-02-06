@@ -6,6 +6,14 @@
     background-color: $white;
     display: block;
 
+    .mm4 {
+        text-decoration:none;
+        margin-top:2em;
+        font-size:.8em;
+        color:#616161;
+        display: block;
+    }
+
     .footer-address-section {
         font-family: $font__regular;
         color: $color__footer-text;
@@ -64,6 +72,11 @@
     }
 
     @media screen and (min-width: $laptop) {
+        .mm4 {
+            float:right;
+            clear: both;
+        }
+
         .site-info {
             display: flex;
             align-items: flex-start;

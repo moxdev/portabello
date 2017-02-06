@@ -20,7 +20,8 @@
                 mm4_footer_colophon( );
             }
         ?>
-		</div><!-- .site-info -->
+        </div><!-- .site-info -->
+        <a class="mm4" href="https://www.mm4solutions.com/" target="_blank" id="mms">Website by Millennium Marketing Solutions</a>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
